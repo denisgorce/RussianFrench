@@ -578,6 +578,7 @@ a{color:var(--gold);text-decoration:none}
   <button class="nbtn" data-s="leveltest"><span class="ni">🎯</span><span class="nl">Test</span></button>
   <button class="nbtn" data-s="dict"><span class="ni">📚</span><span class="nl">Dico</span></button>
   <button class="nbtn" data-s="dashboard"><span class="ni">📊</span><span class="nl">Stats</span></button>
+  <button class="nbtn" id="btn-quit"><span class="ni">✕</span><span class="nl">Quitter</span></button>
 </nav>
 
 <script>
@@ -1032,7 +1033,8 @@ document.getElementById('btn-idis').addEventListener('click',()=>{
 if(isStandalone())document.getElementById('ibanner').classList.add('hidden');
 
 /* NAV */
-document.querySelectorAll('.nbtn').forEach(b=>b.addEventListener('click',()=>go(b.dataset.s)));
+document.querySelectorAll('.nbtn[data-s]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.s)));
+document.getElementById('btn-quit').addEventListener('click',()=>{window.close();});
 document.querySelectorAll('.btn-back').forEach(b=>b.addEventListener('click',()=>{
   const dest=b.dataset.b;if(dest==='lessons'&&_lesOpts)go('lessons',_lesOpts);else go(dest||'home');
 }));
