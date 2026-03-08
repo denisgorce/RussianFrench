@@ -1,20 +1,10 @@
 {
   "name": "Русский — Russe A2",
   "short_name": "Русский",
-  "description": "Apprendre le russe en 3 mois, niveau A2. 15 min par jour.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0d0d1a",
   "theme_color": "#0d0d1a",
   "orientation": "portrait-primary",
-  "lang": "fr",
-  "categories": ["education"],
-  "icons": [
-    {
-      "src": "assets/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ]
+  "icons": [{"src":"assets/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
 }

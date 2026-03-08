@@ -4,7 +4,7 @@
 // Version bump = forces cache refresh on update
 // ================================================================
 
-const CACHE = 'russe-a2-v1';
+const CACHE = 'russe-a2-v2';
 
 const ASSETS = [
   './',
