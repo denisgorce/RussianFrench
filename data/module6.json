@@ -1,0 +1,724 @@
+{
+  "module": 6,
+  "titleFr": "Santé & Corps",
+  "titleRu": "Здоровье и тело",
+  "description": "Части тела, болезни, визит к врачу, аптека, спорт и самочувствие.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Le Corps Humain",
+      "titleRu": "Тело человека",
+      "level": "A2",
+      "grammar": {
+        "title": "Les parties du corps",
+        "titleRu": "Части тела",
+        "intro": "Названия частей тела во французском — отличная возможность закрепить артикли. Важная особенность: с частями тела французы часто используют определённый артикль (le, la, les) вместо притяжательного местоимения. «J'ai mal à la tête» — у меня болит голова (буквально: мне больно к голове).",
+        "sections": [
+          {
+            "title": "La tête (голова)",
+            "content": "la tête — голова\nle visage — лицо\nles yeux (m) — глаза (ед. l'œil)\nle nez — нос\nla bouche — рот\nles dents (f) — зубы\nles oreilles (f) — уши\nles cheveux (m) — волосы (только мн.ч.)"
+          },
+          {
+            "title": "Le corps (тело)",
+            "content": "le cou — шея\nles épaules (f) — плечи\nla poitrine — грудь\nle ventre — живот\nle dos — спина\nles bras (m) — руки\nles mains (f) — кисти рук\nles jambes (f) — ноги\nles pieds (m) — ступни"
+          },
+          {
+            "title": "Avoir mal à... (болит...)",
+            "content": "J'ai mal à la tête. — У меня болит голова.\nJ'ai mal au dos. — У меня болит спина. (à + le = au)\nJ'ai mal aux dents. — У меня болят зубы. (à + les = aux)\nJ'ai mal à la gorge. — У меня болит горло.\n\n💡 Запомните: à + le → au, à + les → aux, à + la → à la, à + l' → à l'"
+          }
+        ],
+        "rule": "💡 Для частей тела французы используют определённый артикль: «Je me lave les mains» (я мою руки), а не «mes mains». Притяжательное местоимение используется только для уточнения принадлежности."
+      },
+      "pronunciation": {
+        "intro": "Произносим части тела правильно. Обратите внимание на носовые гласные и немые согласные!",
+        "note": "⚠️ Les yeux [лёзьё] — исключение! Множественное от l'œil образуется супплетивно.",
+        "words": [
+          { "fr": "la tête", "ru_pron": "ля тэт", "meaning": "голова" },
+          { "fr": "les yeux", "ru_pron": "лёзьё", "meaning": "глаза (конечный 'x' не читается)" },
+          { "fr": "le nez", "ru_pron": "лё нэ", "meaning": "нос (конечный 'z' не читается)" },
+          { "fr": "la bouche", "ru_pron": "ля буш", "meaning": "рот" },
+          { "fr": "les dents", "ru_pron": "лё дан", "meaning": "зубы (конечный 'ts' не читается)" },
+          { "fr": "les épaules", "ru_pron": "лёзэполь", "meaning": "плечи (liaison: z)" },
+          { "fr": "le ventre", "ru_pron": "лё вантр", "meaning": "живот (носовой 'en')" },
+          { "fr": "les genoux", "ru_pron": "лё жёну", "meaning": "колени" },
+          { "fr": "la gorge", "ru_pron": "ля горж", "meaning": "горло" },
+          { "fr": "J'ai mal au dos.", "ru_pron": "Жэ маль о до", "meaning": "У меня болит спина." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la tête", "gender": "f", "ru": "голова", "ru_pron": "ля тэт", "example_fr": "J'ai mal à la tête.", "example_ru": "У меня болит голова.", "level": "A2" },
+        { "fr": "le bras", "gender": "m", "ru": "рука (от плеча)", "ru_pron": "лё бра", "example_fr": "Il s'est cassé le bras.", "example_ru": "Он сломал руку.", "level": "A2" },
+        { "fr": "la jambe", "gender": "f", "ru": "нога (от бедра)", "ru_pron": "ля жамб", "example_fr": "Ma jambe me fait mal.", "example_ru": "У меня болит нога.", "level": "A2" },
+        { "fr": "le dos", "gender": "m", "ru": "спина", "ru_pron": "лё до", "example_fr": "J'ai mal au dos.", "example_ru": "У меня болит спина.", "level": "A2" },
+        { "fr": "le ventre", "gender": "m", "ru": "живот", "ru_pron": "лё вантр", "example_fr": "J'ai mal au ventre.", "example_ru": "У меня болит живот.", "level": "A2" },
+        { "fr": "la gorge", "gender": "f", "ru": "горло", "ru_pron": "ля горж", "example_fr": "J'ai mal à la gorge.", "example_ru": "У меня болит горло.", "level": "A2" },
+        { "fr": "l'œil / les yeux", "gender": "m", "ru": "глаз / глаза", "ru_pron": "лёй / лёзьё", "example_fr": "Il a les yeux bleus.", "example_ru": "У него голубые глаза.", "level": "A2" },
+        { "fr": "avoir mal à", "gender": null, "ru": "болеть (что-то болит)", "ru_pron": "авуар маль а", "example_fr": "Tu as mal où ?", "example_ru": "Где у тебя болит?", "level": "A2" },
+        { "fr": "se faire mal", "gender": null, "ru": "причинить себе боль, ушибиться", "ru_pron": "сё фэр маль", "example_fr": "Je me suis fait mal au genou.", "example_ru": "Я ушиб колено.", "level": "A2" },
+        { "fr": "les cheveux", "gender": "m pl", "ru": "волосы (всегда мн.ч.)", "ru_pron": "лё шёвё", "example_fr": "Elle a les cheveux longs.", "example_ru": "У неё длинные волосы.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le muscle", "fr_pron": "лё мюскль", "ru": "мускул, мышца", "ru_pron": "мускул", "note": "Французское «muscle» и русское «мускул» — из латинского «musculus» (мышка). Мышцы назвали так за сходство с бегущей мышью под кожей!" },
+        { "fr": "le squelette", "fr_pron": "лё скёлэт", "ru": "скелет", "ru_pron": "скелет", "note": "Оба слова из греческого «skeletos» (высохший). Произношение разное, но узнаваемо!" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Louis Pasteur (1822–1895)", "subtitle": "Père de la microbiologie moderne", "content": "Луи Пастер — величайший французский учёный, основатель микробиологии и иммунологии. Он открыл принцип пастеризации — нагрева для уничтожения микробов (названный его именем). Создал вакцины против куриной холеры, сибирской язвы и бешенства. В 1885 году Пастер спас девятилетнего мальчика от бешенства — первое успешное применение вакцины на человеке. Он также опроверг теорию самозарождения жизни. Институт Пастера в Париже до сих пор является одним из ведущих исследовательских центров мира." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La Sécurité Sociale — «sécu» французов (1945)", "content": "В 1945 году, сразу после освобождения Франции, Шарль де Голль создал систему социального страхования — «la Sécurité Sociale». Французы называют её просто «la sécu». Система покрывает медицинские расходы (70–100%), пенсии, пособия по безработице. Франция входит в топ-3 мировых систем здравоохранения по версии ВОЗ. Визит к врачу стоит 25–30 евро, но большая часть возмещается. Это гордость французов — один из главных завоеваний послевоенной Франции." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et la pharmacie — нация лекарств", "content": "Французы — мировые рекордсмены по потреблению лекарств! Аптека (la pharmacie) во Франции легко узнаваема по зелёному кресту (la croix verte) над входом. Фармацевт (le pharmacien) — очень уважаемая профессия: он даёт медицинские советы и часто заменяет врача при несерьёзных проблемах. Французы приходят в аптеку даже просто поговорить о самочувствии. Страна потребляет в 3 раза больше антибиотиков, чем Нидерланды!" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "En avoir plein le dos !", "pronunciation": "Ан авуар плэн лё до", "translation": "Быть сытым по горло! (буквально: иметь полную спину)", "usage": "Разговорное выражение, означающее крайнее раздражение или усталость от чего-либо. Аналог: «J'en ai marre !» Используется в неформальном общении.", "example": "— Comment va le boulot ? — J'en ai plein le dos de ce projet ! (Как работа? — Я сыт по горло этим проектом!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Vichy — La ville des thermes", "subtitle": "Виши — Столица лечебных вод", "content": "Виши (Vichy) — знаменитый курортный город в центре Франции, известный своими термальными водами с XIX века. Европейские аристократы и королевские семьи приезжали сюда «на воды» (prendre les eaux). Виши-вода (Vichy Célestins) экспортируется по всему миру. В городе сохранились великолепные Belle Époque отели и казино. Правда, город известен и мрачной страницей истории — здесь располагалось коллаборационистское правительство Петена (1940–1944)." }
+      },
+      "quiz": [
+        { "q": "Как правильно сказать «у меня болит голова»?", "opts": ["J'ai mal ma tête", "J'ai mal à la tête", "J'ai mal de tête", "Ma tête est malade"], "ans": 1, "exp": "J'ai mal à la tête — правильная конструкция. «Avoir mal à + артикль + часть тела»." },
+        { "q": "Как переводится «les yeux»?", "opts": ["уши", "зубы", "глаза", "волосы"], "ans": 2, "exp": "Les yeux = глаза (нестандартное множественное от l'œil)." },
+        { "q": "«À + le» превращается в...", "opts": ["al", "à le", "au", "de le"], "ans": 2, "exp": "À + le = au. Поэтому: J'ai mal au dos (à + le dos)." },
+        { "q": "Что открыл Луи Пастер?", "opts": ["Пенициллин", "Принцип пастеризации и вакцины", "Рентген", "Группы крови"], "ans": 1, "exp": "Пастер открыл пастеризацию и создал вакцины против холеры, сибирской язвы и бешенства." },
+        { "q": "Что означает зелёный крест во Франции?", "opts": ["Скорая помощь", "Больница", "Аптека", "Ветеринарная клиника"], "ans": 2, "exp": "La croix verte (зелёный крест) — символ французской аптеки (la pharmacie)." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Chez le Médecin",
+      "titleRu": "У врача",
+      "level": "A2",
+      "grammar": {
+        "title": "Décrire ses symptômes",
+        "titleRu": "Описание симптомов",
+        "intro": "На приёме у врача важно точно описать свои симптомы. Французы используют несколько конструкций: avoir mal à (болит), se sentir (чувствовать себя), souffrir de (страдать от). Изучим ключевые фразы для медицинской консультации.",
+        "sections": [
+          {
+            "title": "Основные конструкции",
+            "content": "J'ai mal à... — у меня болит...\nJe me sens mal. — Я плохо себя чувствую.\nJe souffre de... — Я страдаю от...\nJ'ai de la fièvre. — У меня температура.\nJe tousse. — Я кашляю.\nJ'ai le nez qui coule. — У меня насморк.\nJe suis fatigué(e). — Я устал(а)."
+          },
+          {
+            "title": "Вопросы врача",
+            "content": "Qu'est-ce qui ne va pas ? — Что случилось?\nOù avez-vous mal ? — Где болит?\nDepuis quand ? — С каких пор?\nAvez-vous de la fièvre ? — Есть температура?\nVous avez des allergies ? — Есть аллергии?\nPrenez-vous des médicaments ? — Принимаете лекарства?"
+          },
+          {
+            "title": "Faire + infinitif (каузатив)",
+            "content": "Le médecin me fait ouvrir la bouche. — Врач велит мне открыть рот.\nIl me fait tirer la langue. — Он велит мне высунуть язык.\nIl me fait respirer fort. — Он велит мне дышать глубоко.\n\n💡 Faire + infinitif = велеть/заставить кому-то что-то сделать."
+          }
+        ],
+        "rule": "💡 Ключевая фраза: «Depuis quand?» (с каких пор?) + présent (настоящее время). Французы используют настоящее время для длящихся состояний: «J'ai mal depuis trois jours» (у меня болит уже три дня)."
+      },
+      "pronunciation": {
+        "intro": "Фразы для визита к врачу:",
+        "note": "⚠️ La fièvre [фьэвр] — не забудьте о дифтонге «iè».",
+        "words": [
+          { "fr": "le médecin", "ru_pron": "лё мэдсэн", "meaning": "врач (общий)" },
+          { "fr": "la fièvre", "ru_pron": "ля фьэвр", "meaning": "температура, жар" },
+          { "fr": "la toux", "ru_pron": "ля ту", "meaning": "кашель (x не читается)" },
+          { "fr": "Je tousse.", "ru_pron": "Жё тус", "meaning": "Я кашляю." },
+          { "fr": "l'ordonnance", "ru_pron": "лордонанс", "meaning": "рецепт" },
+          { "fr": "Depuis quand ?", "ru_pron": "Дёпюи кан", "meaning": "С каких пор?" },
+          { "fr": "Respirez fort !", "ru_pron": "Рэспирэ фор", "meaning": "Дышите глубоко!" },
+          { "fr": "Tirez la langue.", "ru_pron": "Тирэ ля лянг", "meaning": "Высуньте язык." },
+          { "fr": "une allergie", "ru_pron": "юн алэржи", "meaning": "аллергия" },
+          { "fr": "Ça fait mal ici.", "ru_pron": "Са фэ маль иси", "meaning": "Здесь больно." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le médecin", "gender": "m", "ru": "врач (общий)", "ru_pron": "лё мэдсэн", "example_fr": "Je vais chez le médecin.", "example_ru": "Я иду к врачу.", "level": "A2" },
+        { "fr": "le rendez-vous", "gender": "m", "ru": "запись, встреча", "ru_pron": "лё рандэву", "example_fr": "J'ai un rendez-vous à 14h.", "example_ru": "У меня запись на 14:00.", "level": "A2" },
+        { "fr": "l'ordonnance", "gender": "f", "ru": "рецепт", "ru_pron": "лордонанс", "example_fr": "Le médecin m'a donné une ordonnance.", "example_ru": "Врач выписал мне рецепт.", "level": "A2" },
+        { "fr": "la fièvre", "gender": "f", "ru": "температура, жар", "ru_pron": "ля фьэвр", "example_fr": "J'ai 39 de fièvre.", "example_ru": "У меня температура 39.", "level": "A2" },
+        { "fr": "la toux", "gender": "f", "ru": "кашель", "ru_pron": "ля ту", "example_fr": "J'ai une toux sèche.", "example_ru": "У меня сухой кашель.", "level": "A2" },
+        { "fr": "les symptômes", "gender": "m pl", "ru": "симптомы", "ru_pron": "лё сэмптом", "example_fr": "Quels sont vos symptômes ?", "example_ru": "Каковы ваши симптомы?", "level": "A2" },
+        { "fr": "l'allergie", "gender": "f", "ru": "аллергия", "ru_pron": "лалэржи", "example_fr": "Je suis allergique au pollen.", "example_ru": "У меня аллергия на пыльцу.", "level": "A2" },
+        { "fr": "se sentir", "gender": null, "ru": "чувствовать себя", "ru_pron": "сё сантир", "example_fr": "Je me sens mieux aujourd'hui.", "example_ru": "Сегодня я чувствую себя лучше.", "level": "A2" },
+        { "fr": "guérir", "gender": null, "ru": "выздоравливать, вылечить", "ru_pron": "гэрир", "example_fr": "Tu vas vite guérir !", "example_ru": "Ты быстро поправишься!", "level": "A2" },
+        { "fr": "la consultation", "gender": "f", "ru": "консультация, приём", "ru_pron": "ля консюльтасьон", "example_fr": "La consultation coûte 25 euros.", "example_ru": "Приём стоит 25 евро.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le diagnostic", "fr_pron": "лё диагностик", "ru": "диагноз", "ru_pron": "диагноз", "note": "Оба слова из греческого «diagnosis» (различение, распознавание). Медицинская лексика очень интернациональна!" },
+        { "fr": "le symptôme", "fr_pron": "лё сэмптом", "ru": "симптом", "ru_pron": "симптом", "note": "Из греческого «symptoma». Одинаково во всех европейских языках — медицина говорит по-гречески и по-латыни." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Marie Curie (1867–1934)", "subtitle": "Double Prix Nobel — Physique et Chimie", "content": "Мария Кюри — единственный человек в истории, дважды лауреат Нобелевской премии (физика 1903, химия 1911). Польская по происхождению, она переехала в Париж изучать науки. Вместе с мужем Пьером открыла полоний и радий. Во Первую мировую войну она разработала мобильные рентгеновские установки — «petites Curies», спасшие тысячи жизней. Умерла от апластической анемии, вызванной радиацией. Институт Кюри в Париже — ведущий онкологический центр мира." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "L'hôpital en France — история больниц", "content": "Первые «Hôtel-Dieu» (Дом Бога) появились во Франции в VII веке при церквях. Парижский Hôtel-Dieu (660 год) — старейшая действующая больница в мире! В XIX веке Наполеон III реформировал больничную систему Парижа. Сегодня Франция имеет смешанную систему: государственные (CHU — Центры университетских больниц) и частные клиники. Медицинские школы Парижа долгое время были лучшими в Европе, влияя на медицину всего мира." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le médecin généraliste — «mon médecin»", "content": "Во Франции принято иметь «своего» семейного врача — le médecin traitant. Это обязательное условие для полного возмещения медицинских расходов системой страхования. Без направления от своего терапевта к специалисту возмещение снижается. Французы очень привязаны к своему médecin: некоторые ходят к одному врачу десятилетиями и доверяют ему всю семью. Отношения с médecin traitant почти личные!" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Avoir le cafard", "pronunciation": "Авуар лё кафар", "translation": "Быть в хандре, тосковать (буквально: иметь таракана)", "usage": "Выражение означает лёгкую депрессию, грусть, меланхолию. Cafard = таракан. Почему таракан? Возможно, из-за отвратительного ощущения. Используется широко в разговорной речи.", "example": "— Tu n'as pas l'air bien. — Non, j'ai le cafard aujourd'hui. (Ты выглядишь нехорошо. — Да, сегодня на меня напала хандра.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Lourdes — Le pèlerinage de la guérison", "subtitle": "Лурд — Город исцеления", "content": "Лурд (Lourdes) — маленький городок в Пиренеях, второй по посещаемости город Франции после Парижа (6 миллионов паломников в год!). В 1858 году здесь, по преданию, Дева Мария явилась крестьянской девочке Бернадетте. Источник в Лурде считается целебным. Католики со всего мира приезжают сюда в поисках исцеления. Бернадетта Субиру была канонизирована в 1933 году." }
+      },
+      "quiz": [
+        { "q": "Как спросить «с каких пор болит»?", "opts": ["Depuis quand ?", "Pourquoi mal ?", "Combien de temps ?", "Quand douleur ?"], "ans": 0, "exp": "Depuis quand ? = С каких пор? Пример: «Depuis quand avez-vous mal?»" },
+        { "q": "«L'ordonnance» — это...", "opts": ["счёт из больницы", "медицинский рецепт", "направление к специалисту", "результат анализов"], "ans": 1, "exp": "L'ordonnance = рецепт, который врач выписывает для получения лекарств в аптеке." },
+        { "q": "«Je me sens mieux» означает...", "opts": ["Я болен", "Я устал", "Мне лучше", "У меня температура"], "ans": 2, "exp": "Se sentir mieux = чувствовать себя лучше. Se sentir mal = чувствовать себя плохо." },
+        { "q": "Кто такой «médecin traitant»?", "opts": ["Хирург", "Семейный врач (терапевт)", "Стоматолог", "Психиатр"], "ans": 1, "exp": "Médecin traitant — постоянный семейный врач, обязательный во французской системе страхования." },
+        { "q": "Мария Кюри получила Нобелевскую премию по...", "opts": ["физике один раз", "химии один раз", "физике и химии (дважды!)", "медицине"], "ans": 2, "exp": "Мария Кюри — единственный двукратный лауреат Нобелевской премии в разных науках: физика (1903) и химия (1911)." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "À la Pharmacie",
+      "titleRu": "В аптеке",
+      "level": "A2",
+      "grammar": {
+        "title": "Les médicaments et les conseils",
+        "titleRu": "Лекарства и советы фармацевта",
+        "intro": "В аптеке вам понадобится описать симптомы и понять инструкции. Повторительный урок: imperativ (повелительное наклонение) и конструкция «Il faut + infinitif» (нужно + глагол).",
+        "sections": [
+          {
+            "title": "Il faut / Il ne faut pas (нужно / нельзя)",
+            "content": "Il faut prendre ce médicament. — Нужно принять это лекарство.\nIl ne faut pas conduire. — Нельзя водить машину.\nIl faut prendre 2 comprimés par jour. — Нужно принимать 2 таблетки в день.\nIl ne faut pas dépasser la dose. — Нельзя превышать дозу."
+          },
+          {
+            "title": "Инструкции по применению",
+            "content": "Prendre avant / après les repas. — Принимать до / после еды.\navant de dormir — перед сном\ntoutes les 8 heures — каждые 8 часов\npendant 5 jours — в течение 5 дней\npar voie orale — перорально (через рот)\nen application locale — местно"
+          },
+          {
+            "title": "En + matière (форма лекарства)",
+            "content": "un comprimé — таблетка\nune gélule — капсула\nun sirop — сироп\nune pommade — мазь\nun suppositoire — суппозиторий\ndes gouttes — капли\nun spray — спрей\nune piqûre / une injection — укол"
+          }
+        ],
+        "rule": "💡 «En vente libre» = отпускается без рецепта. «Sur ordonnance» = только по рецепту. Эти фразы вы увидите на упаковках и в аптеках."
+      },
+      "pronunciation": {
+        "intro": "Лекарственная лексика:",
+        "note": "⚠️ Un comprimé [компримэ] — все слоги произносятся, é открытое.",
+        "words": [
+          { "fr": "la pharmacie", "ru_pron": "ля фармаси", "meaning": "аптека" },
+          { "fr": "le pharmacien", "ru_pron": "лё фармасьэн", "meaning": "фармацевт" },
+          { "fr": "le comprimé", "ru_pron": "лё компримэ", "meaning": "таблетка" },
+          { "fr": "la gélule", "ru_pron": "ля желюль", "meaning": "капсула" },
+          { "fr": "le sirop", "ru_pron": "лё сиро", "meaning": "сироп (p не читается)" },
+          { "fr": "la pommade", "ru_pron": "ля помад", "meaning": "мазь, крем" },
+          { "fr": "les gouttes", "ru_pron": "лё гут", "meaning": "капли" },
+          { "fr": "l'aspirine", "ru_pron": "ляспирин", "meaning": "аспирин" },
+          { "fr": "sans ordonnance", "ru_pron": "сан зордонанс", "meaning": "без рецепта" },
+          { "fr": "deux fois par jour", "ru_pron": "дё фуа пар жур", "meaning": "два раза в день" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la pharmacie", "gender": "f", "ru": "аптека", "ru_pron": "ля фармаси", "example_fr": "La pharmacie est ouverte 24h/24.", "example_ru": "Аптека работает круглосуточно.", "level": "A2" },
+        { "fr": "le médicament", "gender": "m", "ru": "лекарство", "ru_pron": "лё мэдикаман", "example_fr": "Prenez ce médicament trois fois par jour.", "example_ru": "Принимайте это лекарство три раза в день.", "level": "A2" },
+        { "fr": "le comprimé", "gender": "m", "ru": "таблетка", "ru_pron": "лё компримэ", "example_fr": "Prenez deux comprimés avec de l'eau.", "example_ru": "Примите две таблетки с водой.", "level": "A2" },
+        { "fr": "la posologie", "gender": "f", "ru": "дозировка, инструкция", "ru_pron": "ля позолоджи", "example_fr": "Lisez attentivement la posologie.", "example_ru": "Внимательно прочитайте инструкцию.", "level": "A2" },
+        { "fr": "l'effet secondaire", "gender": "m", "ru": "побочный эффект", "ru_pron": "лэффэ сёкондэр", "example_fr": "Ce médicament a des effets secondaires.", "example_ru": "У этого лекарства есть побочные эффекты.", "level": "A2" },
+        { "fr": "la douleur", "gender": "f", "ru": "боль", "ru_pron": "ля дулёр", "example_fr": "Ce médicament soulage la douleur.", "example_ru": "Это лекарство снимает боль.", "level": "A2" },
+        { "fr": "la croix verte", "gender": "f", "ru": "зелёный крест (знак аптеки)", "ru_pron": "ля круа вэрт", "example_fr": "Cherchez la croix verte.", "example_ru": "Ищите зелёный крест.", "level": "A2" },
+        { "fr": "rembourser", "gender": null, "ru": "возмещать (расходы)", "ru_pron": "рамбурсэ", "example_fr": "La sécu rembourse ce médicament.", "example_ru": "Страховка возмещает стоимость этого лекарства.", "level": "A2" },
+        { "fr": "en vente libre", "gender": null, "ru": "без рецепта, в свободной продаже", "ru_pron": "ан вант либр", "example_fr": "L'ibuprofène est en vente libre.", "example_ru": "Ибупрофен продаётся без рецепта.", "level": "A2" },
+        { "fr": "avaler", "gender": null, "ru": "глотать", "ru_pron": "авалэ", "example_fr": "Avalez le comprimé avec de l'eau.", "example_ru": "Проглотите таблетку с водой.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'antibiotique", "fr_pron": "лантибиотик", "ru": "антибиотик", "ru_pron": "антибиотик", "note": "Международное слово — из греческого «anti» (против) + «bios» (жизнь). Пенициллин — первый антибиотик — открыл шотландец Флеминг в 1928 году." },
+        { "fr": "la dose", "fr_pron": "ля доз", "ru": "доза", "ru_pron": "доза", "note": "Из греческого «dosis» (порция). В обоих языках используется в медицинском и переносном смыслах." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Alexander Fleming (lien France)", "subtitle": "La pénicilline et la médecine française", "content": "Хотя Александр Флеминг — шотландец, французская медицина сыграла ключевую роль в развитии антибиотиков. Эрнст Борис Чейн и Говард Флори развили открытие Флеминга, а первые промышленные антибиотики производились при участии французских лабораторий. Институт Пастера в Париже был пионером в изучении микробов и лечении инфекций, заложив основы современной антибиотикотерапии." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La pharmacie française — история профессии", "content": "Профессия фармацевта во Франции регулируется с 1777 года, когда Людовик XVI издал указ, отделивший аптекарей от торговцев специями. Зелёный крест (la croix verte) стал официальным символом французской аптеки только в 1984 году. Французские аптекари имеют право давать медицинские советы и заменять врача при лёгких симптомах. Это снижает нагрузку на систему здравоохранения." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et les suppositoires", "content": "Франция — страна с самым высоким в мире потреблением суппозиториев! Это культурная особенность: французские врачи исторически предпочитали этот метод введения лекарств как более эффективный. Иностранцы часто бывают удивлены, когда французский врач прописывает суппозиторий даже взрослым пациентам. В других странах это редкость, но во Франции — совершенно нормальная практика." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Garder la tête froide", "pronunciation": "Гардэ ля тэт фруад", "translation": "Сохранять хладнокровие (буквально: держать голову холодной)", "usage": "Призыв сохранять спокойствие и рассудительность в трудной ситуации. Аналог: «rester calme». Противоположность: «perdre la tête» (потерять голову).", "example": "— La situation est grave ! — Gardons la tête froide et trouvons une solution. (Ситуация серьёзная! — Сохраняем хладнокровие и ищем решение.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Aix-les-Bains — Thermalisme alpin", "subtitle": "Экс-ле-Бен — Альпийский термальный курорт", "content": "Экс-ле-Бен (Aix-les-Bains) расположен на берегу озера Бурже у подножия Альп. Знаменит термальными водами ещё со времён Древнего Рима (Aquae Gratianae). В XIX веке сюда приезжали лечиться монархи и аристократы всей Европы. Сегодня город принимает более 30 000 «курортников» в год. Термальное лечение (la cure thermale) частично оплачивается французской страховкой — уникальная особенность!" }
+      },
+      "quiz": [
+        { "q": "«Il faut prendre 2 comprimés par jour» означает...", "opts": ["можно взять 2 таблетки", "нужно принимать 2 таблетки в день", "нельзя пить больше 2 таблеток", "принять 2 таблетки сейчас"], "ans": 1, "exp": "Il faut + infinitif = нужно сделать что-то. Par jour = в день." },
+        { "q": "«En vente libre» означает...", "opts": ["только по рецепту", "без рецепта", "в свободном доступе онлайн", "бесплатно"], "ans": 1, "exp": "En vente libre = в свободной продаже, без рецепта. Противоположность: «sur ordonnance»." },
+        { "q": "Какой символ у французской аптеки?", "opts": ["красный крест", "белый крест", "зелёный крест", "синий крест"], "ans": 2, "exp": "La croix verte (зелёный крест) — официальный символ аптеки во Франции с 1984 года." },
+        { "q": "«La posologie» — это...", "opts": ["название лекарства", "дозировка и инструкция", "побочный эффект", "состав препарата"], "ans": 1, "exp": "La posologie = дозировка, способ применения. Всегда читайте posologie!" },
+        { "q": "Что означает «rembourser»?", "opts": ["прописывать", "принимать лекарство", "возмещать расходы", "выписывать рецепт"], "ans": 2, "exp": "Rembourser = возмещать, компенсировать расходы. La sécu rembourse = страховка возмещает." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Les Maladies Courantes",
+      "titleRu": "Распространённые болезни",
+      "level": "A2",
+      "grammar": {
+        "title": "Le passé composé pour la santé",
+        "titleRu": "Прошедшее время для описания болезней",
+        "intro": "Рассказывая о перенесённых болезнях, французы используют passé composé. Вспомним основные правила и специфику медицинских глаголов с être и avoir.",
+        "sections": [
+          {
+            "title": "Passé composé с avoir (большинство глаголов)",
+            "content": "attraper — подхватить\nJ'ai attrapé un rhume. — Я подхватил насморк.\nJ'ai eu la grippe. — У меня был грипп.\nJ'ai pris froid. — Я простудился.\nJ'ai vomi. — Меня рвало.\nJ'ai éternué. — Я чихнул."
+          },
+          {
+            "title": "Passé composé с être (движение и изменение)",
+            "content": "Je suis tombé(e) malade. — Я заболел(а). (tomber = упасть)\nJe suis resté(e) au lit. — Я остался(ась) в постели.\nJe suis allé(e) chez le médecin. — Я ходил(а) к врачу.\nJe suis guéri(e). — Я выздоровел(а)."
+          },
+          {
+            "title": "Maladies courantes (распространённые болезни)",
+            "content": "le rhume — насморк, простуда\nla grippe — грипп\nune angine — ангина\nune bronchite — бронхит\nune otite — отит\nune gastro-entérite (la gastro) — гастроэнтерит\nune allergie — аллергия\nle COVID / le coronavirus — ковид"
+          }
+        ],
+        "rule": "💡 Tomber malade (заболеть) использует être: «Je suis tombé malade». Но: «J'ai eu la grippe» (у меня был грипп) — глагол avoir."
+      },
+      "pronunciation": {
+        "intro": "Болезни и симптомы:",
+        "note": "⚠️ La grippe [грип] — оба p произносятся. Une angine [юн анжин] — носовой 'an'.",
+        "words": [
+          { "fr": "le rhume", "ru_pron": "лё рюм", "meaning": "насморк, лёгкая простуда" },
+          { "fr": "la grippe", "ru_pron": "ля грип", "meaning": "грипп" },
+          { "fr": "une angine", "ru_pron": "юн анжин", "meaning": "ангина" },
+          { "fr": "éternuer", "ru_pron": "этэрнюэ", "meaning": "чихать" },
+          { "fr": "tousser", "ru_pron": "тусэ", "meaning": "кашлять" },
+          { "fr": "avoir le nez bouché", "ru_pron": "авуар лё нэ бушэ", "meaning": "иметь заложенный нос" },
+          { "fr": "vomir", "ru_pron": "вомир", "meaning": "рвать (тошнить)" },
+          { "fr": "Je suis enrhumé(e).", "ru_pron": "Жё сюи анрюмэ", "meaning": "У меня насморк / Я простужен(а)." },
+          { "fr": "une gastro", "ru_pron": "юн гастро", "meaning": "кишечный грипп (разг.)" },
+          { "fr": "Je suis tombé malade.", "ru_pron": "Жё сюи томбэ малад", "meaning": "Я заболел." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le rhume", "gender": "m", "ru": "насморк, простуда", "ru_pron": "лё рюм", "example_fr": "J'ai attrapé un rhume.", "example_ru": "Я подхватил простуду.", "level": "A2" },
+        { "fr": "la grippe", "gender": "f", "ru": "грипп", "ru_pron": "ля грип", "example_fr": "Je me fais vacciner contre la grippe.", "example_ru": "Я делаю прививку от гриппа.", "level": "A2" },
+        { "fr": "attraper", "gender": null, "ru": "подхватить (болезнь)", "ru_pron": "атрапэ", "example_fr": "Il a attrapé une angine.", "example_ru": "Он подхватил ангину.", "level": "A2" },
+        { "fr": "éternuer", "gender": null, "ru": "чихать", "ru_pron": "этэрнюэ", "example_fr": "J'éternue sans arrêt.", "example_ru": "Я постоянно чихаю.", "level": "A2" },
+        { "fr": "vomir", "gender": null, "ru": "рвать, тошнить", "ru_pron": "вомир", "example_fr": "L'enfant a vomi toute la nuit.", "example_ru": "Ребёнок рвал всю ночь.", "level": "A2" },
+        { "fr": "se reposer", "gender": null, "ru": "отдыхать, восстанавливаться", "ru_pron": "сё рёпозэ", "example_fr": "Il faut vous reposer.", "example_ru": "Вам нужно отдохнуть.", "level": "A2" },
+        { "fr": "être enrhumé(e)", "gender": null, "ru": "быть простуженным", "ru_pron": "этр анрюмэ", "example_fr": "Je suis enrhumée depuis lundi.", "example_ru": "Я простужена с понедельника.", "level": "A2" },
+        { "fr": "la contagion", "gender": "f", "ru": "заражение, инфекция", "ru_pron": "ля контажьон", "example_fr": "Évitez la contagion.", "example_ru": "Избегайте заражения.", "level": "A2" },
+        { "fr": "la vaccination", "gender": "f", "ru": "вакцинация", "ru_pron": "ля вакцинасьон", "example_fr": "La vaccination est gratuite.", "example_ru": "Вакцинация бесплатна.", "level": "A2" },
+        { "fr": "rétablir (se)", "gender": null, "ru": "поправляться, выздоравливать", "ru_pron": "рэтаблир", "example_fr": "Il se rétablit rapidement.", "example_ru": "Он быстро поправляется.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la bronchite", "fr_pron": "ля броншит", "ru": "бронхит", "ru_pron": "бронхит", "note": "Из греческого «bronkhos» (дыхательное горло). Медицинские термины с «-ite» (по-русски «-ит») всегда обозначают воспаление." },
+        { "fr": "la vaccination", "fr_pron": "ля вакцинасьон", "ru": "вакцинация", "ru_pron": "вакцинация", "note": "От латинского «vacca» (корова) — первая вакцина Дженнера была от коровьей оспы!" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Alexis Carrel (1873–1944)", "subtitle": "Prix Nobel de Physiologie 1912", "content": "Алексис Каррель — французский хирург, лауреат Нобелевской премии 1912 года за разработку техники сшивания кровеносных сосудов. Именно его методы позволили развить трансплантологию. Он провёл первую в истории пересадку сосудов и разработал методы консервации органов. Совместно с Чарльзом Линдбергом (знаменитым лётчиком) он создал первое искусственное сердце для поддержания жизни органов вне тела." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La grande épidémie de grippe espagnole (1918)", "content": "Испанский грипп 1918–1919 годов убил от 50 до 100 миллионов человек по всему миру — больше, чем Первая мировая война. Франция потеряла около 400 000 человек. Болезнь назвали «испанской» не потому что она оттуда, а потому что нейтральная Испания свободно сообщала о ней, пока воюющие страны замалчивали новости. Этот опыт заставил Францию развивать систему санитарного контроля и вакцинации." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "«La gastro» — национальная болезнь зимой", "content": "Каждую зиму во Франции разворачивается настоящая «épidémie de gastro» (эпидемия кишечного гриппа). Санитарные власти публикуют еженедельные карты распространения болезни — совсем как прогноз погоды! Французы с юмором относятся к этой зимней напасти. Выражение «attraper la gastro» звучит в офисах, школах и семьях с ноября по март. Болезнь длится 48 часов и очень заразна." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Tomber comme des mouches", "pronunciation": "Томбэ ком дэ муш", "translation": "Падать как мухи (массово заболевать или погибать)", "usage": "Используется для описания массового заболевания или выхода из строя. Les mouches = мухи. Говорится про коллег, детей или любые группы людей.", "example": "— Comment va ton bureau ? — Les collègues tombent comme des mouches avec la grippe. (Как дела в офисе? — Коллеги падают как мухи с гриппом.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Évian-les-Bains — L'eau source de vie", "subtitle": "Эвиан-ле-Бен — Источник минеральной воды", "content": "Эвиан-ле-Бен (Évian-les-Bains) на берегу Женевского озера — родина всемирно известной минеральной воды Evian. Источник был открыт в 1790 году маркизом де Лессер. Вода проходит 15-летний путь через альпийские горные породы. Город принимал знаменитую Эвианскую конференцию 1938 года о еврейских беженцах. Сегодня Evian — крупнейший бренд минеральной воды в мире." }
+      },
+      "quiz": [
+        { "q": "«J'ai attrapé un rhume» означает...", "opts": ["У меня был грипп", "Я подхватил насморк/простуду", "Я заболел ангиной", "У меня температура"], "ans": 1, "exp": "Attraper un rhume = подхватить простуду/насморк. Rhume — лёгкая простуда, не грипп!" },
+        { "q": "Какой глагол используется с «tomber malade»?", "opts": ["avoir", "faire", "être", "prendre"], "ans": 2, "exp": "Tomber malade использует être: Je suis tombé(e) malade. Tomber входит в группу глаголов с être." },
+        { "q": "Что означает «Je suis enrhumé(e)»?", "opts": ["Я выздоровел", "Я заболел гриппом", "Я простужен(а)", "Мне нехорошо"], "ans": 2, "exp": "Être enrhumé(e) = быть простуженным, иметь насморк. От слова «rhume»." },
+        { "q": "Медицинские слова с окончанием «-ite» означают...", "opts": ["тип операции", "воспаление", "вакцину", "лекарство"], "ans": 1, "exp": "Суффикс «-ite» (bronchite, otite, angine) от греческого «-itis» всегда означает воспаление." },
+        { "q": "Почему грипп 1918 года назвали «испанским»?", "opts": ["Он начался в Испании", "Испания победила болезнь", "Испания открыто сообщала о нём (нейтральная страна)", "Испанские врачи его открыли"], "ans": 2, "exp": "Нейтральная Испания свободно писала о болезни, тогда как воюющие страны замалчивали информацию." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Le Sport et l'Exercice",
+      "titleRu": "Спорт и физическая активность",
+      "level": "A2",
+      "grammar": {
+        "title": "Faire du sport — конструкции с faire",
+        "titleRu": "Заниматься спортом",
+        "intro": "Для названия видов спорта французы используют конструкцию faire du/de la/de l'. Это партитивный артикль — тот же, что используется с едой! Также важен глагол jouer à (играть в командные/игровые виды спорта).",
+        "sections": [
+          {
+            "title": "Faire du / de la / de l' (спорт)",
+            "content": "faire du sport — заниматься спортом\nfaire du vélo — ездить на велосипеде\nfaire de la natation — плавать\nfaire de la gym(nastique) — заниматься гимнастикой\nfaire de la randonnée — ходить в походы\nfaire de l'athlétisme — заниматься лёгкой атлетикой\nfaire du yoga — заниматься йогой"
+          },
+          {
+            "title": "Jouer à (командные/игровые виды спорта)",
+            "content": "jouer au football — играть в футбол\njouer au tennis — играть в теннис\njouer au basket — играть в баскетбол\njouer au rugby — играть в регби\njouer aux échecs — играть в шахматы\n\n💡 Jouer à + le = jouer au, jouer à + les = jouer aux"
+          },
+          {
+            "title": "Adverbes de fréquence (частота)",
+            "content": "tous les jours — каждый день\nsouvent — часто\nparfois / quelquefois — иногда\nrarement — редко\njamais — никогда\nune fois par semaine — раз в неделю\ntrois fois par mois — три раза в месяц"
+          }
+        ],
+        "rule": "💡 Faire du sport (с партитивным) используется для видов спорта в одиночку или парами. Jouer à (без артикля + à) — для командных и игровых видов. Исключений немного, но они есть: faire de la boxe, faire du vélo."
+      },
+      "pronunciation": {
+        "intro": "Спортивная лексика:",
+        "note": "⚠️ Le football se dit «fuutbol» en France — prononciation anglaise adaptée!",
+        "words": [
+          { "fr": "le sport", "ru_pron": "лё спор", "meaning": "спорт (t не читается)" },
+          { "fr": "faire du jogging", "ru_pron": "фэр дю джогинг", "meaning": "бегать трусцой" },
+          { "fr": "la natation", "ru_pron": "ля натасьон", "meaning": "плавание" },
+          { "fr": "le cyclisme", "ru_pron": "лё сиклизм", "meaning": "велоспорт" },
+          { "fr": "la randonnée", "ru_pron": "ля рандонэ", "meaning": "пешеходный поход" },
+          { "fr": "l'entraînement", "ru_pron": "лантрэнман", "meaning": "тренировка" },
+          { "fr": "le terrain", "ru_pron": "лё тёрэн", "meaning": "поле (спортивное)" },
+          { "fr": "la piscine", "ru_pron": "ля писин", "meaning": "бассейн" },
+          { "fr": "Je fais du vélo.", "ru_pron": "Жё фэ дю вэло", "meaning": "Я езжу на велосипеде." },
+          { "fr": "Je joue au tennis.", "ru_pron": "Жё жу о тэнис", "meaning": "Я играю в теннис." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le sport", "gender": "m", "ru": "спорт", "ru_pron": "лё спор", "example_fr": "Je fais du sport trois fois par semaine.", "example_ru": "Я занимаюсь спортом три раза в неделю.", "level": "A2" },
+        { "fr": "la randonnée", "gender": "f", "ru": "пешеходный поход, прогулка", "ru_pron": "ля рандонэ", "example_fr": "On fait une randonnée en montagne.", "example_ru": "Мы ходим в горный поход.", "level": "A2" },
+        { "fr": "la natation", "gender": "f", "ru": "плавание", "ru_pron": "ля натасьон", "example_fr": "La natation est excellente pour la santé.", "example_ru": "Плавание отлично для здоровья.", "level": "A2" },
+        { "fr": "l'entraînement", "gender": "m", "ru": "тренировка", "ru_pron": "лантрэнман", "example_fr": "L'entraînement commence à 18h.", "example_ru": "Тренировка начинается в 18:00.", "level": "A2" },
+        { "fr": "la piscine", "gender": "f", "ru": "бассейн", "ru_pron": "ля писин", "example_fr": "Je vais à la piscine deux fois par semaine.", "example_ru": "Я хожу в бассейн два раза в неделю.", "level": "A2" },
+        { "fr": "le terrain", "gender": "m", "ru": "спортивное поле", "ru_pron": "лё тёрэн", "example_fr": "Le terrain de foot est derrière l'école.", "example_ru": "Футбольное поле за школой.", "level": "A2" },
+        { "fr": "se blesser", "gender": null, "ru": "травмироваться", "ru_pron": "сё блёсэ", "example_fr": "Il s'est blessé pendant le match.", "example_ru": "Он получил травму во время матча.", "level": "A2" },
+        { "fr": "être en forme", "gender": null, "ru": "быть в форме", "ru_pron": "этр ан форм", "example_fr": "Je me sens en pleine forme !", "example_ru": "Я чувствую себя в отличной форме!", "level": "A2" },
+        { "fr": "l'équipe", "gender": "f", "ru": "команда", "ru_pron": "лэкип", "example_fr": "Notre équipe a gagné !", "example_ru": "Наша команда победила!", "level": "A2" },
+        { "fr": "le championnat", "gender": "m", "ru": "чемпионат", "ru_pron": "лё шампьона", "example_fr": "Le championnat du monde de rugby.", "example_ru": "Чемпионат мира по регби.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "le marathon", "fr_pron": "лё маратон", "ru": "марафон", "ru_pron": "марафон", "note": "Из названия греческой битвы при Марафоне (490 до н.э.). Солдат пробежал 42 км с победной вестью. Теперь это дистанция всех марафонов мира!" },
+        { "fr": "le cyclisme", "fr_pron": "лё сиклизм", "ru": "велоспорт / циклизм", "ru_pron": "велоспорт", "note": "Из греческого «kyklos» (круг, колесо). Тур де Франс (Tour de France) — самая знаменитая велогонка мира!" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Zinédine Zidane (né 1972)", "subtitle": "Le plus grand footballeur français", "content": "Зинедин Зидан — величайший французский футболист всех времён. Сын алжирских иммигрантов, родился в Марселе. Привёл Францию к победе на Чемпионате мира 1998 года и Чемпионате Европы 2000 года. Получил три «Золотых мяча». Печально известен удар головой на финале ЧМ 2006 года. После завершения карьеры стал успешным тренером «Реал Мадрида», с которым трижды выиграл Лигу чемпионов. Символ французской многокультурности." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le Tour de France — course depuis 1903", "content": "Тур де Франс был создан в 1903 году журналистом Анри Дегранжем как рекламная акция газеты L'Auto. Первый Тур длился 6 этапов, победитель проехал 2 428 км. Сегодня гонка охватывает около 3 500 км и длится 3 недели. Жёлтая майка (le maillot jaune) — символ лидера. Тур является самым смотрибельным ежегодным спортивным событием в мире после Олимпийских игр." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et le football en 1998", "content": "Чемпионат мира 1998 года, прошедший во Франции, оставил незабываемый след. Победа «les Bleus» над Бразилией (3:0) в финале вызвала стихийное народное ликование: миллион человек вышли на Елисейские поля. Выражение «black-blanc-beur» (чёрный-белый-арабский) стало символом многонациональной Франции. Зидан, Дешам, Тюрам, Виейра — разные корни, одна победа. Этот момент до сих пор считается вершиной французского единства." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Se mettre au vert", "pronunciation": "Сё мэтр о вэр", "translation": "Отдохнуть на природе, сбежать от городской суеты (буквально: перейти к зелёному)", "usage": "Уехать за город, на природу, чтобы отдохнуть и восстановить силы. Популярная концепция для французов, ценящих баланс город/природа.", "example": "— Tu as l'air épuisé. — Oui, ce week-end je me mets au vert en Normandie. (Ты выглядишь измотанным. — Да, на выходных отдохну на природе в Нормандии.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Chamonix — Mont Blanc, le toit de l'Europe", "subtitle": "Шамони — Монблан, крыша Европы", "content": "Шамони (Chamonix) у подножия Монблана — мировая столица альпинизма и горных лыж. Монблан (4 808 м) — высочайшая вершина Западной Европы. Первое восхождение на Монблан совершили Жак Бальма и Мишель Пакар в 1786 году. Здесь прошли первые зимние Олимпийские игры в 1924 году. Сегодня Шамони принимает более 3 миллионов туристов в год: лыжники зимой, альпинисты и туристы летом." }
+      },
+      "quiz": [
+        { "q": "Как сказать «играть в футбол» по-французски?", "opts": ["faire du football", "jouer au football", "pratiquer le football", "faire le football"], "ans": 1, "exp": "Jouer au football — для командных/игровых видов спорта используется «jouer à»." },
+        { "q": "«Faire de la natation» означает...", "opts": ["заниматься гимнастикой", "плавать", "бегать", "ездить на велосипеде"], "ans": 1, "exp": "La natation = плавание. Faire de la natation = заниматься плаванием." },
+        { "q": "Как спросить «как часто ты занимаешься»?", "opts": ["Quand tu fais du sport?", "Tu fais du sport combien de fois?", "À quelle fréquence fais-tu du sport?", "Depuis quand tu fais du sport?"], "ans": 2, "exp": "À quelle fréquence? = Как часто? Можно также: «Tu fais du sport combien de fois par semaine?»" },
+        { "q": "Зинедин Зидан родился в...", "opts": ["Алжире", "Лионе", "Марселе", "Париже"], "ans": 2, "exp": "Зидан родился в Марселе в семье алжирских иммигрантов." },
+        { "q": "Когда был создан Тур де Франс?", "opts": ["1886", "1903", "1924", "1950"], "ans": 1, "exp": "Тур де Франс основан в 1903 году журналистом Анри Дегранжем как рекламная акция газеты." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "L'Alimentation et la Santé",
+      "titleRu": "Питание и здоровье",
+      "level": "A2",
+      "grammar": {
+        "title": "Les quantités et la nourriture saine",
+        "titleRu": "Количество и здоровое питание",
+        "intro": "Связь питания и здоровья — важная тема. Повторим партитивные артикли (du, de la, de l', des) и изучим конструкции для описания диеты и пищевых привычек.",
+        "sections": [
+          {
+            "title": "Партитивные артикли + отрицание",
+            "content": "Утв.: Je mange du sucre. — Я ем сахар.\nОтр.: Je ne mange pas de sucre. — Я не ем сахар.\n\nПосле отрицания всегда «de» (или «d'»)!\nJe bois de l'eau. → Je ne bois pas d'alcool.\nJe mange des légumes. → Je ne mange pas de viande."
+          },
+          {
+            "title": "Il faut manger... (диетические советы)",
+            "content": "Il faut manger cinq fruits et légumes par jour.\nIl faut boire deux litres d'eau par jour.\nIl ne faut pas trop manger de sel.\nIl ne faut pas grignoter entre les repas.\nIl vaut mieux manger des protéines le matin."
+          },
+          {
+            "title": "Groupes alimentaires (группы продуктов)",
+            "content": "les protéines (f) — белки (viande, poisson, œufs)\nles glucides (m) — углеводы (pain, riz, pâtes)\nles lipides (m) — жиры (huile, beurre, fromage)\nles vitamines (f) — витамины (fruits, légumes)\nles fibres (f) — клетчатка (céréales, légumineuses)"
+          }
+        ],
+        "rule": "💡 Le régime méditerranéen (средиземноморская диета) — признана ЮНЕСКО нематериальным наследием. Французская диета включает: оливковое масло, овощи, рыбу, красное вино в умеренных количествах. Paradoxe français: много сыра и вина, но низкий уровень сердечных заболеваний!"
+      },
+      "pronunciation": {
+        "intro": "Продукты питания и здоровье:",
+        "note": "⚠️ Les légumes [лё лэгюм] — ударение на последнем слоге. Les protéines [лё протэин] — e читается.",
+        "words": [
+          { "fr": "les légumes", "ru_pron": "лё лэгюм", "meaning": "овощи" },
+          { "fr": "les fruits", "ru_pron": "лё фрюи", "meaning": "фрукты (s не читается)" },
+          { "fr": "les protéines", "ru_pron": "лё протэин", "meaning": "белки, протеины" },
+          { "fr": "les glucides", "ru_pron": "лё глюсид", "meaning": "углеводы" },
+          { "fr": "l'huile d'olive", "ru_pron": "люиль долив", "meaning": "оливковое масло" },
+          { "fr": "le régime", "ru_pron": "лё рэжим", "meaning": "диета, режим питания" },
+          { "fr": "équilibré(e)", "ru_pron": "экилибрэ", "meaning": "сбалансированный" },
+          { "fr": "la calorie", "ru_pron": "ля калори", "meaning": "калория" },
+          { "fr": "grignoter", "ru_pron": "гриньотэ", "meaning": "перекусывать, грызть" },
+          { "fr": "une alimentation saine", "ru_pron": "юн алиментасьон сэн", "meaning": "здоровое питание" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'alimentation", "gender": "f", "ru": "питание, рацион", "ru_pron": "лалиментасьон", "example_fr": "Une bonne alimentation prévient les maladies.", "example_ru": "Правильное питание предотвращает болезни.", "level": "A2" },
+        { "fr": "le régime", "gender": "m", "ru": "диета, режим питания", "ru_pron": "лё рэжим", "example_fr": "Je suis un régime végétarien.", "example_ru": "Я на вегетарианской диете.", "level": "A2" },
+        { "fr": "équilibré(e)", "gender": null, "ru": "сбалансированный", "ru_pron": "экилибрэ", "example_fr": "Un repas équilibré est important.", "example_ru": "Сбалансированное питание важно.", "level": "A2" },
+        { "fr": "les vitamines", "gender": "f pl", "ru": "витамины", "ru_pron": "лё витамин", "example_fr": "Les fruits sont riches en vitamines.", "example_ru": "Фрукты богаты витаминами.", "level": "A2" },
+        { "fr": "la calorie", "gender": "f", "ru": "калория", "ru_pron": "ля калори", "example_fr": "Ce plat contient 500 calories.", "example_ru": "Это блюдо содержит 500 калорий.", "level": "A2" },
+        { "fr": "grignoter", "gender": null, "ru": "перекусывать, грызть", "ru_pron": "гриньотэ", "example_fr": "Il ne faut pas grignoter le soir.", "example_ru": "Нельзя перекусывать вечером.", "level": "A2" },
+        { "fr": "le sucre", "gender": "m", "ru": "сахар", "ru_pron": "лё сюкр", "example_fr": "Limitez le sucre dans votre alimentation.", "example_ru": "Ограничьте сахар в рационе.", "level": "A2" },
+        { "fr": "les fibres", "gender": "f pl", "ru": "пищевые волокна, клетчатка", "ru_pron": "лё фибр", "example_fr": "Les légumineuses sont riches en fibres.", "example_ru": "Бобовые богаты клетчаткой.", "level": "A2" },
+        { "fr": "mincir", "gender": null, "ru": "худеть, стройнеть", "ru_pron": "мэнсир", "example_fr": "Elle a minci en faisant du sport.", "example_ru": "Она похудела, занявшись спортом.", "level": "A2" },
+        { "fr": "grossir", "gender": null, "ru": "толстеть, поправляться", "ru_pron": "гросир", "example_fr": "Je grossis si je mange trop de sucre.", "example_ru": "Я поправляюсь, если ем много сахара.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la protéine", "fr_pron": "ля протэин", "ru": "протеин, белок", "ru_pron": "протеин", "note": "Из греческого «proteios» (первичный). Ян Берселиус назвал белки «протеинами» в 1838 году — подчёркивая их первостепенную важность для жизни." },
+        { "fr": "la vitamine", "fr_pron": "ля витамин", "ru": "витамин", "ru_pron": "витамин", "note": "Biochem Казимир Функ придумал слово «vitamine» в 1912 году: vita (жизнь) + amine (химическая группа). Интернациональный термин!" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Joël Robuchon (1945–2018)", "subtitle": "Le chef le plus étoilé du monde", "content": "Жоэль Робюшон — французский шеф-повар, обладатель рекордных 32 звёзд Мишлен. Родился в Пуатье в семье каменщика. Известен своим знаменитым «пюре Робюшон» (картофельное пюре с невероятным количеством масла), ставшим символом французской гастрономии. Развил концепцию «restaurant du marché» — кухню из свежих сезонных продуктов. Его рестораны работали в Париже, Токио, Лас-Вегасе, Гонконге. Умер в 2018 году, оставив непревзойдённое кулинарное наследие." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le Guide Michelin — la bible de la gastronomie (1900)", "content": "Путеводитель Мишлен был создан в 1900 году братьями Андре и Эдуардом Мишлен для автомобилистов. Сначала он включал рестораны и заправки. Звёзды появились в 1926 году: ★ хороший ресторан, ★★ стоит заехать, ★★★ стоит специального путешествия! Сегодня три звезды Мишлен — высшее достижение в мировой гастрономии. Потеря звезды считается трагедией: в 2003 году Бернар Луазо покончил с собой, узнав о возможном снижении оценки." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Le paradoxe français — вино, сыр и долголетие", "content": "«Французский парадокс» (le paradoxe français) — медицинский феномен: несмотря на диету, богатую жирами (сыр, масло, утиный жир), французы болеют сердечно-сосудистыми заболеваниями значительно реже американцев. Объяснения: умеренное красное вино (ресвератрол), неспешные трапезы, маленькие порции, качество продуктов. Французы едят медленно, наслаждаясь едой — это культурный феномен. Репортаж CBS 60 Minutes 1991 года назвал это «парадоксом» и спровоцировал бум потребления красного вина в США!" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Avoir les yeux plus grands que le ventre", "pronunciation": "Авуар лёзьё плю гран кё лё вантр", "translation": "Взять глазами больше, чем можешь съесть (жадность глаз)", "usage": "Говорится, когда человек взял слишком много еды и не может съесть. Аналог русского «глаза больше желудка». Используется и в переносном смысле — о завышенных ожиданиях.", "example": "— Tu n'as pas fini ton assiette ! — J'ai eu les yeux plus grands que le ventre. (Ты не доел! — Глаза оказались больше желудка.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Lyon — Capitale mondiale de la gastronomie", "subtitle": "Лион — Гастрономическая столица мира", "content": "Лион (Lyon) — третий город Франции и мировая столица гастрономии. Именно здесь Пол Бокюз создал «nouvelle cuisine» — революцию в кулинарии. Характерные лионские заведения — «bouchons» (букони) — небольшие бистро с традиционными блюдами: tablier de sapeur (рубец в панировке), quenelles de brochet (кнели из щуки), cervelle de canut (творожный сыр с зеленью). Каждый декабрь — знаменитый Фестиваль огней (Fête des Lumières)." }
+      },
+      "quiz": [
+        { "q": "После отрицания «ne...pas» артикль меняется на...", "opts": ["du / de la → un / une", "du / de la / des → de (d')", "les → des", "un / une → le / la"], "ans": 1, "exp": "После отрицания все партитивные и неопределённые артикли заменяются на «de/d'»: Je ne mange pas de sucre." },
+        { "q": "«Le paradoxe français» связан с...", "opts": ["французским языком", "диетой богатой жирами, но низким уровнем болезней сердца", "высоким потреблением алкоголя", "отказом от спорта"], "ans": 1, "exp": "«Французский парадокс»: много жирных продуктов, но низкий уровень сердечно-сосудистых заболеваний." },
+        { "q": "Сколько звёзд Мишлен означает «стоит специального путешествия»?", "opts": ["1 звезда", "2 звезды", "3 звезды", "5 звёзд"], "ans": 2, "exp": "3 звезды Мишлен = «stоит специального путешествия» — высшая гастрономическая награда." },
+        { "q": "«Grignoter» означает...", "opts": ["голодать", "переедать", "перекусывать между приёмами пищи", "есть без аппетита"], "ans": 2, "exp": "Grignoter = перекусывать, грызть (чипсы, печенье и т.д.) — вредная привычка для здоровья!" },
+        { "q": "Гастрономическая столица Франции — это...", "opts": ["Париж", "Бордо", "Лион", "Страсбург"], "ans": 2, "exp": "Лион — мировая столица гастрономии, родина Поля Бокюза и «nouvelle cuisine»." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Le Bien-être Mental",
+      "titleRu": "Психическое здоровье",
+      "level": "A2",
+      "grammar": {
+        "title": "Exprimer les émotions et l'état d'esprit",
+        "titleRu": "Выражение эмоций и душевного состояния",
+        "intro": "Психическое здоровье — важная часть общего самочувствия. Изучим, как французы выражают эмоции, стресс и внутреннее состояние. Ключевые конструкции: se sentir + adjectif и être + adjectif.",
+        "sections": [
+          {
+            "title": "Se sentir (чувствовать себя)",
+            "content": "Je me sens bien / mal. — Я чувствую себя хорошо / плохо.\nJe me sens stressé(e). — Я чувствую стресс.\nJe me sens seul(e). — Мне одиноко.\nJe me sens fatigué(e). — Я устал(а).\nJe me sens heureux(se). — Я счастлив(а).\nJe me sens dépassé(e). — Я не справляюсь (перегружен)."
+          },
+          {
+            "title": "Émotions (эмоции)",
+            "content": "la joie — радость\nla tristesse — грусть\nla colère — злость\nla peur — страх\nla honte — стыд\nl'anxiété — тревога\nla sérénité — спокойствие\nla confiance — уверенность"
+          },
+          {
+            "title": "Le subjonctif avec les émotions (введение)",
+            "content": "Конструкции с эмоциями часто требуют субъюнктива:\nJe suis content(e) que tu sois là. — Рад(а), что ты здесь.\nJ'ai peur qu'il soit malade. — Боюсь, что он болен.\nIl est important que vous vous reposiez. — Важно, чтобы вы отдыхали.\n\n💡 Если оба субъекта одинаковые → infinitif: «Je suis content de te voir.»"
+          }
+        ],
+        "rule": "💡 Во французском выражение эмоций очень прямое: «Je suis stressé» (я в стрессе), «J'ai le moral» (у меня хорошее настроение), «Je n'ai pas le moral» (у меня плохое настроение). Le moral — ключевое слово!"
+      },
+      "pronunciation": {
+        "intro": "Эмоции и психологическое состояние:",
+        "note": "⚠️ L'anxiété [ланксьетэ] — x произносится как [кс]. La sérénité [ля сэрэнитэ] — все слоги открытые.",
+        "words": [
+          { "fr": "le stress", "ru_pron": "лё стрэс", "meaning": "стресс" },
+          { "fr": "l'anxiété", "ru_pron": "ланксьетэ", "meaning": "тревога, тревожность" },
+          { "fr": "la dépression", "ru_pron": "ля дэпрэссьон", "meaning": "депрессия" },
+          { "fr": "se détendre", "ru_pron": "сё дэтандр", "meaning": "расслабляться" },
+          { "fr": "la méditation", "ru_pron": "ля мэдитасьон", "meaning": "медитация" },
+          { "fr": "avoir le moral", "ru_pron": "авуар лё морал", "meaning": "быть в хорошем настроении" },
+          { "fr": "s'épanouir", "ru_pron": "сэпануир", "meaning": "расцветать, самореализовываться" },
+          { "fr": "la bienveillance", "ru_pron": "ля бьэнвэйянс", "meaning": "доброжелательность" },
+          { "fr": "Je suis épuisé(e).", "ru_pron": "Жё сюи эпюизэ", "meaning": "Я полностью истощён(а)." },
+          { "fr": "Ça va aller !", "ru_pron": "Са ва алэ", "meaning": "Всё будет хорошо!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le stress", "gender": "m", "ru": "стресс", "ru_pron": "лё стрэс", "example_fr": "Le stress au travail est néfaste.", "example_ru": "Рабочий стресс вреден.", "level": "A2" },
+        { "fr": "se détendre", "gender": null, "ru": "расслабляться", "ru_pron": "сё дэтандр", "example_fr": "Je me détends en lisant.", "example_ru": "Я расслабляюсь за чтением.", "level": "A2" },
+        { "fr": "avoir le moral", "gender": null, "ru": "быть в хорошем настроении", "ru_pron": "авуар лё морал", "example_fr": "Tu as le moral aujourd'hui ?", "example_ru": "У тебя сегодня хорошее настроение?", "level": "A2" },
+        { "fr": "l'épuisement", "gender": "m", "ru": "истощение, выгорание", "ru_pron": "лэпюизман", "example_fr": "Il souffre d'épuisement professionnel.", "example_ru": "Он страдает от профессионального выгорания.", "level": "A2" },
+        { "fr": "la confiance en soi", "gender": "f", "ru": "уверенность в себе", "ru_pron": "ля конфьянс ан суа", "example_fr": "Le sport développe la confiance en soi.", "example_ru": "Спорт развивает уверенность в себе.", "level": "A2" },
+        { "fr": "s'épanouir", "gender": null, "ru": "расцветать, самореализовываться", "ru_pron": "сэпануир", "example_fr": "Elle s'épanouit dans son travail.", "example_ru": "Она расцветает в своей работе.", "level": "A2" },
+        { "fr": "la bienveillance", "gender": "f", "ru": "доброжелательность, добросердечие", "ru_pron": "ля бьэнвэйянс", "example_fr": "La bienveillance est une valeur importante.", "example_ru": "Доброжелательность — важная ценность.", "level": "A2" },
+        { "fr": "le burn-out", "gender": "m", "ru": "выгорание (профессиональное)", "ru_pron": "лё бёрн-аут", "example_fr": "Le burn-out est reconnu comme maladie en France.", "example_ru": "Во Франции выгорание признано болезнью.", "level": "A2" },
+        { "fr": "gérer", "gender": null, "ru": "управлять, справляться", "ru_pron": "жэрэ", "example_fr": "Il faut apprendre à gérer son stress.", "example_ru": "Нужно учиться управлять стрессом.", "level": "A2" },
+        { "fr": "la résilience", "gender": "f", "ru": "стойкость, жизнестойкость", "ru_pron": "ля рэзильянс", "example_fr": "La résilience aide à surmonter les épreuves.", "example_ru": "Жизнестойкость помогает преодолевать испытания.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "la dépression", "fr_pron": "ля дэпрэссьон", "ru": "депрессия", "ru_pron": "депрессия", "note": "Из латинского «depressio» (подавление). В обоих языках используется в медицинском и метеорологическом контексте." },
+        { "fr": "la méditation", "fr_pron": "ля мэдитасьон", "ru": "медитация", "ru_pron": "медитация", "note": "Из латинского «meditatio» (размышление). Медитация стала очень популярной во Франции в последние годы — плейн-эр и mindfulness!" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Simone Veil (1927–2017)", "subtitle": "Femme d'État, survivante de la Shoah", "content": "Симона Вейль — одна из самых почитаемых французских политических деятелей XX–XXI веков. Пережившая нацистские концлагеря (Освенцим, Берген-Бельзен), она стала символом стойкости и достоинства. В 1975 году, как министр здравоохранения, она провела закон о легализации аборта (loi Veil) — вопреки мощному сопротивлению. В 2017 году Симона Вейль была введена в Пантеон. Её жизнь — пример психологической силы и преданности гуманизму." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le burn-out reconnu en France — épuisement professionnel", "content": "Франция была одной из первых стран, которая официально занялась проблемой профессионального выгорания. В 2015 году французские депутаты предложили признать burn-out профессиональным заболеванием. В 2022 году введены официальные протоколы медицинского лечения. Каждый год около 3 миллионов французов страдают от «état de stress intense au travail». Отпуска и 35-часовая рабочая неделя — французский ответ на эпидемию выгорания." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et la psychanalyse", "content": "Франция — страна с самой высокой плотностью психоаналитиков в мире! Идеи Фрейда глубоко укоренились во французской культуре в XX веке. В Париже существуют целые кварталы, где сосредоточены психоаналитические кабинеты. «Aller chez le psy» (идти к психологу) — абсолютно нормально и социально принято. Это часть французской культуры самоанализа и рефлексии. Знаменитый французский психоаналитик Жак Лакан произвёл революцию в понимании психоанализа." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Prendre du recul", "pronunciation": "Прандр дю рёкюль", "translation": "Сделать шаг назад, взглянуть на ситуацию со стороны", "usage": "Метафора: отступить назад, чтобы увидеть картину целиком. Используется в контексте принятия решений, стресса, конфликтов. Ключевой концепт французского менеджмента и психологии.", "example": "— Je ne sais plus quoi faire ! — Il faut prendre du recul et réfléchir calmement. (Я не знаю, что делать! — Нужно отступить и спокойно подумать.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Provence — Lavande et sérénité", "subtitle": "Прованс — Лаванда и умиротворение", "content": "Прованс (Provence) на юго-востоке Франции — символ французской идиллии. Поля лавенды (июль), деревушки из известняка, виноградники, оливковые рощи. Художник Ван Гог жил в Арле и написал здесь более 300 картин. Экс-ан-Прованс — родина Поля Сезанна. Знаменитое «прованское искусство жить» (l'art de vivre provençal) включает медленную еду, послеполуденный отдых (la sieste) и наслаждение природой — настоящий рецепт душевного здоровья." }
+      },
+      "quiz": [
+        { "q": "«Avoir le moral» означает...", "opts": ["быть моральным человеком", "быть в хорошем настроении", "изучать мораль", "чувствовать стресс"], "ans": 1, "exp": "Avoir le moral = быть в хорошем настроении. Ne pas avoir le moral = быть в плохом настроении." },
+        { "q": "После глагола «se sentir» следует...", "opts": ["существительное", "инфинитив", "прилагательное", "артикль"], "ans": 2, "exp": "Se sentir + прилагательное: Je me sens fatigué(e), stressé(e), heureux(se)..." },
+        { "q": "Что означает «prendre du recul»?", "opts": ["отступить физически", "взглянуть на ситуацию со стороны", "принять важное решение", "попросить совета"], "ans": 1, "exp": "Prendre du recul = сделать шаг назад, посмотреть на ситуацию объективно и с дистанции." },
+        { "q": "Чем прославилась Симона Вейль в 1975 году?", "opts": ["стала президентом Франции", "провела закон о легализации аборта", "основала психоаналитический институт", "получила Нобелевскую премию"], "ans": 1, "exp": "Симона Вейль, как министр здравоохранения, провела «loi Veil» — закон о легализации аборта в 1975 году." },
+        { "q": "«Le burn-out» — это...", "opts": ["название лекарства", "профессиональное выгорание", "вид стресса от спорта", "диагноз депрессии"], "ans": 1, "exp": "Burn-out = профессиональное выгорание. Признано серьёзной проблемой здоровья во Франции." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Les Urgences et Accidents",
+      "titleRu": "Скорая помощь и несчастные случаи",
+      "level": "A2",
+      "grammar": {
+        "title": "Le passé composé et l'imparfait en contexte d'urgence",
+        "titleRu": "Прошедшее время и несовершенный вид в рассказе о происшествии",
+        "intro": "Описывая несчастный случай, французы используют два прошедших времени: passé composé (для однократных действий) и imparfait (для фона, состояний). Умение рассказать о произошедшем в скорой помощи — жизненно важный навык!",
+        "sections": [
+          {
+            "title": "Passé composé vs Imparfait",
+            "content": "Il pleuvait (imp.) quand il est tombé (PC).\nШёл дождь, когда он упал.\n\nJe marchais (imp.) dans la rue quand j'ai glissé (PC).\nЯ шёл по улице, когда поскользнулся.\n\nJe me suis cassé (PC) la jambe. — Я сломал ногу.\nJ'ai perdu connaissance. — Я потерял сознание."
+          },
+          {
+            "title": "Urgences — экстренные фразы",
+            "content": "Au secours ! — На помощь!\nAppellez le SAMU ! — Вызовите скорую!\nJ'ai besoin d'aide ! — Мне нужна помощь!\nIl y a eu un accident. — Произошла авария.\nQuelqu'un est blessé. — Кто-то ранен.\nJe me suis évanoui(e). — Я потерял(а) сознание."
+          },
+          {
+            "title": "Numéros d'urgence en France",
+            "content": "15 — SAMU (скорая медицинская помощь)\n17 — Police\n18 — Pompiers (пожарные + первая помощь)\n112 — Numéro européen (европейский, работает везде!)\n15 / 18 — оба принимают медицинские вызовы"
+          }
+        ],
+        "rule": "💡 В Европе 112 — универсальный номер экстренной помощи. Во Франции 15 (SAMU) — для медицины, 18 (pompiers) — часто приезжают первыми. SMUR — специализированная машина с врачом на борту."
+      },
+      "pronunciation": {
+        "intro": "Экстренные фразы — произносите чётко!",
+        "note": "⚠️ Au secours ! [о сёкур] — ударение сильное на «кур». Pompiers [помпьэ] — 'ers' не читается.",
+        "words": [
+          { "fr": "Au secours !", "ru_pron": "О сёкур", "meaning": "На помощь!" },
+          { "fr": "le SAMU", "ru_pron": "лё САМЮ", "meaning": "скорая медицинская помощь" },
+          { "fr": "les pompiers", "ru_pron": "лё помпьэ", "meaning": "пожарные (оказывают и первую помощь)" },
+          { "fr": "une fracture", "ru_pron": "юн фрактюр", "meaning": "перелом" },
+          { "fr": "une blessure", "ru_pron": "юн блёсюр", "meaning": "рана, травма" },
+          { "fr": "s'évanouir", "ru_pron": "сэванюир", "meaning": "терять сознание" },
+          { "fr": "la civière", "ru_pron": "ля сивьэр", "meaning": "носилки" },
+          { "fr": "le plâtre", "ru_pron": "лё платр", "meaning": "гипс" },
+          { "fr": "les urgences", "ru_pron": "лёзюржанс", "meaning": "скорая / отделение экстренной помощи" },
+          { "fr": "Appelez une ambulance !", "ru_pron": "Аплэ юн амбюлянс", "meaning": "Вызовите скорую!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "les urgences", "gender": "f pl", "ru": "скорая помощь / экстренное отделение", "ru_pron": "лёзюржанс", "example_fr": "Il faut aller aux urgences.", "example_ru": "Нужно ехать в скорую.", "level": "A2" },
+        { "fr": "une blessure", "gender": "f", "ru": "рана, травма", "ru_pron": "юн блёсюр", "example_fr": "Il a une blessure grave à la tête.", "example_ru": "У него серьёзная травма головы.", "level": "A2" },
+        { "fr": "une fracture", "gender": "f", "ru": "перелом", "ru_pron": "юн фрактюр", "example_fr": "Il a une fracture du poignet.", "example_ru": "У него перелом запястья.", "level": "A2" },
+        { "fr": "le plâtre", "gender": "m", "ru": "гипс", "ru_pron": "лё платр", "example_fr": "Il a le bras dans le plâtre.", "example_ru": "У него рука в гипсе.", "level": "A2" },
+        { "fr": "s'évanouir", "gender": null, "ru": "терять сознание", "ru_pron": "сэванюир", "example_fr": "Elle s'est évanouie dans la rue.", "example_ru": "Она потеряла сознание на улице.", "level": "A2" },
+        { "fr": "se casser", "gender": null, "ru": "сломать (часть тела)", "ru_pron": "сё касэ", "example_fr": "Je me suis cassé le poignet.", "example_ru": "Я сломал запястье.", "level": "A2" },
+        { "fr": "l'ambulance", "gender": "f", "ru": "машина скорой помощи", "ru_pron": "ламбюлянс", "example_fr": "L'ambulance est arrivée vite.", "example_ru": "Скорая приехала быстро.", "level": "A2" },
+        { "fr": "le pompier", "gender": "m", "ru": "пожарный (+ первая помощь)", "ru_pron": "лё помпьэ", "example_fr": "Les pompiers sont intervenus rapidement.", "example_ru": "Пожарные прибыли быстро.", "level": "A2" },
+        { "fr": "brûler (se)", "gender": null, "ru": "обжечься", "ru_pron": "брюлэ", "example_fr": "Je me suis brûlé la main.", "example_ru": "Я обжёг руку.", "level": "A2" },
+        { "fr": "la radio(graphie)", "gender": "f", "ru": "рентген", "ru_pron": "ля радьо", "example_fr": "Il faut faire une radio du genou.", "example_ru": "Нужно сделать рентген колена.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'ambulance", "fr_pron": "ламбюлянс", "ru": "амбуланс / скорая", "ru_pron": "скорая (амбуланс)", "note": "Из латинского «ambulare» (ходить). «Hôpital ambulant» = передвижной госпиталь. Слово появилось во время войн Наполеона." },
+        { "fr": "la fracture", "fr_pron": "ля фрактюр", "ru": "фрактура / перелом", "ru_pron": "перелом", "note": "Из латинского «fractura» (разлом). Медицинский термин используется во всех европейских языках." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Dominique Larrey (1766–1842)", "subtitle": "Le père de la médecine d'urgence moderne", "content": "Доминик Жан Ларрей — военный хирург Наполеона, основатель современной экстренной медицины. Он изобрёл «летучие амбулансы» — конные повозки с медиками, которые подъезжали к раненым прямо на поле боя, не дожидаясь конца сражения. До Ларрея раненых забирали только после битвы — многие погибали от кровопотери. Его принцип «сортировки раненых» (triage) используется по всему миру. Наполеон называл его «самым добродетельным человеком»." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "Le SAMU — création en 1968", "content": "SAMU (Service d'Aide Médicale Urgente) была создана в 1968 году во Франции — первая в мире централизованная служба скорой помощи с медицинской координацией. Идея принадлежала профессору Пьеру Сафару и французским анестезиологам. До SAMU скорую вызывали вслепую — без медицинской оценки ситуации. Сегодня SAMU ежегодно принимает около 22 миллионов вызовов. Французская модель SAMU была скопирована во многих странах мира." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français aux urgences — une culture", "content": "Французские отделения скорой помощи (les urgences) перегружены — особенно в выходные и праздники. Французы склонны ехать aux urgences при любых симптомах, не дожидаясь приёма у терапевта. Каждый год более 21 миллиона посещений urgences — многие из них «несрочные». Поэтому с 2023 года введена система «filière de soins non programmés» для разгрузки экстренных служб. Тем не менее французская скорая считается одной из лучших в мире." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Se noyer dans un verre d'eau", "pronunciation": "Сё нуайе дан ён вэр до", "translation": "Утонуть в стакане воды (паниковать по пустякам)", "usage": "Говорится о человеке, который теряется перед незначительными проблемами. Аналог: «делать из мухи слона». Используется с юмором.", "example": "— Je ne sais pas comment envoyer cet email ! — Tu te noies dans un verre d'eau, c'est simple ! (Я не знаю, как отправить это письмо! — Ты утопаешь в стакане воды, это просто!)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Strasbourg — Capitale européenne", "subtitle": "Страсбург — Европейская столица", "content": "Страсбург (Strasbourg) — столица Эльзаса на границе с Германией. Здесь находятся Европейский парламент, Совет Европы и Европейский суд по правам человека. Город известен своим уникальным германо-французским характером: кварталы «коломбаж» (фахверк), эльзасская кухня (шукрут, флямкюш, брецель). Рождественский рынок Страсбурга — старейший во Франции (с 1570 года). Город несколько раз переходил между Францией и Германией и является символом европейского примирения." }
+      },
+      "quiz": [
+        { "q": "Какой номер вызова скорой медицинской помощи во Франции?", "opts": ["17", "15", "18", "112"], "ans": 1, "exp": "15 — SAMU (скорая медицинская помощь). 18 — пожарные (также оказывают первую помощь). 112 — европейский номер." },
+        { "q": "«Je me suis cassé la jambe» означает...", "opts": ["Я ушиб ногу", "Я сломал ногу", "Меня ударили по ноге", "У меня болит нога"], "ans": 1, "exp": "Se casser + часть тела = сломать. Je me suis cassé la jambe = я сломал ногу (passé composé)." },
+        { "q": "Imparfait в рассказе о происшествии используется для...", "opts": ["однократного действия", "описания фона и состояния", "будущих планов", "просьбы о помощи"], "ans": 1, "exp": "Imparfait = фон, длящееся состояние. «Il pleuvait» (шёл дождь — фон). Passé composé = произошедшее событие." },
+        { "q": "Кто изобрёл систему медицинской сортировки раненых (triage)?", "opts": ["Луи Пастер", "Мария Кюри", "Доминик Ларрей", "Рене Декарт"], "ans": 2, "exp": "Доминик Ларрей — военный хирург Наполеона, изобретатель «triage» и «летучих амбулансов»." },
+        { "q": "«S'évanouir» означает...", "opts": ["сломать руку", "порезаться", "потерять сознание", "задыхаться"], "ans": 2, "exp": "S'évanouir = терять сознание, упасть в обморок. Il s'est évanoui = он потерял сознание." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Hygiène et Soins Quotidiens",
+      "titleRu": "Гигиена и ежедневный уход",
+      "level": "A2",
+      "grammar": {
+        "title": "Les verbes pronominaux de la routine",
+        "titleRu": "Возвратные глаголы ежедневных ритуалов",
+        "intro": "Французский богат возвратными глаголами (les verbes pronominaux) для описания гигиенических процедур. В passé composé они всегда спрягаются с être, а причастие согласуется с подлежащим.",
+        "sections": [
+          {
+            "title": "Verbes pronominaux — ежедневные ритуалы",
+            "content": "se réveiller — просыпаться\nse lever — вставать\nse laver — мыться\nse brosser les dents — чистить зубы\nse coiffer — причёсываться\nse raser — бриться\nse maquiller — краситься\nse coucher — ложиться спать"
+          },
+          {
+            "title": "Au passé composé (в прошедшем)",
+            "content": "Je me suis lavé(e). — Я помылся/помылась.\nElle s'est brossé les dents. — Она почистила зубы.\nIl s'est rasé. — Он побрился.\nNous nous sommes couchés. — Мы легли спать.\n\n⚠️ Причастие согласуется с подлежащим, если нет прямого дополнения после глагола!"
+          },
+          {
+            "title": "Corps et cosmétiques",
+            "content": "le savon — мыло\nle shampoing — шампунь\nla crème hydratante — увлажняющий крем\nle déodorant — дезодорант\nla brosse à dents — зубная щётка\nle dentifrice — зубная паста\nle rasoir — бритва\nle maquillage — макияж, косметика"
+          }
+        ],
+        "rule": "💡 «Se laver les mains» vs «se laver»: когда указывается часть тела, причастие НЕ согласуется. Elle s'est lavé les mains (не «lavées»), потому что «les mains» — прямое дополнение после глагола."
+      },
+      "pronunciation": {
+        "intro": "Гигиена и уход — ежедневная лексика:",
+        "note": "⚠️ Le shampoing [лё шанпуэн] — 'ng' носовое. Le dentifrice [лё дантифрис] — все слоги произносятся.",
+        "words": [
+          { "fr": "se brosser les dents", "ru_pron": "сё брос лё дан", "meaning": "чистить зубы" },
+          { "fr": "le savon", "ru_pron": "лё савон", "meaning": "мыло" },
+          { "fr": "le shampoing", "ru_pron": "лё шанпуэн", "meaning": "шампунь" },
+          { "fr": "la crème solaire", "ru_pron": "ля крэм солэр", "meaning": "солнцезащитный крем" },
+          { "fr": "le dentifrice", "ru_pron": "лё дантифрис", "meaning": "зубная паста" },
+          { "fr": "se raser", "ru_pron": "сё разэ", "meaning": "бриться" },
+          { "fr": "la serviette", "ru_pron": "ля сэрвьэт", "meaning": "полотенце" },
+          { "fr": "soigner", "ru_pron": "суаньэ", "meaning": "ухаживать, лечить" },
+          { "fr": "l'hygiène", "ru_pron": "лижьэн", "meaning": "гигиена" },
+          { "fr": "Je me suis brossé les dents.", "ru_pron": "Жё мё сюи бросэ лё дан", "meaning": "Я почистил(а) зубы." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'hygiène", "gender": "f", "ru": "гигиена", "ru_pron": "лижьэн", "example_fr": "L'hygiène est la base de la santé.", "example_ru": "Гигиена — основа здоровья.", "level": "A2" },
+        { "fr": "le savon", "gender": "m", "ru": "мыло", "ru_pron": "лё савон", "example_fr": "Lavez-vous les mains avec du savon.", "example_ru": "Мойте руки с мылом.", "level": "A2" },
+        { "fr": "le shampoing", "gender": "m", "ru": "шампунь", "ru_pron": "лё шанпуэн", "example_fr": "J'utilise un shampoing naturel.", "example_ru": "Я использую натуральный шампунь.", "level": "A2" },
+        { "fr": "la crème hydratante", "gender": "f", "ru": "увлажняющий крем", "ru_pron": "ля крэм идратант", "example_fr": "Appliquez la crème après la douche.", "example_ru": "Нанесите крем после душа.", "level": "A2" },
+        { "fr": "se soigner", "gender": null, "ru": "лечить себя, заботиться о здоровье", "ru_pron": "сё суаньэ", "example_fr": "Il faut bien se soigner.", "example_ru": "Нужно хорошо заботиться о здоровье.", "level": "A2" },
+        { "fr": "la brosse à dents", "gender": "f", "ru": "зубная щётка", "ru_pron": "ля брос а дан", "example_fr": "Changez votre brosse à dents tous les 3 mois.", "example_ru": "Меняйте зубную щётку каждые 3 месяца.", "level": "A2" },
+        { "fr": "le dentiste", "gender": "m/f", "ru": "стоматолог", "ru_pron": "лё дантист", "example_fr": "Il faut aller chez le dentiste deux fois par an.", "example_ru": "Нужно ходить к стоматологу дважды в год.", "level": "A2" },
+        { "fr": "la douche", "gender": "f", "ru": "душ", "ru_pron": "ля душ", "example_fr": "Je prends une douche chaque matin.", "example_ru": "Я принимаю душ каждое утро.", "level": "A2" },
+        { "fr": "soigner", "gender": null, "ru": "ухаживать, лечить", "ru_pron": "суаньэ", "example_fr": "Il faut soigner cette plaie.", "example_ru": "Нужно обработать эту рану.", "level": "A2" },
+        { "fr": "la prévention", "gender": "f", "ru": "профилактика, предупреждение", "ru_pron": "ля прэвансьон", "example_fr": "La prévention vaut mieux que la guérison.", "example_ru": "Профилактика лучше лечения.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'hygiène", "fr_pron": "лижьэн", "ru": "гигиена", "ru_pron": "гигиена", "note": "Из греческого «Hygieia» — богини здоровья и чистоты, дочери Асклепия. Её имя дало название всей науке о здоровье!" },
+        { "fr": "le déodorant", "fr_pron": "лё дэодоран", "ru": "дезодорант", "ru_pron": "дезодорант", "note": "Латинское «de-» (убрать) + «odor» (запах). В обоих языках одинаковое международное слово." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Coco Chanel (1883–1971)", "subtitle": "Révolution de la beauté féminine", "content": "Коко Шанель — легендарный французский модельер, изменивший образ женщины XX века. Освободила женщин от корсетов, создала духи Chanel N°5 (1921) — до сих пор самые продаваемые в мире. Популяризировала загар (до неё белая кожа была признаком аристократии), стриженые волосы и практичную одежду. Её принцип: «Elegance is refusal» — элегантность в простоте. Дом Chanel — символ французской красоты и luxe (роскоши)." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "L'industrie du luxe et des cosmétiques français", "content": "Франция — мировой лидер косметической и парфюмерной промышленности с XVII века. Людовик XIV превратил Версаль в столицу моды и парфюмерии (чтобы заглушить запахи!). Сегодня LVMH (Moët Hennessy Louis Vuitton), L'Oréal, Hermès — крупнейшие игроки мировой beauty-индустрии. Грасс (Grasse) в Провансе — мировая столица парфюмерии с XII века. Французские духи экспортируются в 180 стран." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "Les Français et la salle de bain", "content": "Интересная статистика: французы принимают душ в среднем реже, чем американцы или австралийцы! Исследования показывают, что лишь 57% французов принимают душ каждый день. Зато они — лидеры по использованию парфюмерии и дезодорантов. Французская философия: качество косметики важнее, чем количество водных процедур. Это отчасти объясняет мировое господство французских парфюмерных домов!" },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "Se mettre sur son trente et un", "pronunciation": "Сё мэтр сюр сон трант э ён", "translation": "Нарядиться, одеться на все 100 (буквально: надеть свой тридцать один)", "usage": "Происхождение неясно: возможно от «trentain» (ткань из 30 нитей) или «saint». Используется для описания нарядной, праздничной одежды. Аналог: «одеться с иголочки».", "example": "— Pourquoi tu es si élégant ? — Je me suis mis sur mon trente et un pour la réunion. (Почему ты так элегантен? — Я оделся на все 100 ради совещания.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Grasse — Capitale mondiale du parfum", "subtitle": "Грасс — Мировая столица парфюмерии", "content": "Грасс (Grasse) — небольшой городок в Альпах-Маритим, мировая столица парфюмерии с XII века. Здесь работают крупнейшие парфюмерные дома: Fragonard, Galimard, Molinard. Микроклимат Грасса идеален для выращивания жасмина, розы, мимозы, лаванды — сырья для высочайших духов. Фабрики открыты для туристов. Дом-музей художника Фрагонара. Grasse поставляет ароматы для Chanel, Dior, Guerlain — всего парижского люкса." }
+      },
+      "quiz": [
+        { "q": "В passé composé возвратные глаголы спрягаются с...", "opts": ["avoir", "être", "faire", "aller"], "ans": 1, "exp": "Все возвратные глаголы (se laver, se lever и т.д.) в passé composé спрягаются с être." },
+        { "q": "«Elle s'est brossé les dents» — причастие не согласовано, потому что...", "opts": ["глагол исключение", "она брюнетка", "«les dents» — прямое дополнение после глагола", "причастие всегда неизменно"], "ans": 2, "exp": "Когда прямое дополнение стоит ПОСЛЕ глагола («les dents»), причастие не согласуется. Согласование только когда COD стоит ДО глагола." },
+        { "q": "Как часто нужно менять зубную щётку?", "opts": ["раз в год", "каждые 3 месяца", "каждый месяц", "каждые 6 месяцев"], "ans": 1, "exp": "Стоматологи рекомендуют менять зубную щётку каждые 3 месяца. Changer sa brosse à dents tous les 3 mois." },
+        { "q": "Что означает «La prévention vaut mieux que la guérison»?", "opts": ["Гигиена важнее лечения", "Профилактика лучше лечения", "Спорт важнее лекарств", "Отдых важнее работы"], "ans": 1, "exp": "Это французская поговорка: профилактика (la prévention) лучше лечения (la guérison)." },
+        { "q": "Грасс знаменит производством...", "opts": ["вина", "сыра", "духов и ароматов", "оливкового масла"], "ans": 2, "exp": "Grasse — мировая столица парфюмерии, поставляющая ароматы для Chanel, Dior и других люксовых домов." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 6",
+      "titleRu": "Итоговый урок Модуля 6",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète — Santé & Corps",
+        "titleRu": "Полное повторение — Здоровье и тело",
+        "intro": "Félicitations ! Вы завершаете шестой модуль — «Santé & Corps». Повторим все ключевые темы и конструкции, которые вы изучили.",
+        "sections": [
+          {
+            "title": "Чек-лист Модуля 6",
+            "content": "✅ Части тела + avoir mal à\n✅ Визит к врачу — симптомы и вопросы\n✅ Аптека — лекарства и инструкции\n✅ Распространённые болезни + passé composé\n✅ Спорт — faire du / jouer à\n✅ Питание и диета — партитивный + отрицание\n✅ Психическое здоровье — émotions\n✅ Скорая помощь — urgences + номера\n✅ Гигиена — verbes pronominaux\n✅ Vocabulaire médical — 90+ слов"
+          },
+          {
+            "title": "Ключевые грамматические конструкции",
+            "content": "Avoir mal à + la/le/les → au/à la/aux\nIl faut / Il ne faut pas + infinitif\nFaire du/de la/de l' + спорт\nJouer à / au / aux + игровой спорт\nSe sentir + adjectif\nVerbes pronominaux au passé composé\nPartitif négatif: pas de / d'\nDepuis + présent (длящееся состояние)"
+          }
+        ],
+        "rule": "🏆 Если вы знаете всё из этого списка, вы уверенно держитесь на уровне A2! Ваш французский выходит за рамки туристического минимума. Вперёд — к Модулю 7: «Nature & Environnement»!"
+      },
+      "pronunciation": {
+        "intro": "Ключевые медицинские фразы Модуля 6:",
+        "note": "",
+        "words": [
+          { "fr": "J'ai mal à la tête.", "ru_pron": "Жэ маль а ля тэт", "meaning": "У меня болит голова." },
+          { "fr": "Je me sens mal.", "ru_pron": "Жё мё сан маль", "meaning": "Я плохо себя чувствую." },
+          { "fr": "Depuis quand avez-vous mal ?", "ru_pron": "Дёпюи кан авэ-ву маль", "meaning": "С каких пор болит?" },
+          { "fr": "Il faut prendre ce médicament.", "ru_pron": "Иль фо прандр сё мэдикаман", "meaning": "Нужно принять это лекарство." },
+          { "fr": "Je fais du sport trois fois par semaine.", "ru_pron": "Жё фэ дю спор труа фуа пар сёмэн", "meaning": "Я занимаюсь спортом три раза в неделю." },
+          { "fr": "Je me suis cassé le bras.", "ru_pron": "Жё мё сюи касэ лё бра", "meaning": "Я сломал руку." },
+          { "fr": "Appelez le 15 !", "ru_pron": "Аплэ лё кэнз", "meaning": "Вызовите скорую!" },
+          { "fr": "Je me suis brossé les dents.", "ru_pron": "Жё мё сюи бросэ лё дан", "meaning": "Я почистил(а) зубы." },
+          { "fr": "La prévention vaut mieux que la guérison.", "ru_pron": "Ля прэвансьон во мьё кё ля гэризон", "meaning": "Профилактика лучше лечения." },
+          { "fr": "Bonne santé !", "ru_pron": "Бон санте", "meaning": "Крепкого здоровья!" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la santé", "gender": "f", "ru": "здоровье", "ru_pron": "ля санте", "example_fr": "La santé, c'est la richesse !", "example_ru": "Здоровье — это богатство!", "level": "A2" },
+        { "fr": "guérir", "gender": null, "ru": "выздоравливать, вылечивать", "ru_pron": "гэрир", "example_fr": "Il a guéri rapidement.", "example_ru": "Он быстро выздоровел.", "level": "A2" },
+        { "fr": "la prévention", "gender": "f", "ru": "профилактика", "ru_pron": "ля прэвансьон", "example_fr": "La prévention est essentielle.", "example_ru": "Профилактика необходима.", "level": "A2" },
+        { "fr": "être en bonne santé", "gender": null, "ru": "быть в добром здравии", "ru_pron": "этр ан бон санте", "example_fr": "Je souhaite être en bonne santé.", "example_ru": "Я желаю быть здоровым.", "level": "A2" },
+        { "fr": "le bien-être", "gender": "m", "ru": "благополучие, хорошее самочувствие", "ru_pron": "лё бьэн-этр", "example_fr": "Le bien-être physique et mental.", "example_ru": "Физическое и психическое благополучие.", "level": "A2" },
+        { "fr": "soigner", "gender": null, "ru": "лечить, ухаживать", "ru_pron": "суаньэ", "example_fr": "Il faut soigner ce rhume.", "example_ru": "Нужно полечить этот насморк.", "level": "A2" },
+        { "fr": "se rétablir", "gender": null, "ru": "поправиться, восстановиться", "ru_pron": "сё рэтаблир", "example_fr": "Elle se rétablit bien après l'opération.", "example_ru": "Она хорошо восстанавливается после операции.", "level": "A2" },
+        { "fr": "l'opération", "gender": "f", "ru": "операция", "ru_pron": "лопэрасьон", "example_fr": "L'opération a duré trois heures.", "example_ru": "Операция длилась три часа.", "level": "A2" },
+        { "fr": "le bilan de santé", "gender": "m", "ru": "медицинское обследование", "ru_pron": "лё билан дё санте", "example_fr": "Je fais un bilan de santé chaque année.", "example_ru": "Я прохожу медобследование каждый год.", "level": "A2" },
+        { "fr": "Bon rétablissement !", "gender": null, "ru": "Скорейшего выздоровления!", "ru_pron": "Бон рэтаблисман", "example_fr": "— Je suis malade. — Bon rétablissement !", "example_ru": "— Я болен. — Скорейшего выздоровления!", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "l'opération", "fr_pron": "лопэрасьон", "ru": "операция", "ru_pron": "операция", "note": "Из латинского «operatio» (действие, работа). В медицинском смысле используется одинаково во французском и русском." },
+        { "fr": "le diagnostic", "fr_pron": "лё диагностик", "ru": "диагноз", "ru_pron": "диагноз", "note": "Из греческого «diagnosis». Международный медицинский термин. Le diagnostic final = окончательный диагноз." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Биография", "name": "Albert Schweitzer (1875–1965)", "subtitle": "Médecin humaniste, Prix Nobel de la Paix 1952", "content": "Альберт Швейцер — эльзасский врач, философ и музыкант, получивший Нобелевскую премию мира в 1952 году. Врач и теолог, он построил больницу в Ламбарене (Габон) в 1913 году и посвятил жизнь лечению африканцев. Его философия «уважения к жизни» (Ehrfurcht vor dem Leben) стала этической основой гуманитарной медицины. Хотя он был немецкоязычным эльзасцем, Франция гордится им как частью своего культурного наследия." },
+        "history": { "icon": "📜", "label": "Факт истории", "title": "La médecine française — un prestige mondial", "content": "Французская медицина имеет мировой авторитет с XVII века. Парижская медицинская школа (l'École de médecine de Paris) была образцом для всего мира в XIX веке. Франция первой ввела обязательное медицинское образование (1794). Пастер, Кюри, Карель, Ларрей — французские имена золотого фонда мировой науки. ВОЗ в 2000 году признала французскую систему здравоохранения лучшей в мире по совокупности показателей." },
+        "anecdote": { "icon": "🎭", "label": "Культурная анекдота", "title": "«Bon rétablissement !» — французское внимание к здоровью", "content": "Во французской культуре принято тщательно осведомляться о здоровье собеседника. Приветствие «Comment allez-vous?» (как вы?) буквально касается самочувствия. Когда кто-то болен, говорят «Bon rétablissement!» (скорейшего выздоровления) или «Remets-toi vite!» (поправляйся скорее). Чиханье встречают «À vos souhaits!» (на здоровье!) — первый раз, «À vos amours!» — второй, «Qu'ils durent toujours!» — третий. Такое внимание к здоровью — черта французского этикета." },
+        "expression": { "icon": "💬", "label": "Выражение дня", "phrase": "À vos souhaits !", "pronunciation": "А во суэ", "translation": "На здоровье! (после чихания)", "usage": "Говорится, когда кто-то чихнул. Буквально: «к вашим желаниям/пожеланиям». Если человек чихает снова: «À vos amours!» (к вашей любви!), третий раз: «Qu'ils durent toujours!» (да пусть она длится вечно!)", "example": "— Atchoum ! — À vos souhaits ! — Merci. (Апчхи! — На здоровье! — Спасибо.)" },
+        "destination": { "icon": "✈️", "label": "Направление", "place": "Alsace — Entre France et Allemagne", "subtitle": "Эльзас — Между Францией и Германией", "content": "Эльзас (Alsace) — уникальный регион на востоке Франции с германо-французской идентичностью. Виноградники, фахверковые деревушки, рождественские ярмарки. Страсбург — столица ЕС. Кухня: шукрут (кислая капуста с мясом), флямкюш, брецели, форель и, конечно, рислинг и гевюрцтраминер. Эльзас несколько раз переходил между Францией и Германией — последний раз в 1945 году. Этот «смешанный» характер делает его символом европейского примирения и единства." }
+      },
+      "quiz": [
+        { "q": "«Bon rétablissement !» говорят...", "opts": ["когда кто-то чихает", "когда кто-то болен или выздоравливает", "как тост за здоровье", "при первой встрече"], "ans": 1, "exp": "Bon rétablissement = скорейшего выздоровления. Говорится больному или выздоравливающему." },
+        { "q": "«À vos souhaits !» говорят...", "opts": ["на дне рождения", "когда кто-то чихнул", "в конце трапезы", "при прощании"], "ans": 1, "exp": "À vos souhaits ! = на здоровье (после чихания). Буквально: «к вашим желаниям»." },
+        { "q": "Какая организация признала французское здравоохранение лучшим в мире в 2000 году?", "opts": ["ООН", "Красный Крест", "ВОЗ", "ЮНЕСКО"], "ans": 2, "exp": "ВОЗ (l'OMS — Organisation Mondiale de la Santé) в 2000 году поставила Францию на первое место по системе здравоохранения." },
+        { "q": "«Le bien-être» означает...", "opts": ["хорошая погода", "хорошее питание", "благополучие, хорошее самочувствие", "красивое место"], "ans": 2, "exp": "Le bien-être = благополучие, хорошее самочувствие (физическое и психическое)." },
+        { "q": "Какое выражение правильно завершает: «La prévention vaut mieux que...»?", "opts": ["le médicament", "la guérison", "le repos", "le médecin"], "ans": 1, "exp": "«La prévention vaut mieux que la guérison» = Профилактика лучше лечения. Классическая французская сентенция." }
+      ]
+    }
+  ]
+}
