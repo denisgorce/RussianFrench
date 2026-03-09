@@ -1,0 +1,1278 @@
+{
+  "module": 4,
+  "titleFr": "Voyages & Transports",
+  "titleRu": "Путешествия и транспорт",
+  "description": "Транспорт, аэропорт, гостиница, ориентация в городе и путешествия по Франции.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Les Transports en Commun",
+      "titleRu": "Общественный транспорт",
+      "level": "A1",
+      "grammar": {
+        "title": "Prendre + les transports",
+        "titleRu": "Глагол «prendre» с транспортом",
+        "intro": "Во французском языке для обозначения передвижения на транспорте используется глагол «prendre» (брать, садиться). Это неправильный глагол — один из самых частых в языке!",
+        "sections": [
+          {
+            "title": "Спряжение глагола «prendre»",
+            "content": "Je prends — я беру / еду\nTu prends — ты берёшь / едешь\nIl/Elle prend — он/она берёт / едет\nNous prenons — мы берём / едем\nVous prenez — вы берёте / едете\nIls/Elles prennent — они берут / едут"
+          },
+          {
+            "title": "Prendre + транспорт",
+            "content": "Je prends le métro. — Я еду на метро.\nTu prends le bus ? — Ты едешь на автобусе?\nElle prend le train. — Она едет на поезде.\nNous prenons le taxi. — Мы едем на такси.\n\n⚠️ После «en» артикль не нужен: en métro, en bus, en train, en avion.\nПосле «à» артикль тоже: à pied (пешком), à vélo (на велосипеде)."
+          },
+          {
+            "title": "Aller + направление",
+            "content": "Je vais à Paris. — Я еду в Париж.\nIl va à la gare. — Он идёт на вокзал.\nNous allons à l'aéroport. — Мы едем в аэропорт.\n\n⚠️ à + le = au: Je vais au métro (на метро).\nà + les = aux: Je vais aux Champs-Élysées."
+          }
+        ],
+        "rule": "💡 «Prendre» + транспорт = использовать транспорт. «Aller» + направление = куда едешь. Запомните: Je prends le bus pour aller au travail — Я еду на работу на автобусе."
+      },
+      "pronunciation": {
+        "intro": "Слова о транспорте — тренируем произношение носовых и связок!",
+        "note": "⚠️ Liaisons (связки): «les enfants» → «лэз-анфан». Перед гласной конечный согласный произносится!",
+        "words": [
+          { "fr": "le métro", "ru_pron": "лё мэтро", "meaning": "метро" },
+          { "fr": "le bus", "ru_pron": "лё бюс", "meaning": "автобус (финальное s ЧИТАЕТСЯ!)" },
+          { "fr": "le train", "ru_pron": "лё трэн", "meaning": "поезд (носовое 'ain' = 'эн')" },
+          { "fr": "l'avion", "ru_pron": "л'авьон", "meaning": "самолёт (носовое 'on')" },
+          { "fr": "le taxi", "ru_pron": "лё такси", "meaning": "такси" },
+          { "fr": "la gare", "ru_pron": "ля гар", "meaning": "вокзал" },
+          { "fr": "l'aéroport", "ru_pron": "л'аэропор", "meaning": "аэропорт (финальное t не читается)" },
+          { "fr": "à pied", "ru_pron": "а пьэ", "meaning": "пешком" },
+          { "fr": "à vélo", "ru_pron": "а вэло", "meaning": "на велосипеде" },
+          { "fr": "prendre", "ru_pron": "прандр", "meaning": "брать, садиться (на транспорт)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le métro", "gender": "m", "ru": "метро", "ru_pron": "лё мэтро", "example_fr": "Je prends le métro chaque matin.", "example_ru": "Каждое утро я езжу на метро.", "level": "A1" },
+        { "fr": "le bus", "gender": "m", "ru": "автобус", "ru_pron": "лё бюс", "example_fr": "Le bus numéro 10 va à la gare.", "example_ru": "Автобус номер 10 идёт до вокзала.", "level": "A1" },
+        { "fr": "le train", "gender": "m", "ru": "поезд", "ru_pron": "лё трэн", "example_fr": "Le train part à 9 heures.", "example_ru": "Поезд отправляется в 9 часов.", "level": "A1" },
+        { "fr": "la gare", "gender": "f", "ru": "вокзал, железнодорожная станция", "ru_pron": "ля гар", "example_fr": "La gare de Lyon est immense.", "example_ru": "Вокзал Лион огромный.", "level": "A1" },
+        { "fr": "l'aéroport", "gender": "m", "ru": "аэропорт", "ru_pron": "л'аэропор", "example_fr": "L'aéroport Charles-de-Gaulle est grand.", "example_ru": "Аэропорт Шарль-де-Голль большой.", "level": "A1" },
+        { "fr": "le billet", "gender": "m", "ru": "билет", "ru_pron": "лё бийэ", "example_fr": "Je voudrais un billet pour Paris.", "example_ru": "Я хотел бы билет до Парижа.", "level": "A1" },
+        { "fr": "le ticket", "gender": "m", "ru": "талон, билет (метро/автобус)", "ru_pron": "лё тикэ", "example_fr": "Un ticket de métro coûte 1,90 €.", "example_ru": "Один билет на метро стоит 1,90 €.", "level": "A1", "meaning_double": "ticket = талон на короткий маршрут; billet = билет на поезд/самолёт" },
+        { "fr": "le quai", "gender": "m", "ru": "перрон, платформа", "ru_pron": "лё кэ", "example_fr": "Le train est au quai numéro 3.", "example_ru": "Поезд на платформе номер 3.", "level": "A1" },
+        { "fr": "partir", "gender": null, "ru": "уезжать, отправляться", "ru_pron": "партир", "example_fr": "Le bus part dans cinq minutes.", "example_ru": "Автобус отправляется через пять минут.", "level": "A1" },
+        { "fr": "arriver", "gender": null, "ru": "прибывать, приезжать", "ru_pron": "аривэ", "example_fr": "Le train arrive à 14 heures.", "example_ru": "Поезд прибывает в 14 часов.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le taxi", "fr_pron": "лё такси", "ru": "такси", "ru_pron": "такси", "note": "Международное слово! Происходит от французского «taximètre» — счётчик. Одинаково во французском, русском и многих других языках." },
+        { "fr": "le terminal", "fr_pron": "лё тэрминаль", "ru": "терминал", "ru_pron": "терминал", "note": "В аэропортах всего мира используется это слово. Произношение близкое, смысл идентичный." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Gustave Eiffel (1832–1923)",
+          "subtitle": "Ingénieur visionnaire",
+          "content": "Гюстав Эйфель — французский инженер, подаривший миру самую узнаваемую башню планеты. Но Эйфелева башня — не единственное его творение: он проектировал мосты по всей Европе и даже создал металлический каркас Статуи Свободы в Нью-Йорке. Башня была возведена за 2 года, 2 месяца и 5 дней к Всемирной выставке 1889 года. Парижане поначалу её ненавидели, называя «железной каракатицей». Сегодня это самое фотографируемое сооружение в мире — 7 миллионов посетителей в год."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le TGV — поезд, изменивший Францию (1981)",
+          "content": "В 1981 году Франция запустила TGV (Train à Grande Vitesse — высокоскоростной поезд), связавший Париж и Лион за 2 часа (раньше — 4 часа). Сегодня TGV развивает скорость до 320 км/ч и связывает Париж с Брюсселем (1ч 22мин), Лондоном (2ч 15мин через Евротоннель) и Амстердамом. Французская сеть высокоскоростных поездов — одна из лучших в мире. Благодаря TGV французы нередко предпочитают поезд самолёту."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Le Vélib' — велосипедная революция",
+          "content": "В 2007 году Париж запустил Vélib' — систему городского проката велосипедов (vélo + liberté = свобода). Это была одна из первых в мире масштабных систем велошеринга. Сегодня в Париже более 20 000 велосипедов на 1 400 станциях. Парижане настолько полюбили Vélib', что во многих районах появились специальные велодорожки. Французская столица активно превращается в «велосипедный город» — мэрия ставит цель сделать 100% улиц доступными для велосипедистов."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Bon voyage !",
+          "pronunciation": "Бон вуаяж",
+          "translation": "Счастливого пути! / Хорошей поездки!",
+          "usage": "Говорится, когда кто-то отправляется в путешествие. Это выражение известно во всём мире и используется буквально во всех языках в французском варианте. Ответ: «Merci !» или «À bientôt !»",
+          "example": "— Je pars à Rome demain. — Bon voyage ! (Завтра уезжаю в Рим. — Счастливого пути!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Paris — Gare du Nord",
+          "subtitle": "Самый загруженный вокзал Европы",
+          "content": "Gare du Nord — главный вокзал Парижа и самый загруженный вокзал Европы: 190 миллионов пассажиров в год. Отсюда отправляются поезда Eurostar в Лондон, Thalys в Амстердам и Брюссель, а также TGV по всей Франции. Вокзал построен в 1864 году архитектором Жаком Хиттором. Его фасад украшен 23 женскими фигурами, символизирующими города назначения. Gare du Nord — один из узловых пунктов парижского метро: здесь сходятся линии 2, 4, 5 и RER B и D."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «Я еду на поезде»?",
+          "opts": ["Je vais le train", "Je prends le train", "Je fais le train", "J'ai le train"],
+          "ans": 1,
+          "exp": "«Prendre» используется с транспортом: Je prends le train / le bus / le métro."
+        },
+        {
+          "q": "Как сказать «пешком» по-французски?",
+          "opts": ["en pied", "au pied", "à pied", "par pied"],
+          "ans": 2,
+          "exp": "À pied = пешком. Также: à vélo (на велосипеде), en voiture (на машине)."
+        },
+        {
+          "q": "Что такое «le quai»?",
+          "opts": ["касса", "билет", "перрон/платформа", "вагон"],
+          "ans": 2,
+          "exp": "Le quai = перрон, платформа. «Le train est au quai 5» — поезд на платформе 5."
+        },
+        {
+          "q": "Какой инженер построил Эйфелеву башню?",
+          "opts": ["Napoléon", "Gustave Eiffel", "Haussmann", "Le Corbusier"],
+          "ans": 1,
+          "exp": "Gustave Eiffel спроектировал башню к Всемирной выставке 1889 года. Он также создал каркас Статуи Свободы."
+        },
+        {
+          "q": "Что означает TGV?",
+          "opts": ["Très Grand Véhicule", "Train à Grande Vitesse", "Transport en Grande Ville", "Trafic Général Voyageurs"],
+          "ans": 1,
+          "exp": "TGV = Train à Grande Vitesse (высокоскоростной поезд). Запущен в 1981 году, скорость до 320 км/ч."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "À l'Aéroport",
+      "titleRu": "В аэропорту",
+      "level": "A1",
+      "grammar": {
+        "title": "Les verbes de mouvement",
+        "titleRu": "Глаголы движения",
+        "intro": "Когда мы говорим о поездках и путешествиях, нам нужны глаголы движения. Во французском используются разные конструкции в зависимости от страны, города или общего направления.",
+        "sections": [
+          {
+            "title": "Aller à / en / au / aux",
+            "content": "aller à + город: Je vais à Londres. (в Лондон)\naller en + страна (ж.р.): Je vais en France / en Russie.\naller au + страна (м.р.): Je vais au Japon / au Canada.\naller aux + страна (мн.ч.): Je vais aux États-Unis.\n\n⚠️ Большинство стран женского рода: la France, la Russie, l'Espagne."
+          },
+          {
+            "title": "Venir de — откуда",
+            "content": "venir de + город: Je viens de Paris. (из Парижа)\nvenir de + страна (ж.р.): Je viens de Russie / de France.\nvenir du + страна (м.р.): Je viens du Japon.\nvenir des + страна (мн.ч.): Je viens des États-Unis."
+          },
+          {
+            "title": "Pendant le vol — выражения",
+            "content": "embarquer — садиться в самолёт\ndécoller — взлетать\natterrir — приземляться\nle décollage — взлёт\nl'atterrissage — посадка\nle vol — рейс, полёт"
+          }
+        ],
+        "rule": "💡 Запомните: en + страна (женский род), au + страна (мужской род), aux + страна (множественное число). La France → en France. Le Japon → au Japon. Les États-Unis → aux États-Unis."
+      },
+      "pronunciation": {
+        "intro": "Важные слова аэропорта — следите за носовыми и немыми буквами!",
+        "note": "⚠️ «l'embarquement» — финальное 't' не читается. «le vol» — 'l' на конце читается!",
+        "words": [
+          { "fr": "le vol", "ru_pron": "лё воль", "meaning": "рейс, полёт" },
+          { "fr": "l'embarquement", "ru_pron": "л'амбаркман", "meaning": "посадка (в самолёт)" },
+          { "fr": "le passeport", "ru_pron": "лё паспор", "meaning": "паспорт (t не читается)" },
+          { "fr": "la valise", "ru_pron": "ля вализ", "meaning": "чемодан" },
+          { "fr": "la douane", "ru_pron": "ля дуан", "meaning": "таможня" },
+          { "fr": "le billet d'avion", "ru_pron": "лё бийэ давьон", "meaning": "авиабилет" },
+          { "fr": "l'enregistrement", "ru_pron": "л'анрёжистрман", "meaning": "регистрация (на рейс)" },
+          { "fr": "la porte", "ru_pron": "ля порт", "meaning": "выход (на посадку), ворота" },
+          { "fr": "atterrir", "ru_pron": "атэрир", "meaning": "приземляться" },
+          { "fr": "décoller", "ru_pron": "дэколэ", "meaning": "взлетать" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le passeport", "gender": "m", "ru": "паспорт", "ru_pron": "лё паспор", "example_fr": "Mon passeport est valable 10 ans.", "example_ru": "Мой паспорт действителен 10 лет.", "level": "A1" },
+        { "fr": "la valise", "gender": "f", "ru": "чемодан", "ru_pron": "ля вализ", "example_fr": "Ma valise est trop lourde.", "example_ru": "Мой чемодан слишком тяжёлый.", "level": "A1" },
+        { "fr": "le vol", "gender": "m", "ru": "рейс, полёт", "ru_pron": "лё воль", "example_fr": "Mon vol est à 10 heures.", "example_ru": "Мой рейс в 10 часов.", "level": "A1", "meaning_double": "vol = полёт/рейс; vol = кража (homonyme!)" },
+        { "fr": "la porte", "gender": "f", "ru": "выход на посадку, дверь", "ru_pron": "ля порт", "example_fr": "L'embarquement est porte B7.", "example_ru": "Посадка у выхода B7.", "level": "A1" },
+        { "fr": "la douane", "gender": "f", "ru": "таможня", "ru_pron": "ля дуан", "example_fr": "Il faut passer la douane.", "example_ru": "Нужно пройти таможню.", "level": "A1" },
+        { "fr": "l'enregistrement", "gender": "m", "ru": "регистрация на рейс", "ru_pron": "л'анрёжистрман", "example_fr": "L'enregistrement ferme 40 minutes avant le départ.", "example_ru": "Регистрация закрывается за 40 минут до вылета.", "level": "A1" },
+        { "fr": "le décollage", "gender": "m", "ru": "взлёт", "ru_pron": "лё дэколаж", "example_fr": "Le décollage est prévu à 14h30.", "example_ru": "Взлёт запланирован на 14:30.", "level": "A1" },
+        { "fr": "l'atterrissage", "gender": "m", "ru": "посадка (самолёта)", "ru_pron": "л'атэрисаж", "example_fr": "L'atterrissage se passe bien.", "example_ru": "Посадка проходит хорошо.", "level": "A1" },
+        { "fr": "le bagage", "gender": "m", "ru": "багаж", "ru_pron": "лё багаж", "example_fr": "Mes bagages sont au tapis.", "example_ru": "Мой багаж на ленте выдачи.", "level": "A1" },
+        { "fr": "la carte d'embarquement", "gender": "f", "ru": "посадочный талон", "ru_pron": "ля карт д'амбаркман", "example_fr": "Montrez votre carte d'embarquement.", "example_ru": "Покажите ваш посадочный талон.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le passeport", "fr_pron": "лё паспор", "ru": "паспорт", "ru_pron": "паспорт", "note": "Буквально: «passe» (проходи) + «port» (порт/ворота). Слово существует во всех европейских языках практически без изменений." },
+        { "fr": "la douane", "fr_pron": "ля дуан", "ru": "таможня (diwan)", "ru_pron": "дуан", "note": "Оба слова происходят от арабского «diwan» (реестр, список). Таможня вела реестры товаров." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Antoine de Saint-Exupéry (1900–1944)",
+          "subtitle": "Pilote et écrivain de génie",
+          "content": "Антуан де Сент-Экзюпери — французский писатель и лётчик, автор «Маленького принца» (Le Petit Prince, 1943) — самой читаемой книги на французском языке и одной из наиболее переведённых в мире (300+ языков). Сент-Экзюпери был настоящим авиатором: открывал почтовые маршруты над Сахарой, Южной Америкой и Андами. В 1944 году он пропал без вести над Средиземным морем во время разведывательного полёта. Его самолёт P-38 был обнаружен лишь в 2004 году."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le premier vol de l'histoire — les frères Wright (1903)",
+          "content": "Хотя первый полёт совершили американцы братья Райт в 1903 году, именно Франция стала родиной авиации как отрасли. В 1909 году Луи Блерио первым перелетел Ла-Манш — это было сенсацией. Первая в мире регулярная коммерческая авиалиния открылась в 1919 году между Парижем и Лондоном. Французская компания Air France основана в 1933 году — сегодня это один из крупнейших авиаперевозчиков мира."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Charles de Gaulle — крупнейший аэропорт Франции",
+          "content": "Аэропорт Шарль-де-Голль (CDG) в Руасси, открытый в 1974 году, — крупнейший во Франции и второй по загруженности в Европе (75 миллионов пассажиров в год). Он назван в честь генерала и президента Шарля де Голля. Знаменитый Terminal 2E был открыт в 2003 году, но его крыша частично обрушилась в 2004-м — никто не пострадал. Его отстроили заново. CDG — главный хаб Air France и входит в альянс SkyTeam."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "J'ai raté mon vol !",
+          "pronunciation": "Жэ ратэ мон воль",
+          "translation": "Я опоздал на рейс!",
+          "usage": "«Rater» = пропустить, не успеть. Используется с транспортом: rater le bus, rater le train, rater l'avion. Синоним: manquer — J'ai manqué mon vol.",
+          "example": "— Tu n'es pas à l'aéroport ? — Non, j'ai raté mon bus ! (Ты не в аэропорту? — Нет, я опоздал на автобус!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Nice — La Côte d'Azur",
+          "subtitle": "Лазурный берег — жемчужина юга",
+          "content": "Ницца — пятый город Франции и главный курорт Лазурного берега. Международный аэропорт Ниццы — второй по загруженности во Франции (14 миллионов пассажиров). Город основан греками в IV веке до н.э. и исторически принадлежал Савойскому герцогству — Франции он отошёл лишь в 1860 году. На Английской набережной (Promenade des Anglais) любили гулять богатые британцы XIX века. Ницца входит в список объектов всемирного наследия ЮНЕСКО."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «я еду во Францию»?",
+          "opts": ["Je vais à France", "Je vais au France", "Je vais en France", "Je vais de France"],
+          "ans": 2,
+          "exp": "С женскими странами используется «en»: en France, en Russie, en Espagne. С мужскими — «au»: au Japon."
+        },
+        {
+          "q": "Что означает «le vol» ?",
+          "opts": ["вокзал", "билет", "рейс / полёт", "посадка"],
+          "ans": 2,
+          "exp": "Le vol = рейс или полёт. Внимание: vol также означает «кража» — контекст важен!"
+        },
+        {
+          "q": "Кто написал «Маленького принца»?",
+          "opts": ["Victor Hugo", "Molière", "Antoine de Saint-Exupéry", "Jules Verne"],
+          "ans": 2,
+          "exp": "Antoine de Saint-Exupéry — лётчик и писатель, автор «Маленького принца» (1943). Книга переведена на 300+ языков."
+        },
+        {
+          "q": "Как сказать «посадочный талон» по-французски?",
+          "opts": ["le billet d'avion", "la carte d'embarquement", "le passeport", "la valise"],
+          "ans": 1,
+          "exp": "La carte d'embarquement = посадочный талон. Le billet d'avion = авиабилет. Не путайте!"
+        },
+        {
+          "q": "Что означает «J'ai raté mon vol» ?",
+          "opts": ["Мой рейс отменили", "Я опоздал на рейс", "Мой рейс задержан", "Я нашёл свой рейс"],
+          "ans": 1,
+          "exp": "Rater = пропустить, не успеть. J'ai raté mon vol = я опоздал на свой рейс."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "À l'Hôtel",
+      "titleRu": "В гостинице",
+      "level": "A1",
+      "grammar": {
+        "title": "Le conditionnel de politesse",
+        "titleRu": "Вежливый условный наклонения",
+        "intro": "В гостинице, ресторане и магазине французы используют «условное наклонение» (conditionnel) для вежливых просьб. Это намного вежливее, чем обычный глагол в настоящем времени!",
+        "sections": [
+          {
+            "title": "Je voudrais — хотел бы",
+            "content": "Je voudrais... — Я хотел бы... (вежл.)\nJe veux... — Я хочу... (грубовато)\n\nJe voudrais une chambre. — Я хотел бы номер.\nJe voudrais le petit-déjeuner. — Я хотел бы завтрак.\nJe voudrais la clé de ma chambre. — Мне бы ключ от номера."
+          },
+          {
+            "title": "Auriez-vous... ? — Не могли бы вы?",
+            "content": "Auriez-vous une chambre libre ? — Есть ли у вас свободный номер?\nAuriez-vous le Wi-Fi ? — У вас есть Wi-Fi?\n\nPourriez-vous... ? (pouvez-vous + вежливость)\nPourriez-vous m'aider ? — Могли бы вы мне помочь?"
+          },
+          {
+            "title": "Réserver — бронировать",
+            "content": "J'ai réservé une chambre. — Я забронировал номер.\nAu nom de... — На имя...\nPour combien de nuits ? — На сколько ночей?\nDu ... au ... — С ... по ...\nLe check-in / check-out — заезд / выезд"
+          }
+        ],
+        "rule": "💡 В гостинице всегда используйте «Je voudrais» вместо «Je veux». Conditionnel = вежливость. «Je voudrais une chambre pour deux nuits» — образцовая фраза!"
+      },
+      "pronunciation": {
+        "intro": "Слова гостиничного сервиса — тренируем вежливые фразы!",
+        "note": "⚠️ «Voudrais» произносится «вудрэ» — финальное 's' не читается. «Nuit» = «нюи».",
+        "words": [
+          { "fr": "la chambre", "ru_pron": "ля шамбр", "meaning": "номер (в гостинице), комната" },
+          { "fr": "la nuit", "ru_pron": "ля нюи", "meaning": "ночь" },
+          { "fr": "le petit-déjeuner", "ru_pron": "лё пти дэжёнэ", "meaning": "завтрак" },
+          { "fr": "la réservation", "ru_pron": "ля рэзэрвасьон", "meaning": "бронирование" },
+          { "fr": "la clé / la clef", "ru_pron": "ля клэ", "meaning": "ключ" },
+          { "fr": "l'ascenseur", "ru_pron": "л'асансёр", "meaning": "лифт" },
+          { "fr": "le parking", "ru_pron": "лё паркинг", "meaning": "парковка" },
+          { "fr": "compris", "ru_pron": "конпри", "meaning": "включено (в цену)" },
+          { "fr": "libre", "ru_pron": "либр", "meaning": "свободный, незанятый" },
+          { "fr": "réserver", "ru_pron": "рэзэрвэ", "meaning": "бронировать" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la chambre", "gender": "f", "ru": "номер, комната", "ru_pron": "ля шамбр", "example_fr": "Je voudrais une chambre double.", "example_ru": "Я хотел бы двухместный номер.", "level": "A1" },
+        { "fr": "la nuit", "gender": "f", "ru": "ночь", "ru_pron": "ля нюи", "example_fr": "La chambre coûte 90 € par nuit.", "example_ru": "Номер стоит 90 € в сутки.", "level": "A1" },
+        { "fr": "le petit-déjeuner", "gender": "m", "ru": "завтрак", "ru_pron": "лё пти дэжёнэ", "example_fr": "Le petit-déjeuner est compris.", "example_ru": "Завтрак включён.", "level": "A1" },
+        { "fr": "la clé", "gender": "f", "ru": "ключ", "ru_pron": "ля клэ", "example_fr": "Voici la clé de votre chambre.", "example_ru": "Вот ключ от вашего номера.", "level": "A1" },
+        { "fr": "libre", "gender": null, "ru": "свободный, незанятый", "ru_pron": "либр", "example_fr": "Avez-vous une chambre libre ce soir ?", "example_ru": "Есть ли у вас свободный номер сегодня вечером?", "level": "A1" },
+        { "fr": "compris(e)", "gender": null, "ru": "включено (в цену)", "ru_pron": "конпри", "example_fr": "Le Wi-Fi est compris.", "example_ru": "Wi-Fi включён.", "level": "A1" },
+        { "fr": "la réservation", "gender": "f", "ru": "бронирование, резервация", "ru_pron": "ля рэзэрвасьон", "example_fr": "J'ai une réservation au nom de Dupont.", "example_ru": "У меня бронирование на имя Дюпон.", "level": "A1" },
+        { "fr": "l'étage", "gender": "m", "ru": "этаж", "ru_pron": "л'этаж", "example_fr": "Ma chambre est au troisième étage.", "example_ru": "Мой номер на третьем этаже.", "level": "A1" },
+        { "fr": "la réception", "gender": "f", "ru": "стойка регистрации, ресепшн", "ru_pron": "ля рэсэпсьон", "example_fr": "Adressez-vous à la réception.", "example_ru": "Обратитесь на стойку регистрации.", "level": "A1" },
+        { "fr": "le séjour", "gender": "m", "ru": "пребывание, проживание", "ru_pron": "лё сэжур", "example_fr": "Bon séjour à Paris !", "example_ru": "Хорошего пребывания в Париже!", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "la réservation", "fr_pron": "ля рэзэрвасьон", "ru": "резервация, бронь", "ru_pron": "резервация", "note": "Оба слова из латинского «reservare» (сохранять). По-русски «бронь» тоже используется, но «резервация» понятна без перевода." },
+        { "fr": "la réception", "fr_pron": "ля рэсэпсьон", "ru": "рецепция, ресепшн", "ru_pron": "рецепция", "note": "В русский язык пришло из французского. Международный гостиничный термин во всём мире." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "César Ritz (1850–1918)",
+          "subtitle": "Le roi des hôteliers",
+          "content": "Сезар Ритц — швейцарец, ставший «королём отельеров» и эпонимом слова «ritz» (роскошь). Начав официантом, он открыл парижский Hôtel Ritz на Вандомской площади в 1898 году — он стал символом абсолютной роскоши. Именно Ритц ввёл ванны в каждом номере (тогда это была революция!), электрическое освещение и телефоны. Его друг Огюст Эскофье реформировал кухню отеля. Слово «ritzy» (шикарный) вошло в английский язык. Ritz Paris сегодня принимает знаменитостей, королей и миллиардеров."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "L'invention du palace parisien",
+          "content": "Париж — мировая столица роскошных отелей. В конце XIX века здесь появился новый тип заведения — «palace» (5-звёздочный дворец-отель). Рitz (1898), Le Meurice (1835), Hotel de Crillon (1909) — эти гостиницы принимали монархов, художников и знаменитостей. Сегодня в Париже 8 официально признанных «дворцов» — высшая категория французской классификации. Для получения статуса нужно соответствовать 200+ критериям, включая консьержей, говорящих на 3 языках, и цветы в номерах."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Le numéro 13 — суеверие в отелях",
+          "content": "Во многих французских (и европейских) отелях нет... 13-го этажа! Лифт прыгает с 12-го сразу на 14-й. Это связано с широко распространённой трискаидекафобией — страхом числа 13. Во Франции пятница 13-го (vendredi 13) считается, напротив, удачным днём — противоположность английскому суеверию. А вот число 13 в нумерации комнат многие отели избегают по сей день."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Bon séjour !",
+          "pronunciation": "Бон сэжур",
+          "translation": "Хорошего пребывания!",
+          "usage": "Говорится гостю при заселении в отель или когда кто-то приезжает в город. Ответ: «Merci !». Можно также сказать «Bienvenue !» (добро пожаловать) при встрече.",
+          "example": "— Voici votre clé, chambre 204. Bon séjour ! — Merci beaucoup ! (Вот ваш ключ, номер 204. Хорошего пребывания! — Большое спасибо!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Cannes — Festival et glamour",
+          "subtitle": "Канны — столица кинофестиваля",
+          "content": "Канны — небольшой город на Лазурном берегу (75 000 жителей), известный на весь мир благодаря Каннскому кинофестивалю (Festival de Cannes), проводимому ежегодно в мае с 1946 года. Главная награда — «Золотая пальмовая ветвь» (Palme d'Or). Роскошные отели Карлтон и Мартинес на Бульваре Круазет принимают кинозвёзд мирового уровня. В не-фестивальное время Канны — спокойный курорт с песчаными пляжами и яхтенным портом."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как вежливо попросить номер в отеле?",
+          "opts": ["Je veux une chambre", "Je voudrais une chambre", "Donnez-moi une chambre", "Je prends une chambre"],
+          "ans": 1,
+          "exp": "«Je voudrais» (conditionnel) = вежливая форма. «Je veux» звучит резко. В сфере обслуживания всегда используйте conditionnel."
+        },
+        {
+          "q": "Что означает «le petit-déjeuner est compris» ?",
+          "opts": ["Завтрак не включён", "Завтрак маленький", "Завтрак включён в цену", "Завтрак дополнительно"],
+          "ans": 2,
+          "exp": "Compris = включено (в цену). Le petit-déjeuner est compris = завтрак включён в стоимость проживания."
+        },
+        {
+          "q": "Что такое «l'étage» ?",
+          "opts": ["лифт", "этаж", "лестница", "номер комнаты"],
+          "ans": 1,
+          "exp": "L'étage = этаж. В France «rez-de-chaussée» (РДК) = 1-й этаж (нулевой). «Premier étage» = 2-й этаж по-нашему!"
+        },
+        {
+          "q": "Кто открыл знаменитый Ritz Paris в 1898 году?",
+          "opts": ["Наполеон Бонапарт", "Коко Шанель", "Сезар Ритц", "Огюст Эскофье"],
+          "ans": 2,
+          "exp": "César Ritz открыл Ritz Paris на Вандомской площади в 1898 году. Слово «ritzy» (шикарный) произошло от его имени."
+        },
+        {
+          "q": "Как спросить «есть ли у вас свободный номер?»",
+          "opts": ["Avez-vous une chambre libre ?", "Je voudrais une chambre libre", "Où est la chambre libre ?", "La chambre est libre ?"],
+          "ans": 0,
+          "exp": "Avez-vous une chambre libre ? = вопросительная форма с «avoir». Libre = свободный, незанятый."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "S'orienter en Ville",
+      "titleRu": "Ориентирование в городе",
+      "level": "A1",
+      "grammar": {
+        "title": "Les prépositions de lieu",
+        "titleRu": "Предлоги места",
+        "intro": "Чтобы объяснять и понимать дорогу, нужно знать предлоги места. Во французском они используются с артиклями, что создаёт слияния (contractions).",
+        "sections": [
+          {
+            "title": "Предлоги положения",
+            "content": "devant — перед (devant la gare = перед вокзалом)\nderrière — за, позади\nà côté de — рядом с\nen face de — напротив\nprès de — недалеко от\nloin de — далеко от\nentre ... et ... — между ... и ..."
+          },
+          {
+            "title": "Contractions (слияния)",
+            "content": "à + le = au: au coin de la rue (на углу улицы)\nà + les = aux: aux feux (на светофоре)\nde + le = du: du centre-ville (от центра)\nde + les = des: des Champs-Élysées\n\n⚠️ à la, à l', de la, de l' — без слияния!"
+          },
+          {
+            "title": "Donner une direction — объяснить дорогу",
+            "content": "Tournez à gauche. — Поверните налево.\nTournez à droite. — Поверните направо.\nAllez tout droit. — Идите прямо.\nPrenez la première rue à gauche. — Возьмите первую улицу налево.\nC'est à 200 mètres. — Это в 200 метрах.\nC'est au coin. — Это на углу."
+          }
+        ],
+        "rule": "💡 Главные направления: tout droit (прямо), à gauche (налево), à droite (направо), en face (напротив). Связка: «Vous allez tout droit, puis vous tournez à gauche» — идёте прямо, потом поворачиваете налево."
+      },
+      "pronunciation": {
+        "intro": "Слова для ориентирования в городе — тренируем связки и носовые!",
+        "note": "⚠️ «gauche» произносится «гош» — 'au' = 'о'. «droite» = «друат» — 'oi' = 'уа', 't' в конце не читается.",
+        "words": [
+          { "fr": "à gauche", "ru_pron": "а гош", "meaning": "налево, слева" },
+          { "fr": "à droite", "ru_pron": "а друат", "meaning": "направо, справа" },
+          { "fr": "tout droit", "ru_pron": "ту друа", "meaning": "прямо (t не читается)" },
+          { "fr": "en face de", "ru_pron": "ан фас дё", "meaning": "напротив" },
+          { "fr": "la rue", "ru_pron": "ля рю", "meaning": "улица" },
+          { "fr": "le carrefour", "ru_pron": "лё карфур", "meaning": "перекрёсток" },
+          { "fr": "le feu", "ru_pron": "лё фё", "meaning": "светофор" },
+          { "fr": "le pont", "ru_pron": "лё пон", "meaning": "мост (t не читается)" },
+          { "fr": "la place", "ru_pron": "ля плас", "meaning": "площадь" },
+          { "fr": "le quartier", "ru_pron": "лё картьэ", "meaning": "квартал, район" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la rue", "gender": "f", "ru": "улица", "ru_pron": "ля рю", "example_fr": "La rue de Rivoli est très connue.", "example_ru": "Улица Риволи очень известна.", "level": "A1" },
+        { "fr": "l'avenue", "gender": "f", "ru": "авеню, проспект", "ru_pron": "л'авеню", "example_fr": "L'avenue des Champs-Élysées est magnifique.", "example_ru": "Авеню Елисейских Полей великолепно.", "level": "A1" },
+        { "fr": "le carrefour", "gender": "m", "ru": "перекрёсток", "ru_pron": "лё карфур", "example_fr": "Tournez au carrefour.", "example_ru": "Поверните на перекрёстке.", "level": "A1" },
+        { "fr": "le pont", "gender": "m", "ru": "мост", "ru_pron": "лё пон", "example_fr": "Le Pont-Neuf est le plus vieux pont de Paris.", "example_ru": "Пон-Неф — самый старый мост Парижа.", "level": "A1" },
+        { "fr": "la place", "gender": "f", "ru": "площадь", "ru_pron": "ля плас", "example_fr": "La place de la République est grande.", "example_ru": "Площадь Республики большая.", "level": "A1" },
+        { "fr": "le quartier", "gender": "m", "ru": "квартал, район", "ru_pron": "лё картьэ", "example_fr": "Le quartier Montmartre est artistique.", "example_ru": "Квартал Монмартр — художественный.", "level": "A1" },
+        { "fr": "tout droit", "gender": null, "ru": "прямо", "ru_pron": "ту друа", "example_fr": "Allez tout droit pendant 200 mètres.", "example_ru": "Идите прямо 200 метров.", "level": "A1" },
+        { "fr": "à gauche", "gender": null, "ru": "налево, слева", "ru_pron": "а гош", "example_fr": "Tournez à gauche après le feu.", "example_ru": "Поверните налево после светофора.", "level": "A1" },
+        { "fr": "à droite", "gender": null, "ru": "направо, справа", "ru_pron": "а друат", "example_fr": "La boulangerie est à droite.", "example_ru": "Булочная справа.", "level": "A1" },
+        { "fr": "excusez-moi", "gender": null, "ru": "извините (вежл.)", "ru_pron": "экскюзэ муа", "example_fr": "Excusez-moi, où est la gare ?", "example_ru": "Извините, где вокзал?", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "l'avenue", "fr_pron": "л'авеню", "ru": "авеню", "ru_pron": "авеню", "note": "Французское слово, вошедшее во многие языки без изменений. В России авеню встречается в названиях торговых центров и улиц." },
+        { "fr": "le carrefour", "fr_pron": "лё карфур", "ru": "Carrefour (карфур)", "ru_pron": "карфур", "note": "Известен как название французской сети гипермаркетов Carrefour — но буквально это слово означает «перекрёсток»." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Eugène Haussmann (1809–1891)",
+          "subtitle": "L'homme qui a redessiné Paris",
+          "content": "Барон Жорж-Эжен Осман — префект Сены при Наполеоне III, перестроивший Париж в 1853–1870 годах. Именно он проложил широкие бульвары (boulevards), создал систему канализации и водопровода, разбил парки Булонский лес и Венсенский лес. До Османа Париж был лабиринтом средневековых улочек. Реформа снесла 12 000 домов и переселила 350 000 парижан. Критики обвиняли его в уничтожении «старого Парижа», но именно он создал тот Париж с широкими проспектами, которым мы восхищаемся сегодня."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Les arrondissements de Paris — карта города",
+          "content": "Париж разделён на 20 округов (arrondissements), расположенных по спирали от центра. Нумерация начинается с острова Сите (1-й) и закручивается по часовой стрелке. 1–4-й округа — исторический центр. 5-й — Латинский квартал (студенты). 8-й — Елисейские Поля и роскошные магазины. 18-й — Монмартр. 16-й — самый богатый буржуазный квартал. Парижане всегда спрашивают: «Ты живёшь в каком районе?» — это важная часть парижской идентичности."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Le Pont des Arts — мост влюблённых",
+          "content": "Пон-де-Зар (Pont des Arts) — пешеходный мост через Сену, ставший символом любви: влюблённые вешали на его перила замки с именами и бросали ключи в реку. К 2015 году замков было так много (700 000!), что часть перил обрушилась под их весом — более 45 тонн металла. Замки убрали и заменили перила на стеклянные панели. Традиция была красивой, но разрушительной для исторического памятника."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Je suis perdu(e) !",
+          "pronunciation": "Жё сюи пэрдю",
+          "translation": "Я заблудился / заблудилась!",
+          "usage": "Perdu(e) = потерявшийся. Используйте с «excusez-moi» для вежливой просьбы о помощи. Полная фраза: «Excusez-moi, je suis perdu(e). Pouvez-vous m'aider ?» — Извините, я заблудился. Можете помочь?",
+          "example": "— Excusez-moi, je suis perdu. Où est le Louvre ? (Извините, я заблудился. Где Лувр?)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Montmartre — La Butte des artistes",
+          "subtitle": "Монмартр — холм художников",
+          "content": "Монмартр — один из самых очаровательных кварталов Парижа, расположенный на холме в 18-м округе. Здесь жили и работали Пикассо, Ван Гог, Модильяни и Тулуз-Лотрек. На вершине холма стоит базилика Сакре-Кёр (1914), видная из многих точек Парижа. Площадь Тертр (Place du Tertre) — традиционное место уличных художников. Монмартр сохранил облик деревни: узкие мощёные улочки, виноградник (один из немногих в Париже) и атмосферу богемной жизни начала XX века."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «идите прямо» по-французски?",
+          "opts": ["Allez à gauche", "Tournez à droite", "Allez tout droit", "Prenez à gauche"],
+          "ans": 2,
+          "exp": "Tout droit = прямо. Allez tout droit = идите прямо. Запомните: gauche = лево, droite = право, droit = прямо."
+        },
+        {
+          "q": "Что означает «à côté de» ?",
+          "opts": ["напротив", "рядом с", "далеко от", "позади"],
+          "ans": 1,
+          "exp": "À côté de = рядом с. En face de = напротив. Derrière = позади. Loin de = далеко от."
+        },
+        {
+          "q": "Кто перестроил Париж, создав широкие бульвары?",
+          "opts": ["Наполеон I", "Барон Осман", "Гюстав Эйфель", "Луи XIV"],
+          "ans": 1,
+          "exp": "Барон Осман (Haussmann) при Наполеоне III (1853–1870) перестроил Париж: широкие бульвары, канализация, парки."
+        },
+        {
+          "q": "Что такое «l'arrondissement» ?",
+          "opts": ["перекрёсток", "площадь", "округ / район Парижа", "мост"],
+          "ans": 2,
+          "exp": "L'arrondissement = округ города. В Париже 20 округов, расположенных по спирали от центра."
+        },
+        {
+          "q": "Как вежливо спросить дорогу?",
+          "opts": ["Où est la gare ?", "Excusez-moi, où est la gare ?", "La gare est où ?", "Dites-moi la gare"],
+          "ans": 1,
+          "exp": "Всегда начинайте с «Excusez-moi» (извините). Это обязательная вежливость в Париже!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Acheter un Billet",
+      "titleRu": "Покупка билета",
+      "level": "A1",
+      "grammar": {
+        "title": "Les questions pratiques",
+        "titleRu": "Практические вопросы",
+        "intro": "В кассе и транспорте вам нужны практические вопросы и ответы. Во французском есть три способа задавать вопросы — выбирайте по ситуации!",
+        "sections": [
+          {
+            "title": "Три типа вопросов",
+            "content": "1. ВОПРОСИТЕЛЬНАЯ ИНТОНАЦИЯ (неформально):\nVous avez un billet ? → Vous avez un billet ?\n\n2. EST-CE QUE (нейтрально):\nEst-ce qu'il reste des places ? (Остались ли места?)\n\n3. ИНВЕРСИЯ (формально):\nAvez-vous un billet de première classe ?\nÀ quelle heure part le train ?"
+          },
+          {
+            "title": "Вопросительные слова",
+            "content": "Quand ? — Когда?\nÀ quelle heure ? — В котором часу?\nCombien ? / Combien ça coûte ? — Сколько / Сколько стоит?\nQuel(le) ? — Какой/какая?\nOù ? — Где?\nComment ? — Как? / Что вы сказали?"
+          },
+          {
+            "title": "À la gare — на вокзале",
+            "content": "Un aller simple — билет в одну сторону\nUn aller-retour — билет туда-обратно\nEn première classe — в первом классе\nEn seconde classe — во втором классе\nLe tarif réduit — льготный тариф\nPlein tarif — полная цена"
+          }
+        ],
+        "rule": "💡 Ключевые фразы у кассы: «Je voudrais un aller-retour Paris-Lyon, s'il vous plaît.» — Один билет туда-обратно Париж-Лион, пожалуйста. Всегда добавляйте «s'il vous plaît» в конце!"
+      },
+      "pronunciation": {
+        "intro": "Слова кассы и покупки билетов — обратите внимание на liaisons!",
+        "note": "⚠️ «aller» = «алэ», не «алле»! «Retour» = «рётур» — носовое 'ou'. «Quai» = «кэ» — 'ai' читается как «э».",
+        "words": [
+          { "fr": "un aller simple", "ru_pron": "ён алэ сэнпль", "meaning": "билет в одну сторону" },
+          { "fr": "un aller-retour", "ru_pron": "ён алэ-рётур", "meaning": "билет туда-обратно" },
+          { "fr": "la première classe", "ru_pron": "ля прёмьер клас", "meaning": "первый класс" },
+          { "fr": "combien", "ru_pron": "комбьэн", "meaning": "сколько?" },
+          { "fr": "s'il vous plaît", "ru_pron": "силь ву плэ", "meaning": "пожалуйста" },
+          { "fr": "la monnaie", "ru_pron": "ля монэ", "meaning": "сдача, мелочь" },
+          { "fr": "valable", "ru_pron": "валабль", "meaning": "действительный" },
+          { "fr": "composter", "ru_pron": "компостэ", "meaning": "компостировать (билет)" },
+          { "fr": "réserver", "ru_pron": "рэзэрвэ", "meaning": "бронировать, резервировать" },
+          { "fr": "le tarif", "ru_pron": "лё тариф", "meaning": "тариф, цена" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'aller simple", "gender": "m", "ru": "билет в одну сторону", "ru_pron": "л'алэ сэнпль", "example_fr": "Je prends un aller simple pour Lyon.", "example_ru": "Беру билет в одну сторону до Лиона.", "level": "A1" },
+        { "fr": "l'aller-retour", "gender": "m", "ru": "билет туда-обратно", "ru_pron": "л'алэ-рётур", "example_fr": "Un aller-retour Paris-Bordeaux, s'il vous plaît.", "example_ru": "Один билет туда-обратно Париж-Бордо, пожалуйста.", "level": "A1" },
+        { "fr": "la place", "gender": "f", "ru": "место (в транспорте)", "ru_pron": "ля плас", "example_fr": "Est-ce qu'il reste des places ?", "example_ru": "Остались ли места?", "level": "A1", "meaning_double": "la place = место в транспорте ET la place = площадь (площадь города)" },
+        { "fr": "composter", "gender": null, "ru": "компостировать (пробить билет)", "ru_pron": "компостэ", "example_fr": "N'oubliez pas de composter votre billet !", "example_ru": "Не забудьте прокомпостировать билет!", "level": "A1" },
+        { "fr": "valable", "gender": null, "ru": "действительный, действующий", "ru_pron": "валабль", "example_fr": "Ce billet est valable 24 heures.", "example_ru": "Этот билет действителен 24 часа.", "level": "A1" },
+        { "fr": "la monnaie", "gender": "f", "ru": "сдача, мелочь, монеты", "ru_pron": "ля монэ", "example_fr": "Avez-vous de la monnaie ?", "example_ru": "У вас есть сдача / мелочь?", "level": "A1" },
+        { "fr": "le tarif", "gender": "m", "ru": "тариф, цена", "ru_pron": "лё тариф", "example_fr": "Quel est le tarif réduit ?", "example_ru": "Какова льготная цена?", "level": "A1" },
+        { "fr": "plein tarif", "gender": "m", "ru": "полная цена (без скидки)", "ru_pron": "плэн тариф", "example_fr": "Les adultes paient plein tarif.", "example_ru": "Взрослые платят полную цену.", "level": "A1" },
+        { "fr": "la réduction", "gender": "f", "ru": "скидка", "ru_pron": "ля рэдюксьон", "example_fr": "Y a-t-il une réduction pour étudiants ?", "example_ru": "Есть ли скидка для студентов?", "level": "A1" },
+        { "fr": "la correspondance", "gender": "f", "ru": "пересадка, стыковка", "ru_pron": "ля корэспондАнс", "example_fr": "Je dois faire une correspondance à Lyon.", "example_ru": "Мне нужно сделать пересадку в Лионе.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le tarif", "fr_pron": "лё тариф", "ru": "тариф", "ru_pron": "тариф", "note": "Слово пришло в европейские языки из арабского «ta'rifa» (уведомление о цене). Практически одинаково в большинстве языков." },
+        { "fr": "la réservation", "fr_pron": "ля рэзэрвасьон", "ru": "резервация", "ru_pron": "резервация", "note": "От латинского «reservare». Этот глагол используется буквально во всех европейских языках при покупке билетов и бронировании." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Jules Verne (1828–1905)",
+          "subtitle": "Le père de la science-fiction",
+          "content": "Жюль Верн — французский писатель, «отец научной фантастики». Его романы «80 дней вокруг света» (Le Tour du monde en quatre-vingts jours, 1872), «Путешествие к центру Земли» и «20 000 лье под водой» предсказали многие изобретения: подводные лодки, самолёты, телевидение. Верн написал 54 романа, объединённых в серию «Необычные путешествия» (Voyages extraordinaires). Его книги переведены на 148 языков — он второй самый переводимый автор в мире после Агаты Кристи."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "L'Eurotunnel — под Ла-Маншем (1994)",
+          "content": "В 1994 году открылся Евротоннель (Channel Tunnel / Eurotunnel) — подводный тоннель под Ла-Маншем протяжённостью 50 км (из них 38 км — под водой). Поезд Eurostar связывает Париж и Лондон всего за 2 часа 15 минут! Тоннель состоит из двух железнодорожных и одного сервисного тоннелей. Проект обошёлся в 15 миллиардов долларов — вдвое больше запланированного. Это инженерное чудо стало символом сближения Великобритании и континентальной Европы."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Composter son billet — не забудьте!",
+          "content": "Во Франции существует обязательная процедура компостирования (compostage) билетов перед посадкой в региональные поезда и трамваи. Жёлтые или оранжевые автоматы на перроне пробивают дату и время на билете. Если вы не прокомпостировали билет и контролёр его проверит — штраф! Многие туристы попадаются на этом. Памятка: перед посадкой всегда ищите компостер на платформе. В TGV и Eurostar компостирование не нужно."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "C'est combien ?",
+          "pronunciation": "Сэ комбьэн",
+          "translation": "Сколько это стоит?",
+          "usage": "Самый практичный вопрос в путешествии. Синонимы: «Combien ça coûte ?» (сколько стоит?) или «Quel est le prix ?» (какова цена?). На рынках, в кассах, в магазинах.",
+          "example": "— Un aller-retour pour Marseille, s'il vous plaît. — 78 euros. — C'est combien avec la réduction étudiant ? (Билет туда-обратно до Марселя, пожалуйста. — 78 евро. — Сколько со студенческой скидкой?)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Bordeaux — Capitale du vin",
+          "subtitle": "Бордо — столица вина и архитектуры",
+          "content": "Бордо — крупный портовый город на юго-западе Франции (250 000 жителей), знаменитый прежде всего своими винами: Médoc, Saint-Émilion, Pomerol. Исторический центр Бордо внесён в список Всемирного наследия ЮНЕСКО (2007) как «Порт Луны». Площадь Биржи (Place de la Bourse) с Водяным зеркалом — одна из красивейших в мире. TGV связывает Бордо с Парижем всего за 2 часа (раньше было 3 часа 30 минут)."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Что означает «un aller-retour» ?",
+          "opts": ["билет в одну сторону", "билет туда-обратно", "пересадка", "возврат билета"],
+          "ans": 1,
+          "exp": "Aller-retour = туда и обратно. Aller simple = только в одну сторону. «Retour» = возвращение."
+        },
+        {
+          "q": "Что нужно обязательно сделать с билетом перед посадкой в региональный поезд?",
+          "opts": ["показать паспорт", "оплатить онлайн", "прокомпостировать (composter)", "распечатать"],
+          "ans": 2,
+          "exp": "Composter = пробить/прокомпостировать. Жёлтые автоматы на перроне. Не забудете — получите штраф!"
+        },
+        {
+          "q": "Как спросить «сколько стоит?»",
+          "opts": ["Qu'est-ce que c'est ?", "C'est combien ?", "Où est la caisse ?", "Il y a quoi ?"],
+          "ans": 1,
+          "exp": "C'est combien ? / Combien ça coûte ? = сколько стоит? Очень практичная фраза для туриста."
+        },
+        {
+          "q": "Кто написал «80 дней вокруг света»?",
+          "opts": ["Victor Hugo", "Émile Zola", "Jules Verne", "Guy de Maupassant"],
+          "ans": 2,
+          "exp": "Jules Verne — «отец научной фантастики». «Le Tour du monde en quatre-vingts jours» (1872) — один из его шедевров."
+        },
+        {
+          "q": "Что такое «la correspondance» в контексте транспорта?",
+          "opts": ["письмо", "пересадка", "расписание", "билет"],
+          "ans": 1,
+          "exp": "La correspondance = пересадка, стыковка. «Faire une correspondance» = делать пересадку. Также: «correspondre» в переписке = переписываться."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Le Logement en Voyage",
+      "titleRu": "Жильё в путешествии",
+      "level": "A1",
+      "grammar": {
+        "title": "Il y a / Il n'y a pas de",
+        "titleRu": "Есть / нет (наличие)",
+        "intro": "Конструкция «il y a» (буквально: «там есть») — одна из самых важных во французском. Она выражает наличие чего-либо и используется в утвердительных, отрицательных и вопросительных предложениях.",
+        "sections": [
+          {
+            "title": "Il y a + неопределённый артикль",
+            "content": "Il y a un restaurant. — Есть ресторан.\nIl y a une piscine. — Есть бассейн.\nIl y a des chambres libres. — Есть свободные номера.\n\n⚠️ Il y a ВСЕГДА в единственном числе: il y a (не *ils y a)!"
+          },
+          {
+            "title": "Отрицание: Il n'y a pas de",
+            "content": "Il n'y a pas de restaurant. — Нет ресторана.\nIl n'y a pas de chambres libres. — Нет свободных номеров.\nIl n'y a pas d'ascenseur. — Нет лифта.\n\n⚠️ После «pas de» артикль всегда «de» (или «d'» перед гласной)!"
+          },
+          {
+            "title": "Вопрос: Est-ce qu'il y a... ?",
+            "content": "Est-ce qu'il y a une piscine ? — Есть ли бассейн?\nY a-t-il le Wi-Fi ? — Есть ли Wi-Fi? (формально)\nIl y a un parking ? — Есть парковка? (неформально)\n\nОтвет: Oui, il y a... / Non, il n'y a pas de..."
+          }
+        ],
+        "rule": "💡 «Il y a» = есть (наличие). «Il n'y a pas de» = нет (отсутствие). Простые и мощные конструкции для описания того, что есть или чего нет в гостинице, квартире или городе!"
+      },
+      "pronunciation": {
+        "intro": "Слова для описания жилья и его удобств:",
+        "note": "⚠️ «Il y a» произносится как одно слово: «иль-я» или в беглой речи «ия». «Piscine» = «писин» — два 'i', оба читаются.",
+        "words": [
+          { "fr": "la piscine", "ru_pron": "ля писин", "meaning": "бассейн" },
+          { "fr": "le balcon", "ru_pron": "лё балкон", "meaning": "балкон (носовое 'on')" },
+          { "fr": "la vue", "ru_pron": "ля вю", "meaning": "вид (из окна)" },
+          { "fr": "l'appartement", "ru_pron": "л'апартёман", "meaning": "квартира, апартаменты" },
+          { "fr": "le loyer", "ru_pron": "лё луаяэ", "meaning": "аренда, плата за жильё" },
+          { "fr": "meublé", "ru_pron": "мёблэ", "meaning": "меблированный" },
+          { "fr": "le quartier", "ru_pron": "лё картьэ", "meaning": "район, квартал" },
+          { "fr": "le wifi", "ru_pron": "лё вифи", "meaning": "Wi-Fi" },
+          { "fr": "la climatisation", "ru_pron": "ля климатизасьон", "meaning": "кондиционер, кондиционирование" },
+          { "fr": "inclus(e)", "ru_pron": "эклю", "meaning": "включённый (в цену)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "l'appartement", "gender": "m", "ru": "квартира, апартаменты", "ru_pron": "л'апартёман", "example_fr": "Je loue un appartement à Paris.", "example_ru": "Я снимаю квартиру в Париже.", "level": "A1" },
+        { "fr": "la piscine", "gender": "f", "ru": "бассейн", "ru_pron": "ля писин", "example_fr": "L'hôtel a une piscine chauffée.", "example_ru": "В отеле есть отапливаемый бассейн.", "level": "A1" },
+        { "fr": "le balcon", "gender": "m", "ru": "балкон", "ru_pron": "лё балкон", "example_fr": "Ma chambre a un balcon avec vue sur la mer.", "example_ru": "В моём номере есть балкон с видом на море.", "level": "A1" },
+        { "fr": "la vue", "gender": "f", "ru": "вид (из окна)", "ru_pron": "ля вю", "example_fr": "Quelle belle vue sur la Tour Eiffel !", "example_ru": "Какой прекрасный вид на Эйфелеву башню!", "level": "A1" },
+        { "fr": "meublé(e)", "gender": null, "ru": "меблированный", "ru_pron": "мёблэ", "example_fr": "Je cherche un appartement meublé.", "example_ru": "Я ищу меблированную квартиру.", "level": "A1" },
+        { "fr": "le loyer", "gender": "m", "ru": "арендная плата, аренда", "ru_pron": "лё луаяэ", "example_fr": "Le loyer est de 800 euros par mois.", "example_ru": "Аренда составляет 800 евро в месяц.", "level": "A1" },
+        { "fr": "inclus(e)", "gender": null, "ru": "включённый, включено", "ru_pron": "эклю", "example_fr": "Les charges sont incluses.", "example_ru": "Коммунальные расходы включены.", "level": "A1" },
+        { "fr": "la chambre d'hôtes", "gender": "f", "ru": "гостевая комната (bed & breakfast)", "ru_pron": "ля шамбр д'от", "example_fr": "Nous préférons les chambres d'hôtes aux hôtels.", "example_ru": "Мы предпочитаем гестхаус отелям.", "level": "A1" },
+        { "fr": "l'auberge de jeunesse", "gender": "f", "ru": "молодёжный хостел", "ru_pron": "л'обэрж дё жёнэс", "example_fr": "L'auberge de jeunesse est moins chère.", "example_ru": "Хостел дешевле.", "level": "A1" },
+        { "fr": "louer", "gender": null, "ru": "арендовать, снимать", "ru_pron": "луэ", "example_fr": "Je loue une voiture pour le week-end.", "example_ru": "Я арендую машину на выходные.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "l'appartement", "fr_pron": "л'апартёман", "ru": "апартаменты", "ru_pron": "апартаменты", "note": "Русское «апартаменты» — прямое заимствование из французского. Хотя во французском appartement = обычная квартира, в русском это слово приобрело значение «люкс»." },
+        { "fr": "la climatisation", "fr_pron": "ля климатизасьон", "ru": "климатизация, климатика", "ru_pron": "климат", "note": "От французского «climat» (климат). Французское «climatisation» = кондиционирование воздуха. Корень «climat» узнаваем в обоих языках." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Brian Chesky (né 1981) & Airbnb",
+          "subtitle": "La révolution de l'hébergement",
+          "content": "Хотя Airbnb — американская компания (основана в 2008 году), именно Франция стала второй страной по числу объявлений. Париж — самый популярный город Airbnb в мире: более 65 000 объявлений. Феномен Airbnb изменил туризм во Франции: туристы теперь живут «как местные» в аутентичных parisian apartments. Французское правительство активно регулирует рынок — хозяева обязаны регистрировать свои жилища и платить налоги. «Airbnb effect» породил дискуссию о повышении арендных цен в Париже."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Les auberges de jeunesse — история хостелов",
+          "content": "Первые молодёжные хостелы (auberges de jeunesse) появились в Германии в 1914 году, но именно во Франции это движение расцвело в 1930-х при Народном фронте. Правительство Леона Блюма в 1936 году ввело оплачиваемые отпуска для рабочих (congés payés) — впервые в истории простые люди смогли путешествовать. Хостелы сделали путешествия доступными для молодёжи. Сеть FUAJ (Fédération Unie des Auberges de Jeunesse) насчитывает сегодня 100+ хостелов по всей Франции."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Les congés payés — оплачиваемый отпуск",
+          "content": "В 1936 году Франция стала одной из первых стран мира, законодательно закрепивших оплачиваемые отпуска (congés payés) — 2 недели для всех работников. Сегодня французский закон гарантирует 5 недель оплачиваемого отпуска в год — один из самых щедрых показателей в мире. Именно поэтому французы — заядлые путешественники: август традиционно «мёртвый месяц» в городах, когда все уезжают на vacances (каникулы). «Partir en vacances» — национальная традиция!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Il n'y a plus de place !",
+          "pronunciation": "Иль нья плю дё плас",
+          "translation": "Мест больше нет!",
+          "usage": "«Plus de» = больше нет (полное отрицание количества). «Il n'y a plus de...» = больше нет... Часто слышится в кассах, отелях и ресторанах в сезон пик.",
+          "example": "— Avez-vous une chambre libre ? — Désolé, il n'y a plus de chambres. (Есть ли свободный номер? — Сожалею, мест больше нет.)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Bretagne — La région des légendes",
+          "subtitle": "Бретань — земля легенд и кельтских традиций",
+          "content": "Бретань — полуостров на северо-западе Франции, омываемый Атлантическим океаном. Это единственный регион Франции с собственным кельтским языком — бретонским (breton), родственным валлийскому. Здесь находятся знаменитые мегалиты Карнака (5 000 лет!) — самый большой мегалитический комплекс в мире. Бретань знаменита блинами (crêpes и galettes), сидром, морепродуктами и суровыми пейзажами. В июле здесь проходит Interceltic Festival — крупнейший кельтский фестиваль Европы."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «в отеле есть бассейн»?",
+          "opts": ["L'hôtel a une piscine", "Il y a une piscine à l'hôtel", "Il y a pas de piscine", "Il n'y a piscine"],
+          "ans": 1,
+          "exp": "«Il y a une piscine» = есть бассейн. Обе формы (il y a / avoir) верны, но «il y a» — наиболее универсальная конструкция."
+        },
+        {
+          "q": "Как сказать «нет парковки»?",
+          "opts": ["Il y a pas parking", "Il n'y a pas de parking", "Il y a pas un parking", "Il n'y a parking"],
+          "ans": 1,
+          "exp": "Il n'y a pas DE parking. После «pas de» всегда «de» без артикля!"
+        },
+        {
+          "q": "Что означает «louer un appartement» ?",
+          "opts": ["купить квартиру", "продать квартиру", "снять/арендовать квартиру", "ремонтировать квартиру"],
+          "ans": 2,
+          "exp": "Louer = арендовать, снимать (или сдавать). «Je loue» может значить и «я снимаю», и «я сдаю» — в зависимости от контекста."
+        },
+        {
+          "q": "В каком году Франция ввела оплачиваемые отпуска?",
+          "opts": ["1900", "1920", "1936", "1945"],
+          "ans": 2,
+          "exp": "Congés payés = 1936, Народный фронт, правительство Леона Блюма. Сегодня французы имеют 5 недель оплачиваемого отпуска."
+        },
+        {
+          "q": "Что такое «une chambre d'hôtes» ?",
+          "opts": ["номер в отеле", "гостевая комната / B&B", "хостел", "студия"],
+          "ans": 1,
+          "exp": "Chambre d'hôtes = гостевая комната в частном доме, bed & breakfast. Популярный вид жилья во французской провинции."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "La Météo et les Saisons",
+      "titleRu": "Погода и времена года",
+      "level": "A1",
+      "grammar": {
+        "title": "Il fait... / Il y a... — la météo",
+        "titleRu": "Описание погоды",
+        "intro": "Для описания погоды французский использует безличные конструкции с «il» (оно/там). Это безличное «il» не относится ни к какому существу — просто стандартная форма для погодных описаний.",
+        "sections": [
+          {
+            "title": "Il fait + прилагательное",
+            "content": "Il fait beau. — Хорошая погода. (солнечно)\nIl fait mauvais. — Плохая погода.\nIl fait chaud. — Жарко.\nIl fait froid. — Холодно.\nIl fait frais. — Прохладно.\nIl fait ... degrés. — ... градусов."
+          },
+          {
+            "title": "Il y a + существительное",
+            "content": "Il y a du soleil. — Солнечно.\nIl y a du vent. — Ветрено.\nIl y a des nuages. — Облачно.\nIl y a du brouillard. — Туман.\nIl y a de l'orage. — Гроза."
+          },
+          {
+            "title": "Глаголы погоды",
+            "content": "Il pleut. — Идёт дождь.\nIl neige. — Идёт снег.\nIl gèle. — Мороз (замерзает).\nIl grêle. — Идёт град.\n\nLes saisons: le printemps (весна), l'été (лето), l'automne (осень), l'hiver (зима)."
+          }
+        ],
+        "rule": "💡 Il fait + прилагательное (beau, chaud, froid). Il y a + существительное (du soleil, du vent). Il + глагол погоды (pleut, neige, gèle). Три разные конструкции для одной темы!"
+      },
+      "pronunciation": {
+        "intro": "Слова о погоде — обратите внимание на носовые и немые буквы!",
+        "note": "⚠️ «Printemps» = «прэнтан» — финальное 's' не читается. «Automne» = «отон» — конечное 'ne' почти не слышно.",
+        "words": [
+          { "fr": "il pleut", "ru_pron": "иль плё", "meaning": "идёт дождь (infinitif: pleuvoir)" },
+          { "fr": "il neige", "ru_pron": "иль нэж", "meaning": "идёт снег (infinitif: neiger)" },
+          { "fr": "le soleil", "ru_pron": "лё солэй", "meaning": "солнце (finale 'eil' = 'эй')" },
+          { "fr": "le vent", "ru_pron": "лё ван", "meaning": "ветер (носовое 'en' = 'ан')" },
+          { "fr": "le nuage", "ru_pron": "лё нюаж", "meaning": "облако" },
+          { "fr": "la pluie", "ru_pron": "ля плюи", "meaning": "дождь" },
+          { "fr": "la neige", "ru_pron": "ля нэж", "meaning": "снег" },
+          { "fr": "le printemps", "ru_pron": "лё прэнтан", "meaning": "весна (s не читается)" },
+          { "fr": "l'automne", "ru_pron": "л'отон", "meaning": "осень (ne почти не слышно)" },
+          { "fr": "chaud / froid", "ru_pron": "шо / фруа", "meaning": "тёплый / холодный" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la météo", "gender": "f", "ru": "погода, прогноз погоды", "ru_pron": "ля мэтэо", "example_fr": "La météo annonce de la pluie.", "example_ru": "Прогноз обещает дождь.", "level": "A1" },
+        { "fr": "le soleil", "gender": "m", "ru": "солнце", "ru_pron": "лё солэй", "example_fr": "Il y a du soleil aujourd'hui.", "example_ru": "Сегодня солнечно.", "level": "A1" },
+        { "fr": "la pluie", "gender": "f", "ru": "дождь", "ru_pron": "ля плюи", "example_fr": "Je n'aime pas la pluie.", "example_ru": "Я не люблю дождь.", "level": "A1" },
+        { "fr": "la neige", "gender": "f", "ru": "снег", "ru_pron": "ля нэж", "example_fr": "Il y a de la neige en montagne.", "example_ru": "В горах есть снег.", "level": "A1" },
+        { "fr": "le vent", "gender": "m", "ru": "ветер", "ru_pron": "лё ван", "example_fr": "Il y a beaucoup de vent aujourd'hui.", "example_ru": "Сегодня очень ветрено.", "level": "A1" },
+        { "fr": "chaud(e)", "gender": null, "ru": "тёплый, горячий, жарко", "ru_pron": "шо / шод", "example_fr": "Il fait chaud en été.", "example_ru": "Летом жарко.", "level": "A1" },
+        { "fr": "froid(e)", "gender": null, "ru": "холодный, холодно", "ru_pron": "фруа / фруад", "example_fr": "Il fait très froid en hiver.", "example_ru": "Зимой очень холодно.", "level": "A1" },
+        { "fr": "le printemps", "gender": "m", "ru": "весна", "ru_pron": "лё прэнтан", "example_fr": "Le printemps commence en mars.", "example_ru": "Весна начинается в марте.", "level": "A1" },
+        { "fr": "l'été", "gender": "m", "ru": "лето", "ru_pron": "л'этэ", "example_fr": "En été, je vais à la mer.", "example_ru": "Летом я езжу на море.", "level": "A1" },
+        { "fr": "l'hiver", "gender": "m", "ru": "зима", "ru_pron": "л'ивэр", "example_fr": "L'hiver est long en Russie.", "example_ru": "Зима в России долгая.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "la météo", "fr_pron": "ля мэтэо", "ru": "метео, метеорология", "ru_pron": "метео", "note": "Сокращение от «météorologie» — от греческого «meteoros» (небесный). Используется в обоих языках как разговорное обозначение прогноза погоды." },
+        { "fr": "le climat", "fr_pron": "лё клима", "ru": "климат", "ru_pron": "климат", "note": "От греческого «klima» (наклон). Практически одинаково звучит во всех европейских языках." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Claude Monet (1840–1926)",
+          "subtitle": "Le peintre de la lumière et des saisons",
+          "content": "Клод Моне — главный мастер импрессионизма, чьё название течения происходит от его картины «Impression, soleil levant» (1872). Всю жизнь Моне наблюдал за светом и его изменениями в зависимости от времени суток и сезона. Его знаменитые серии — «Стога» (34 полотна), «Руанский собор» (30 полотен) и «Кувшинки» (250 картин!) — документируют, как меняется восприятие объектов при разном освещении. Его сад в Живерни (Giverny) стал источником вдохновения и сегодня принимает 600 000 туристов в год."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le mistral et la tramontane — ветра Франции",
+          "content": "Франция знаменита своими региональными ветрами. Mistral — холодный северный ветер в долине Роны и Провансе, достигающий 100–130 км/ч. Он иссушает и продувает всё насквозь, но зато очищает воздух: именно мистраль делает небо Прованса таким ярким и синим, как у Ван Гога. Tramontane дует в Лангедоке. Эти ветра определяли жизнь южных регионов: архитектуру (узкие окна), посадку деревьев и даже психологию местных жителей."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Août — мёртвый месяц в Париже",
+          "content": "Август (août) во Франции — время всеобщего отъезда в отпуск. Парижские магазины и рестораны закрываются, горожане уезжают на юг, к морю или в деревню. «Paris est désert en août» — Париж пустеет в августе. Туристов много, а парижан почти нет. Эта традиция восходит к введению оплачиваемых отпусков в 1936 году. Август — пик сезона на Лазурном берегу: Ницца, Канны и Сен-Тропе переполнены."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Il fait un temps de chien !",
+          "pronunciation": "Иль фэ ён тан дё шьэн",
+          "translation": "Ужасная погода! (буквально: «собачья погода»)",
+          "usage": "Выражение для очень плохой погоды — дождь, ветер, холод. Русский аналог: «погода — дрянь». Менее экспрессивный вариант: «Il fait mauvais» (плохая погода).",
+          "example": "— Tu vas te promener ? — Non, il fait un temps de chien ! (Пойдёшь гулять? — Нет, погода ужасная!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Provence — Lavande et lumière",
+          "subtitle": "Прованс — лаванда, свет и искусство",
+          "content": "Прованс — один из самых романтичных регионов Франции, вдохновивший Ван Гога, Сезанна и Пикассо. С июня по август поля лаванды в районе Плато Валансоль превращаются в фиолетовое море. Айкс-ан-Прованс — родной город художника Поля Сезанна. Авиньон знаменит средневековым Папским дворцом и театральным фестивалем. Климат Прованса — 300 солнечных дней в году, сухое лето и мягкая зима. «La Provence» буквально означает «Провинция» — так называли эту территорию ещё римляне."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «идёт дождь» по-французски?",
+          "opts": ["Il fait pluie", "Il y a pleut", "Il pleut", "Le temps pleut"],
+          "ans": 2,
+          "exp": "Il pleut = идёт дождь (безличный глагол «pleuvoir»). Аналогично: il neige (снег), il gèle (мороз)."
+        },
+        {
+          "q": "Какой конструкцией описывают «жарко»?",
+          "opts": ["Il y a chaud", "Il fait chaud", "Il est chaud", "C'est chaud"],
+          "ans": 1,
+          "exp": "Il fait chaud = жарко. Il fait froid = холодно. Il fait beau = хорошая погода. «Il fait» + прилагательное для общих погодных условий."
+        },
+        {
+          "q": "Какое время года «l'automne» ?",
+          "opts": ["весна", "лето", "осень", "зима"],
+          "ans": 2,
+          "exp": "L'automne = осень. Le printemps = весна. L'été = лето. L'hiver = зима."
+        },
+        {
+          "q": "Что означает «Il fait un temps de chien» ?",
+          "opts": ["хорошая погода", "жаркий день", "ужасная погода", "снежная погода"],
+          "ans": 2,
+          "exp": "«Temps de chien» = «собачья погода» = ужасная погода. Это идиоматическое выражение для плохой, ненастной погоды."
+        },
+        {
+          "q": "Кто написал «Impression, soleil levant» — картину, давшую название импрессионизму?",
+          "opts": ["Renoir", "Degas", "Claude Monet", "Cézanne"],
+          "ans": 2,
+          "exp": "Claude Monet написал «Impression, soleil levant» в 1872 году. Критик высмеял картину, использовав слово «impression» — так родилось название целого художественного направления."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Commander au Restaurant",
+      "titleRu": "Заказ в ресторане",
+      "level": "A1",
+      "grammar": {
+        "title": "Le futur proche — aller + infinitif",
+        "titleRu": "Ближайшее будущее",
+        "intro": "Для выражения намерения что-то сделать (особенно в ближайшем будущем) французы используют конструкцию «aller + infinitif» — это намного проще, чем настоящее будущее время!",
+        "sections": [
+          {
+            "title": "Aller + infinitif",
+            "content": "Je vais prendre le steak. — Я возьму стейк. (закажу)\nTu vas goûter le fromage ? — Ты попробуешь сыр?\nNous allons partager la bouteille. — Мы разделим бутылку.\nIl va commander le dessert. — Он закажет десерт.\n\n⚠️ «Aller» спрягается, инфинитив остаётся неизменным!"
+          },
+          {
+            "title": "Au restaurant — в ресторане",
+            "content": "Une table pour deux, s'il vous plaît. — Столик на двоих.\nLa carte, s'il vous plaît. — Меню, пожалуйста.\nEst-ce que vous avez le menu du jour ? — Есть ли у вас меню дня?\nJe vais prendre... — Я возьму...\nL'addition, s'il vous plaît. — Счёт, пожалуйста."
+          },
+          {
+            "title": "Partitif — неопределённое количество",
+            "content": "Je voudrais du vin. — Мне вина (немного).\nIl y a de la viande. — Там есть мясо.\nJe prends des légumes. — Я беру овощи.\n\ndu = de + le (м.р.)\nde la (ж.р.)\nde l' (перед гласной)\ndes = de + les (мн.ч.)"
+          }
+        ],
+        "rule": "💡 В ресторане: «La carte, s'il vous plaît» (меню), «Je vais prendre...» (я возьму), «L'addition, s'il vous plaît» (счёт). Три ключевые фразы для любого ресторана!"
+      },
+      "pronunciation": {
+        "intro": "Ресторанная лексика — обратите внимание на слияния и носовые!",
+        "note": "⚠️ «L'addition» = «л'адисьон» — двойное 'd' произносится как одно. «Entrée» = «антрэ» — носовое 'en'.",
+        "words": [
+          { "fr": "la carte", "ru_pron": "ля карт", "meaning": "меню (à la carte = по меню)" },
+          { "fr": "l'addition", "ru_pron": "л'адисьон", "meaning": "счёт (в ресторане)" },
+          { "fr": "l'entrée", "ru_pron": "л'антрэ", "meaning": "первое блюдо / закуска (не вход!)" },
+          { "fr": "le plat principal", "ru_pron": "лё пла прэнсипаль", "meaning": "основное блюдо" },
+          { "fr": "le dessert", "ru_pron": "лё дэсэр", "meaning": "десерт" },
+          { "fr": "commander", "ru_pron": "команде", "meaning": "заказывать" },
+          { "fr": "goûter", "ru_pron": "гутэ", "meaning": "пробовать на вкус" },
+          { "fr": "la bouteille", "ru_pron": "ля бутэй", "meaning": "бутылка" },
+          { "fr": "le pourboire", "ru_pron": "лё пурбуар", "meaning": "чаевые" },
+          { "fr": "réserver", "ru_pron": "рэзэрвэ", "meaning": "бронировать столик" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "la carte", "gender": "f", "ru": "меню", "ru_pron": "ля карт", "example_fr": "La carte, s'il vous plaît !", "example_ru": "Меню, пожалуйста!", "level": "A1", "meaning_double": "la carte = меню ET la carte = карта (géographique) ET carte bancaire (банковская карта)" },
+        { "fr": "l'addition", "gender": "f", "ru": "счёт (в кафе/ресторане)", "ru_pron": "л'адисьон", "example_fr": "L'addition, s'il vous plaît !", "example_ru": "Счёт, пожалуйста!", "level": "A1" },
+        { "fr": "l'entrée", "gender": "f", "ru": "закуска, первое блюдо", "ru_pron": "л'антрэ", "example_fr": "Comme entrée, je prends la soupe.", "example_ru": "В качестве закуски я возьму суп.", "level": "A1", "meaning_double": "l'entrée = закуска (restaurant) ET l'entrée = вход (bâtiment)" },
+        { "fr": "le plat principal", "gender": "m", "ru": "основное блюдо", "ru_pron": "лё пла прэнсипаль", "example_fr": "En plat principal, je voudrais le poulet.", "example_ru": "На основное блюдо я хотел бы курицу.", "level": "A1" },
+        { "fr": "le dessert", "gender": "m", "ru": "десерт", "ru_pron": "лё дэсэр", "example_fr": "Je vais prendre une tarte au citron.", "example_ru": "Я возьму лимонный тарт.", "level": "A1" },
+        { "fr": "commander", "gender": null, "ru": "заказывать", "ru_pron": "команде", "example_fr": "Vous êtes prêts à commander ?", "example_ru": "Вы готовы заказать?", "level": "A1" },
+        { "fr": "le pourboire", "gender": "m", "ru": "чаевые", "ru_pron": "лё пурбуар", "example_fr": "En France, le pourboire n'est pas obligatoire.", "example_ru": "Во Франции чаевые необязательны.", "level": "A1" },
+        { "fr": "le menu du jour", "gender": "m", "ru": "меню дня (бизнес-ланч)", "ru_pron": "лё мёню дю жур", "example_fr": "Le menu du jour coûte 15 euros.", "example_ru": "Бизнес-ланч стоит 15 евро.", "level": "A1" },
+        { "fr": "sans", "gender": null, "ru": "без", "ru_pron": "сан", "example_fr": "Je voudrais un café sans sucre.", "example_ru": "Я хотел бы кофе без сахара.", "level": "A1" },
+        { "fr": "bien cuit / saignant", "gender": null, "ru": "хорошо прожаренный / с кровью", "ru_pron": "бьэн кюи / сэньян", "example_fr": "Je voudrais le steak bien cuit.", "example_ru": "Я хотел бы хорошо прожаренный стейк.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le dessert", "fr_pron": "лё дэсэр", "ru": "десерт", "ru_pron": "десерт", "note": "Прямое заимствование из французского во все европейские языки. От «desservir» — убирать со стола (то, что подают ПОСЛЕ основной еды)." },
+        { "fr": "le restaurant", "fr_pron": "лё рэсторан", "ru": "ресторан", "ru_pron": "ресторан", "note": "От французского «restaurer» (восстанавливать, подкреплять). Первые рестораны появились в Париже в XVIII веке — само слово оттуда." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Auguste Escoffier (1846–1935)",
+          "subtitle": "Le roi des cuisiniers",
+          "content": "Огюст Эскофье — «король поваров и повар королей», реформировавший французскую кухню и ресторанный сервис. Вместе с Сезаром Ритцем он поднял отельную гастрономию на новый уровень в Ritz Paris и Savoy London. Именно Эскофье изобрёл систему brigade de cuisine (кухонная бригада) с чётким разделением функций, которая используется в ресторанах всего мира по сей день. Он создал «Peach Melba» в честь певицы Нелли Мельба и «Tournedos Rossini» в честь композитора. Его книга «Le Guide Culinaire» (1903) — библия французской кухни."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le Guide Michelin — история звёзд (1900)",
+          "content": "Гид Мишлен — самый престижный ресторанный рейтинг мира — был изобретён... шинной компанией! В 1900 году братья Мишлен раздавали путешественникам бесплатные руководства с адресами заправок, шиномонтажей и ресторанов — чтобы люди больше ездили и изнашивали шины. Система звёзд появилась в 1926 году. Три звезды Мишлен — высшая кулинарная награда. Получить или потерять звезду может разрушить или создать карьеру повара. Сегодня Париж — город с наибольшим числом мишленовских ресторанов в мире."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Pourboire — чаевые во Франции",
+          "content": "Во Франции чаевые (pourboire) не обязательны — в отличие от США или России. Это связано с тем, что сервисный сбор (15%) уже включён в счёт по закону («service compris»). Однако французы часто оставляют 1–5% за хорошее обслуживание. Слово «pourboire» буквально означает «для питья» — это деньги, на которые официант мог выпить. В дорогих ресторанах можно оставить 10%. Подсказка туристу: если в счёте написано «service compris» — чаевые уже включены!"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "L'addition, s'il vous plaît !",
+          "pronunciation": "Л'адисьон, силь ву плэ",
+          "translation": "Счёт, пожалуйста!",
+          "usage": "Самая практичная фраза в ресторане. «L'addition» = счёт. Иногда говорят просто «l'addition !» или жестом (рисуют в воздухе воображаемый чек). «Pouvez-vous me faire l'addition ?» — более формальный вариант.",
+          "example": "— Tout s'est bien passé ? — Oui, excellent ! L'addition, s'il vous plaît. (Всё хорошо прошло? — Да, отлично! Счёт, пожалуйста.)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Périgord — Capitale de la gastronomie",
+          "subtitle": "Перигор — страна трюфелей и фуа-гра",
+          "content": "Перигор (Périgord) в регионе Новая Аквитания — гастрономическая Мекка Франции. Здесь производят самые знаменитые деликатесы: foie gras (печень утки или гуся), truffes noires (чёрные трюфели — «чёрное золото»), confit de canard (утиное конфи). Город Сарла-ла-Канеда — один из красивейших средневековых городов Франции. Перигор также знаменит доисторическими пещерами Ласко (Lascaux) с наскальной живописью возрастом 17 000 лет."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как попросить счёт в ресторане?",
+          "opts": ["La carte, s'il vous plaît", "L'addition, s'il vous plaît", "Le menu, s'il vous plaît", "Le pourboire, s'il vous plaît"],
+          "ans": 1,
+          "exp": "L'addition = счёт. La carte = меню. Запомните разницу: в начале просите «la carte», в конце — «l'addition»."
+        },
+        {
+          "q": "Как сказать «я возьму курицу» (будущее намерение)?",
+          "opts": ["Je prends le poulet", "Je voudrais le poulet", "Je vais prendre le poulet", "Je mange le poulet"],
+          "ans": 2,
+          "exp": "Futur proche: aller + infinitif. Je vais prendre = я возьму (выражает намерение). Je prends = беру (настоящее). Je voudrais = хотел бы (желание)."
+        },
+        {
+          "q": "Что такое «le menu du jour» ?",
+          "opts": ["вечернее меню", "меню на неделю", "бизнес-ланч / меню дня", "детское меню"],
+          "ans": 2,
+          "exp": "Le menu du jour = меню дня, бизнес-ланч. Обычно включает entrée + plat + dessert по фиксированной цене. Выгодно!"
+        },
+        {
+          "q": "Что изобрёл Огюст Эскофье?",
+          "opts": ["Guide Michelin", "Système de brigade de cuisine", "Champagne", "Baguette"],
+          "ans": 1,
+          "exp": "Auguste Escoffier изобрёл système de brigade de cuisine — кухонную бригаду с чётким разделением ролей. Используется во всех ресторанах мира."
+        },
+        {
+          "q": "Как будет «service compris» по-русски?",
+          "opts": ["обслуживание бесплатно", "обслуживание не включено", "обслуживание включено", "чаевые обязательны"],
+          "ans": 2,
+          "exp": "Service compris = обслуживание включено (в счёт). Compris = включён. В таком случае дополнительные чаевые не обязательны."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Faire du Tourisme",
+      "titleRu": "Туристические прогулки",
+      "level": "A2",
+      "grammar": {
+        "title": "Le passé composé — действия в прошлом",
+        "titleRu": "Прошедшее время (passé composé)",
+        "intro": "Passé composé — главное прошедшее время в разговорном французском. Оно выражает завершённые действия в прошлом. Образуется из «avoir» или «être» + причастие прошедшего времени.",
+        "sections": [
+          {
+            "title": "Avoir + participe passé",
+            "content": "J'ai visité le Louvre. — Я посетил(а) Лувр.\nNous avons vu la Tour Eiffel. — Мы видели Эйфелеву башню.\nElle a acheté des souvenirs. — Она купила сувениры.\nIl a pris des photos. — Он сделал фотографии.\n\nParticipes réguliers:\n-er → -é: visiter → visité, acheter → acheté\n-ir → -i: finir → fini, partir → parti"
+          },
+          {
+            "title": "Être + participe passé (глаголы движения)",
+            "content": "Je suis allé(e) à Paris. — Я поехал(а) в Париж.\nNous sommes arrivés. — Мы прибыли.\nElle est rentrée. — Она вернулась.\nIls sont partis tôt. — Они уехали рано.\n\n⚠️ С être: participe согласуется с подлежащим!\nJe suis allé (м.р.) / allée (ж.р.)"
+          },
+          {
+            "title": "Глаголы с être (DR MRS VANDERTRAMP)",
+            "content": "Devenir, Revenir, Mourir, Retourner, Sortir,\nVenir, Aller, Naître, Descendre, Entrer,\nRentrer, Tomber, Rester, Arriver, Monter, Partir\n\n+ все возвратные глаголы: se lever, se promener..."
+          }
+        ],
+        "rule": "💡 Passé composé: avoir/être (présent) + participe passé. Большинство глаголов — с avoir. Глаголы движения и состояния — с être. Рефлексивы — всегда être."
+      },
+      "pronunciation": {
+        "intro": "Глаголы в прошедшем времени — следите за окончаниями причастий!",
+        "note": "⚠️ «Visité», «mangé», «parlé» — финальное «é» = «э». «Vu», «su», «lu» — короткое «ю». «Allé(e)» — с être, окончание '-e' для женского рода (но не читается!).",
+        "words": [
+          { "fr": "j'ai visité", "ru_pron": "жэ визитэ", "meaning": "я посетил(а)" },
+          { "fr": "j'ai vu", "ru_pron": "жэ вю", "meaning": "я увидел(а)" },
+          { "fr": "je suis allé(e)", "ru_pron": "жё сюи алэ", "meaning": "я поехал(а)" },
+          { "fr": "j'ai pris", "ru_pron": "жэ при", "meaning": "я взял(а), я сел(а)" },
+          { "fr": "j'ai acheté", "ru_pron": "жэ ашётэ", "meaning": "я купил(а)" },
+          { "fr": "le musée", "ru_pron": "лё мюзэ", "meaning": "музей" },
+          { "fr": "la visite", "ru_pron": "ля визит", "meaning": "посещение, визит" },
+          { "fr": "le souvenir", "ru_pron": "лё сувёнир", "meaning": "сувенир, воспоминание" },
+          { "fr": "formidable", "ru_pron": "формидабль", "meaning": "замечательный, великолепный" },
+          { "fr": "impressionnant", "ru_pron": "эмпрэсьонан", "meaning": "впечатляющий" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le musée", "gender": "m", "ru": "музей", "ru_pron": "лё мюзэ", "example_fr": "Le musée du Louvre est fascinant.", "example_ru": "Музей Лувр восхитителен.", "level": "A1" },
+        { "fr": "la visite", "gender": "f", "ru": "посещение, экскурсия", "ru_pron": "ля визит", "example_fr": "La visite guidée dure 2 heures.", "example_ru": "Экскурсия с гидом длится 2 часа.", "level": "A1" },
+        { "fr": "le souvenir", "gender": "m", "ru": "сувенир; воспоминание", "ru_pron": "лё сувёнир", "example_fr": "J'ai acheté des souvenirs au marché.", "example_ru": "Я купил(а) сувениры на рынке.", "level": "A1", "meaning_double": "souvenir = сувенир (magasin) ET souvenir = воспоминание (mémoire)" },
+        { "fr": "l'exposition", "gender": "f", "ru": "выставка", "ru_pron": "л'экспозисьон", "example_fr": "Il y a une belle exposition au musée.", "example_ru": "В музее проходит прекрасная выставка.", "level": "A2" },
+        { "fr": "le monument", "gender": "m", "ru": "памятник, монумент", "ru_pron": "лё монюман", "example_fr": "Paris a de magnifiques monuments.", "example_ru": "В Париже великолепные памятники.", "level": "A1" },
+        { "fr": "formidable", "gender": null, "ru": "замечательный, великолепный", "ru_pron": "формидабль", "example_fr": "Ce spectacle est formidable !", "example_ru": "Это шоу замечательное!", "level": "A1" },
+        { "fr": "la file d'attente", "gender": "f", "ru": "очередь", "ru_pron": "ля филь д'атант", "example_fr": "La file d'attente est très longue.", "example_ru": "Очередь очень длинная.", "level": "A2" },
+        { "fr": "le guide", "gender": "m", "ru": "гид, путеводитель", "ru_pron": "лё гид", "example_fr": "Notre guide parle six langues.", "example_ru": "Наш гид говорит на шести языках.", "level": "A1" },
+        { "fr": "gratuit(e)", "gender": null, "ru": "бесплатный", "ru_pron": "гратюи / гратюит", "example_fr": "L'entrée est gratuite le premier dimanche.", "example_ru": "Вход бесплатный в первое воскресенье.", "level": "A1" },
+        { "fr": "visiter", "gender": null, "ru": "посещать (достопримечательности)", "ru_pron": "визитэ", "example_fr": "J'ai visité Versailles hier.", "example_ru": "Вчера я посетил(а) Версаль.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le monument", "fr_pron": "лё монюман", "ru": "монумент", "ru_pron": "монумент", "note": "От латинского «monere» (напоминать). В обоих языках слово обозначает архитектурный памятник или историческое сооружение." },
+        { "fr": "l'exposition", "fr_pron": "л'экспозисьон", "ru": "экспозиция, выставка", "ru_pron": "экспозиция", "note": "От латинского «exponere» (выставлять). Русское «экспозиция» чаще относится к части выставки, французское «exposition» = вся выставка." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "I. M. Pei (1917–2019)",
+          "subtitle": "L'architecte de la Pyramide du Louvre",
+          "content": "Йо Минг Пэй — американский архитектор китайского происхождения, спроектировавший Стеклянную пирамиду Лувра (1989). Когда Миттеран объявил о проекте, парижане возмущались — «китаец испортит исторический музей!». Результат стал шедевром: 673 стеклянные ромбовидные секции пропускают свет в подземный вестибюль. Сегодня Пирамида — один из символов Парижа. Пэй также создал банк в Гонконге, Президентскую библиотеку Кеннеди и восстановил исторический центр Болоньи. «Grand Louvre» стал его masterpiece."
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le Louvre — от крепости до музея (1793)",
+          "content": "Лувр — самый посещаемый музей мира (9 миллионов посетителей в год). Первоначально это была средневековая крепость (1190), затем — королевский дворец. Французская революция превратила его в публичный музей в 1793 году — первый в истории. Сегодня коллекция насчитывает 380 000 объектов, из которых экспонируется около 35 000. На осмотр всего Лувра потребовалось бы 100 дней. Мона Лиза (портрет работы Леонардо да Винчи) — самое узнаваемое произведение мира. Стеклянная пирамида Пэя (1989) стала главным входом."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "La Joconde — самое охраняемое полотно",
+          "content": "Мона Лиза (La Joconde по-французски) — самое защищённое произведение искусства в мире. Она висит за пуленепробиваемым стеклом в климатизированной комнате, с постоянной охраной. В 1911 году картину похитили — она отсутствовала в Лувре 2 года! Когда её вернули, очереди посмотреть на неё были огромными. Интересно: картина небольшая (77×53 см), и многие туристы разочарованы — ожидали увидеть что-то монументальное. Каждый день около 20 000 человек приходят именно ради неё."
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "C'est magnifique !",
+          "pronunciation": "Сэ маньифик",
+          "translation": "Это великолепно!",
+          "usage": "Magnifique = великолепный, чудесный. Синонимы: formidable, fantastique, splendide, c'est beau ! Используйте в музеях, перед памятниками, в ресторанах — всюду, где хотите выразить восхищение.",
+          "example": "— Regarde la Tour Eiffel de nuit ! — C'est magnifique ! (Посмотри на Эйфелеву башню ночью! — Это великолепно!)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Versailles — Le château des rois",
+          "subtitle": "Версаль — дворец французских королей",
+          "content": "Версальский дворец — крупнейший королевский дворец в мире (720 000 м²) и объект Всемирного наследия ЮНЕСКО. Построен Людовиком XIV («Король-Солнце») в 1682 году как символ абсолютной королевской власти. Зеркальный зал (Galerie des Glaces) — 73 метра длиной с 357 зеркалами. Сады Версаля создал Андре Ленотр — 800 гектаров с фонтанами и геометрическими партерами. Версаль принимает 8 миллионов туристов в год. Из Парижа — 40 минут на электричке RER C."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Как сказать «я посетил(а) Лувр» в passé composé?",
+          "opts": ["Je visitais le Louvre", "J'ai visité le Louvre", "Je suis visité le Louvre", "J'ai visite le Louvre"],
+          "ans": 1,
+          "exp": "Passé composé c'avoir: J'ai + visité (participe). Visiter → visité (-er → -é)."
+        },
+        {
+          "q": "Какой вспомогательный глагол используется с «aller» в passé composé?",
+          "opts": ["avoir", "être", "faire", "venir"],
+          "ans": 1,
+          "exp": "Aller → Je suis allé(e) (с être!). Глаголы движения используют être. Причастие согласуется: allé (м.р.) / allée (ж.р.)."
+        },
+        {
+          "q": "Что означает «l'entrée est gratuite» ?",
+          "opts": ["вход закрыт", "вход дорогой", "вход бесплатный", "вход по записи"],
+          "ans": 2,
+          "exp": "Gratuit = бесплатный. L'entrée est gratuite = вход бесплатный. В первое воскресенье месяца многие парижские музеи бесплатны!"
+        },
+        {
+          "q": "Кто спроектировал Стеклянную пирамиду Лувра?",
+          "opts": ["Гюстав Эйфель", "И. М. Пэй", "Ле Корбюзье", "Барон Осман"],
+          "ans": 1,
+          "exp": "I. M. Pei (Йо Минг Пэй) создал Стеклянную пирамиду Лувра в 1989 году. Поначалу отвергнутый проект стал символом Парижа."
+        },
+        {
+          "q": "Сколько посетителей принимает Лувр в год?",
+          "opts": ["1 миллион", "4 миллиона", "9 миллионов", "20 миллионов"],
+          "ans": 2,
+          "exp": "Лувр — самый посещаемый музей мира: около 9 миллионов посетителей в год. Мона Лиза ежедневно привлекает около 20 000 человек."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 4 — Voyage en France !",
+      "titleRu": "Итоговый урок Модуля 4 — Путешествие по Франции!",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision — Récapitulatif du module",
+        "titleRu": "Повторение всего модуля",
+        "intro": "Поздравляем! Вы прошли весь модуль «Путешествия и транспорт». Давайте повторим все ключевые грамматические конструкции, которые вы изучили.",
+        "sections": [
+          {
+            "title": "Глаголы движения и транспорт",
+            "content": "Prendre le/la/les + транспорт:\nJe prends le métro / le train / l'avion.\n\nAller + à/en/au/aux + место:\nJe vais à Paris / en France / au Japon / aux États-Unis.\n\nVenir de + место:\nJe viens de Moscou / de Russie / du Japon."
+          },
+          {
+            "title": "Il y a / Il n'y a pas de",
+            "content": "Il y a un hôtel. — Есть гостиница.\nIl n'y a pas de parking. — Нет парковки.\nIl y a de la neige. — Есть снег.\nIl fait beau / froid / chaud. — Хорошая / холодная / жаркая погода.\nIl pleut / neige. — Идёт дождь / снег."
+          },
+          {
+            "title": "Passé composé",
+            "content": "Avec avoir (большинство):\nJ'ai visité, j'ai pris, j'ai acheté, j'ai vu.\n\nAvec être (движение + retour):\nJe suis allé(e), je suis arrivé(e), je suis parti(e), je suis rentré(e).\n\nFutur proche:\nJe vais visiter Versailles. — Я собираюсь посетить Версаль."
+          }
+        ],
+        "rule": "💡 Вы можете: покупать билеты (aller simple / aller-retour), заселяться в отель (Je voudrais une chambre), ориентироваться в городе (tout droit / à gauche / à droite), заказывать в ресторане (L'addition, s'il vous plaît!) и рассказывать о прошедшем путешествии (J'ai visité, je suis allé(e))."
+      },
+      "pronunciation": {
+        "intro": "Финальное повторение ключевых фраз модуля — произносите уверенно!",
+        "note": "⚠️ Вы уже знаете основные правила произношения. Теперь тренируйте слитную речь: «Je suis allé à Paris en train» произносится почти без пауз между словами.",
+        "words": [
+          { "fr": "Je voudrais un billet", "ru_pron": "жё вудрэ ён бийэ", "meaning": "Я хотел бы билет" },
+          { "fr": "À quelle heure part le train ?", "ru_pron": "а кэль ёр пар лё трэн", "meaning": "В котором часу отправляется поезд?" },
+          { "fr": "Tournez à gauche", "ru_pron": "турнэ а гош", "meaning": "Поверните налево" },
+          { "fr": "L'addition, s'il vous plaît", "ru_pron": "л'адисьон, силь ву плэ", "meaning": "Счёт, пожалуйста" },
+          { "fr": "J'ai visité Paris", "ru_pron": "жэ визитэ пари", "meaning": "Я посетил(а) Париж" },
+          { "fr": "Je suis allé en France", "ru_pron": "жё сюи алэ ан франс", "meaning": "Я поехал(а) во Францию" },
+          { "fr": "Il fait beau aujourd'hui", "ru_pron": "иль фэ бо ожурдюи", "meaning": "Сегодня хорошая погода" },
+          { "fr": "Bon voyage !", "ru_pron": "бон вуаяж", "meaning": "Счастливого пути!" },
+          { "fr": "C'est magnifique !", "ru_pron": "сэ маньифик", "meaning": "Это великолепно!" },
+          { "fr": "Excusez-moi, je suis perdu(e)", "ru_pron": "экскюзэ муа, жё сюи пэрдю", "meaning": "Извините, я заблудился/ась" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "le voyage", "gender": "m", "ru": "путешествие, поездка", "ru_pron": "лё вуаяж", "example_fr": "Mon voyage en France était inoubliable.", "example_ru": "Моя поездка во Францию была незабываемой.", "level": "A1" },
+        { "fr": "inoubliable", "gender": null, "ru": "незабываемый", "ru_pron": "инублиябль", "example_fr": "Paris, c'est une ville inoubliable.", "example_ru": "Париж — незабываемый город.", "level": "A2" },
+        { "fr": "le trajet", "gender": "m", "ru": "маршрут, путь, поездка", "ru_pron": "лё траже", "example_fr": "Le trajet dure deux heures.", "example_ru": "Дорога занимает два часа.", "level": "A1" },
+        { "fr": "se déplacer", "gender": null, "ru": "передвигаться, перемещаться", "ru_pron": "сё дэплясэ", "example_fr": "À Paris, il est facile de se déplacer en métro.", "example_ru": "В Париже легко передвигаться на метро.", "level": "A2" },
+        { "fr": "le touriste", "gender": "m/f", "ru": "турист / туристка", "ru_pron": "лё туристе", "example_fr": "Paris accueille 90 millions de touristes.", "example_ru": "Париж принимает 90 миллионов туристов.", "level": "A1" },
+        { "fr": "l'itinéraire", "gender": "m", "ru": "маршрут, план поездки", "ru_pron": "л'итинэрэр", "example_fr": "Quel est votre itinéraire ?", "example_ru": "Каков ваш маршрут?", "level": "A2" },
+        { "fr": "découvrir", "gender": null, "ru": "открывать для себя, обнаруживать", "ru_pron": "дэкувrir", "example_fr": "J'adore découvrir de nouvelles villes.", "example_ru": "Я люблю открывать для себя новые города.", "level": "A2" },
+        { "fr": "le patrimoine", "gender": "m", "ru": "наследие (культурное)", "ru_pron": "лё патримуан", "example_fr": "La France a un riche patrimoine culturel.", "example_ru": "Франция обладает богатым культурным наследием.", "level": "A2" },
+        { "fr": "se perdre", "gender": null, "ru": "заблудиться", "ru_pron": "сё пэрдр", "example_fr": "Je me suis perdu dans le métro.", "example_ru": "Я заблудился в метро.", "level": "A2" },
+        { "fr": "rater", "gender": null, "ru": "опоздать (на транспорт), пропустить", "ru_pron": "ратэ", "example_fr": "J'ai raté mon train !", "example_ru": "Я опоздал на поезд!", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "le touriste", "fr_pron": "лё турист", "ru": "турист", "ru_pron": "турист", "note": "Оба слова из французского «tour» (поездка, тур). «Faire un tour» = прогуляться, совершить тур. Tour de France — знаменитая велогонка." },
+        { "fr": "l'itinéraire", "fr_pron": "л'итинэрэр", "ru": "итинерарий, маршрут", "ru_pron": "маршрут", "note": "От латинского «iter» (путь, дорога). В русском используется также «маршрут» (из французского «marche» — ход, шаг)." }
+      ],
+      "cultural": {
+        "bio": {
+          "icon": "👤",
+          "label": "Биография",
+          "name": "Jacques Cousteau (1910–1997)",
+          "subtitle": "Explorateur des océans",
+          "content": "Жак-Ив Кусто — французский морской исследователь, изобретатель акваланга (1943, совместно с Эмилем Ганьяном) и режиссёр-документалист. Его фильм «Мир тишины» (Le Monde du silence, 1956) получил «Оскар» и «Золотую пальмовую ветвь» Канн — уникальный рекорд. Его телесериал «Одиссея команды Кусто» (1968–1976) познакомил миллионы людей с морскими глубинами. Кусто создал организацию Cousteau Society для защиты океанов. Его девиз: «Мы защищаем только то, что любим; мы любим только то, что знаем.»"
+        },
+        "history": {
+          "icon": "📜",
+          "label": "Факт истории",
+          "title": "Le tourisme de masse — une invention française",
+          "content": "Франция — родина массового туризма. В 1936 году с введением оплачиваемых отпусков простые рабочие впервые смогли путешествовать. Клуб Méditerranée (Club Med) основан в 1950 году — первая сеть «всё включено». Сегодня Франция — самая посещаемая страна мира: 90 миллионов иностранных туристов в год, опережая Испанию и США. Туризм создаёт 8% ВВП Франции и 2 миллиона рабочих мест. Слоган: «La France, c'est la qualité de vie» — Франция — это качество жизни."
+        },
+        "anecdote": {
+          "icon": "🎭",
+          "label": "Культурный факт",
+          "title": "Les Français et les vacances — philosophie de vie",
+          "content": "Французы — нация, возведшая отпуск в культ. «Les vacances», «partir», «voyager» — для французов это не просто отдых, а философия жизни. Французское «savoir-vivre» (умение жить) включает умение путешествовать, наслаждаться едой, природой и культурой. Типичный маршрут: месяц в Провансе, неделя в горах, несколько выходных в Амстердаме или Барселоне (спасибо TGV и Eurostar!). Путешествие — тема первого разговора после возвращения на работу: «Alors, les vacances ?»"
+        },
+        "expression": {
+          "icon": "💬",
+          "label": "Выражение дня",
+          "phrase": "Partir, c'est mourir un peu.",
+          "pronunciation": "Партир, сэ мурир ён пё",
+          "translation": "Уезжать — значит немного умирать.",
+          "usage": "Знаменитая французская цитата поэта Эдмона Арокура (1884). Означает боль разлуки при отъезде. Используется и буквально, и иронично. Ответ: «Et rester, c'est vivre un peu» — а оставаться — значит немного жить.",
+          "example": "— Je dois partir demain. — Partir, c'est mourir un peu... (Мне надо уехать завтра. — Уезжать — значит немного умирать...)"
+        },
+        "destination": {
+          "icon": "✈️",
+          "label": "Направление",
+          "place": "Strasbourg — Capitale de l'Europe",
+          "subtitle": "Страсбург — столица Европы на Рейне",
+          "content": "Страсбург — главный город Эльзаса, расположенный на берегу Рейна на границе с Германией. Это «столица Европы»: здесь находится Европейский парламент и Совет Европы. Старый город (Grande Île) — объект Всемирного наследия ЮНЕСКО. Страсбургский собор (Cathédrale Notre-Dame) — одно из высочайших средневековых сооружений мира. Рождественский рынок Страсбурга (Christkindelsmärik) — старейший в Франции, с 1570 года. Эльзасская кухня — смесь французской и немецкой: choucroute (квашеная капуста), flammeküche (тарт фламбе), bretzel."
+        }
+      },
+      "quiz": [
+        {
+          "q": "Какая страна является самой посещаемой в мире?",
+          "opts": ["США", "Испания", "Италия", "Франция"],
+          "ans": 3,
+          "exp": "Франция — самая посещаемая страна мира: 90 миллионов иностранных туристов в год. Туризм составляет 8% ВВП страны."
+        },
+        {
+          "q": "Что изобрёл Жак-Ив Кусто?",
+          "opts": ["TGV", "акваланг", "Лувр", "Airbus"],
+          "ans": 1,
+          "exp": "Jacques Cousteau (совместно с Эмилем Ганьяном) изобрёл акваланг в 1943 году. Также он был режиссёром-документалистом о морских глубинах."
+        },
+        {
+          "q": "Что означает «J'ai raté mon train» ?",
+          "opts": ["я нашёл свой поезд", "мой поезд опоздал", "я опоздал на поезд", "поезд сломался"],
+          "ans": 2,
+          "exp": "Rater = пропустить, опоздать. J'ai raté = я опоздал/пропустил. J'ai raté mon train = я опоздал на поезд."
+        },
+        {
+          "q": "Что такое «le patrimoine» ?",
+          "opts": ["паспорт", "культурное наследие", "маршрут", "путеводитель"],
+          "ans": 1,
+          "exp": "Le patrimoine = наследие (культурное или историческое). «Patrimoine de l'UNESCO» = Наследие ЮНЕСКО. От латинского «pater» (отец) — то, что передаётся от отцов."
+        },
+        {
+          "q": "Как перевести «Bon voyage !» ?",
+          "opts": ["Добро пожаловать!", "Хорошего пребывания!", "Счастливого пути!", "До свидания!"],
+          "ans": 2,
+          "exp": "Bon voyage = счастливого пути, хорошей поездки! Говорится тому, кто отправляется в путешествие. Используется во всём мире в оригинальном французском виде."
+        }
+      ]
+    }
+  ]
+}
